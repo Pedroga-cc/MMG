@@ -1,12 +1,12 @@
-# Física-Matemática
-Repositorio de mi apunte del curso Física Matemática II de la UdeC, creado a partir del apunte de Alejandro Saavedra disponible en [su repositorio](https://github.com/AleSaa66/Fisica-Matematica).
+# Métodos Matemáticos para Geofísica
+Repositorio de mi apunte del curso Métodos Matemáticos para Geofísica de la UdeC, creado a partir del apunte de Alejandro Saavedra disponible en [su repositorio](https://github.com/AleSaa66/Fisica-Matematica), y del apunte que he confeccionado para Física Matemática II, disponible en [este repositorio](https://github.com/AleSaa66/Fisica-Matematica-II)
 
 
-La versión actualizada del archivo .pdf compilado lo puede encontrar en este [link](https://drive.google.com/file/d/1E_A4k7EziUMChqkPDXmnSgDRSN1bMsYA/view?usp=drive_link).
+La versión actualizada del archivo .pdf compilado lo puede encontrar en este [link](https://drive.google.com/file/d/1SjQp67BPGIG51J9gHCgBZcO8bQyXrppU/view?usp=sharing).
 
-Puede también encontrarse el historial de cambios realizados al apunte en el documento [Changelog.txt](https://github.com/Pedroga-cc/Fisica-Matematica-II/blob/main/changelog.txt)
+Puede también encontrarse el historial de cambios realizados al apunte en el documento [Changelog.txt](https://github.com/Pedroga-cc/MMG/blob/main/changelog.txt)
 
-## Contenidos:
+<!-- ## Contenidos:
 
 * Series de Fourier
 
@@ -35,7 +35,7 @@ Puede también encontrarse el historial de cambios realizados al apunte en el do
 
   - Funciones esféricas de Bessel
 
-* Tensores Cartesianos
+* Tensores Cartesianos -->
 
 <!-- Además, en los apéndices se cubren los siguientes temas:
 
