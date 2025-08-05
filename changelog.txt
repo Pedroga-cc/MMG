@@ -1,0 +1,1 @@
+v1.0.0 (05/08/25) Primera versión disponible del Apunte. Aún posee errores, temas faltantes hacia el final, y está un poco desordenada. En este archivo se irán publicando las modificaciones que realice.

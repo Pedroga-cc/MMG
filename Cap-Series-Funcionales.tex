@@ -1,0 +1,520 @@
+\chapter{Series Numéricas y Funcionales}
+
+El concepto de \textbf{serie} hace referencia a sumas de \emph{infinitos términos}, donde los sumandos pueden ser números (\emph{series numéricas}) o funciones, comúnmente polinomios (\emph{series funcionales}). Pese a la naturaleza infinita de estas sumas, existen ciertas condiciones bajo las cuales el resultado es un valor definido, caso en el que decimos que la serie \textbf{converge}. En este capítulo, discutiremos cómo determinar si una serie converge, así como algunos resultados de interés.
+
+\section{Series numéricas}
+
+\begin{defi}
+    Sea $\{ a_n \}_{n=1}^\infty$ una sucesión de números reales. Se define la sucesión de \textbf{sumas parciales} $\{s_n\}_{n=1}^\infty$ por 
+    \begin{align*}
+        s_1 & = a_1 \\
+        s_2 & = a_1 + a_2 \\
+        s_3 & = a_1 + a_2 + a_3 \\
+        \vdots & \phantom{=} \vdots \\
+        s_n & = a_1 + a_2 + a_3 + \dots + a_n  = \sum_{k=1}^n a_k \ .
+    \end{align*}
+
+    Cuando la suma $s_n$ es realizada sobre infinitos términos, nos referimos a la \textbf{serie} $\sum\limits_{n=1}^\infty a_n$, con \textbf{término general} $a_n$.
+\end{defi}
+
+\begin{defi}
+    Decimos que una serie es \textbf{convergente} al valor $S$ cuando
+    \begin{equation}
+        \lim_{n \to \infty} s_n = S \ ,
+    \end{equation}
+    es decir, cuando la suma infinita se acerca al valor $S$.
+
+    En cambio, si la suma se vuelve infinita, diremos que la serie \textbf{diverge}.
+\end{defi}
+
+\begin{defi} \marginnote{Serie aritmética}
+    Una serie se dice \textbf{aritmética} si la \emph{diferencia} $d$ entre dos términos consecutivos cualesquiera es una constante, $a_{n+1} - a_n = d$. Entonces, el término general de la serie será de la forma
+    \begin{equation}
+        a_n = [a_1 + (n-1)d] \ ,
+    \end{equation}
+    donde $a_1$ es el primer término de la serie.
+    
+    La $n-$ésima suma parcial de una serie aritmética, $s_n$, puede obtenerse como
+    \begin{equation}
+        s_n =  \sum_{k=1}^n [a_1 + (k-1)d] = \frac{n}{2} (a_1 + a_n) = \frac{n}{2}[2a_1 + (n-1)d] \ . 
+    \end{equation}
+    
+    Las series aritméticas infinitas son divergentes, pues $\lim\limits_{n\to \infty} s_n = \infty$.
+\end{defi}
+
+% \subsection{Serie geométrica}
+
+\begin{defi} \marginnote{Serie geométrica}
+    Una serie se dice \textbf{geométrica} si la \emph{razón} $r \neq 1$ entre dos términos consecutivos cualesquiera es una constante, $a_{n+1}/a_n = r$. Entonces, el término general de la serie tomará la forma
+    \begin{equation}
+        a_n = a_1 r^{n-1} \ ,
+    \end{equation}
+    donde $a_1$ es el primer término de la serie.
+
+    La $n-$ésima suma parcial de una serie aritmética, $s_n$, puede obtenerse como 
+    \begin{equation}
+        s_n = \sum_{k=1}^\infty a_1 r^{k-1} = a_1 \frac{1-r^n}{1-r} \ .
+    \end{equation}
+
+    Observamos que, si tomamos el límite cuando $n \to \infty$, se presentan dos casos:
+    \begin{enumerate}
+        \item Si $|r| < 1$, entonces la serie \textbf{converge} a un valor $S = \lim\limits_{n\to\infty} s_n = \dfrac{a_1}{1-r}$.
+        \item Si $|r| > 1$, entonces la serie \textbf{diverge} u \textbf{oscila}.
+    \end{enumerate}
+\end{defi}
+
+\begin{defi} \marginnote{Serie aritmética-geométrica}
+    Una serie se dice \textbf{aritmética-geométrica} cuando su término general es de la forma 
+    \begin{equation}
+        a_n = [a_1 + (n-1)d] r^{n-1} \ .
+    \end{equation}
+
+    La $n-$ésima suma parcial será entonces dada por 
+    \begin{equation}
+        s_n = \sum_{k=1}^\infty [a_1 + (k-1)d]e^{k-1} = \frac{a_1 - [a_1 + (n-1)d]r^n}{1-r} + rd \frac{1-r^{n-1}}{(1-r)^2} \ .
+    \end{equation}
+
+    Al igual que la serie geométrica, puede converger o diverger dependiendo del valor de $r$:
+    \begin{enumerate}
+        \item Si $|r| < 1$, entonces la serie \textbf{converge} a un valor $S = \lim\limits_{n\to\infty} s_n = \dfrac{a_1}{1-r} + \dfrac{rd}{(1-r)^2}$.
+        \item Si $|r| > 1$, entonces la serie \textbf{diverge} u \textbf{oscila}.
+    \end{enumerate}
+\end{defi}
+
+
+
+\subsection{Convergencia absoluta y condicional}
+
+\begin{defi}
+    Una serie $\sum\limits_n a_n$ se denomina \textbf{absolutamente convergente} si la serie
+    \begin{equation}
+        \sum_n |a_n| 
+    \end{equation}
+    es convergente.
+\end{defi}
+
+\begin{teorema}
+    Una serie absolutamente convergente es una serie convergente. Es decir, si $\sum\limits_n |a_n|$ es convergente, entonces $\sum\limits_n a_n$ también es convergente, y además,
+    \begin{equation}
+        \left| \sum_{n=1}^\infty a_n \right| \leq \sum_{n=1}^\infty |a_n| \ .
+    \end{equation}
+\end{teorema}
+
+\begin{defi}
+    Una serie $\sum\limits_n a_n$ se denomina \textbf{condicionalmente convergente} si la serie $\sum\limits_n |a_n|$ es divergente, pero $\sum\limits_n a_n$ es convergente.
+\end{defi}
+
+A diferencia de lo que ocurre al considerar sumas finitas, un reordenamiento de términos en una serie condicionalmente convergente puede inducir a que ella converja a diferentes valores reales.
+
+\begin{teorema}
+    Toda serie condicionalmente convergente se puede hacer converger a cualquier número real $s$ tras una reordenación adecuada.
+\end{teorema}
+
+Esta propiedad desaparece si la serie es absolutamente convergente, pues su suma siempre será la misma.
+
+\begin{teorema}
+    Sea $\sum\limits_n a_n$ una serie absolutamente convergente, con suma $S$. Entonces, todo reordenamiento de la suma $\sum\limits_n a_n$ es también absolutamente convergente, con suma $S$.
+\end{teorema}
+
+\subsection{Criterios de convergencia comunes}
+
+Cuando trabajamos con series cuyos términos son únicamente valores reales positivos $a_n$, existe una amplia variedad de criterios para determinar si esta serie converge o no. A continuación, enumeraremos algunos de los más comunes.
+
+Sin embargo, antes de entrar plenamente a la discusión, introducimos el siguiente teorema 
+\begin{teorema}
+    Si la serie $\sum\limits_n a_n$ es convergente, entonces se cumplirá que 
+    \begin{equation}
+        \lim_{n \to \infty} a_n = 0 \ .
+    \end{equation}
+\end{teorema}
+
+En caso de que el $n$-ésimo término de una serie no converja cuando $n$ tiende a infinito, entonces la serie deberá diverger.
+
+% \subsubsection{Criterios de comparación}
+
+\begin{teorema}{\textbf{(Criterio de comparación directa).}}
+    Sea una serie $S = \sum\limits_n a_n$. Entonces,
+    \begin{itemize}
+        \item Dada una serie convergente $\sum\limits_n b_n$, tal que $a_n \leq b_n$, para todo $n \in \mathbb{N}$, entonces $S$ es \textbf{convergente}.
+        \item Dada una serie divergente $\sum\limits_n b_n$, tal que $b_n \leq a_n$, para todo $n \in \mathbb{N}$, entonces $S$ es \textbf{divergente}.
+    \end{itemize}
+\end{teorema}
+
+\begin{teorema}{\textbf{(Criterio de comparación en el límite).}}
+    Sean dos series $S = \sum\limits_n a_n$ y $T = \sum\limits_n b_n$, tal que 
+    \begin{equation*}
+        \lim_{n\to \infty} \frac{a_n}{b_n} = \lambda \ .
+    \end{equation*}
+
+    Entonces,
+    \begin{itemize}
+        \item Si $\lambda > 0$, las dos series convergen o divergen simultáneamente.
+        \item Si $\lambda = 0$ y $T$ es convergente, entonces $S$ es convergente.
+        \item Si $\lambda = \infty$ y $T$ es divergente, entonces $S$ es divergente.
+    \end{itemize}
+\end{teorema}
+
+
+% \subsubsection{Criterio del cuociente, o de D'Alambert}
+
+\begin{teorema}{\textbf{(Criterio del cuociente, o de D'Alambert).}}
+    Dada una serie $\sum\limits_n a_n$, sea
+    \begin{equation}
+        R = \lim_{n \to \infty} \frac{a_{n+1}}{a_n} \ .
+    \end{equation}
+    Entonces,
+    \begin{itemize}
+        \item Si $R < 1$, entonces $\sum\limits_n a_n$ es convergente.
+        \item Si $R > 1$, entonces $\sum\limits_n a_n$ es divergente.
+        \item Si $R = 1$, entonces el criterio no es concluyente sobre la naturaleza de la serie.
+    \end{itemize}
+\end{teorema}
+
+% \subsubsection{Criterio de la raíz, o de Cauchy}
+
+\begin{teorema}{\textbf{(Criterio de la raíz, o de Cauchy).}}
+    Dada una serie $\sum\limits_n a_n$, sea
+    \begin{equation}
+        R = \lim_{n \to \infty} \sqrt[n]{a_n} \ .
+    \end{equation}
+    Entonces,
+    \begin{itemize}
+        \item Si $R < 1$, entonces $\sum\limits_n a_n$ es convergente.
+        \item Si $R > 1$, entonces $\sum\limits_n a_n$ es divergente.
+        \item Si $R = 1$, entonces el criterio no es concluyente sobre la naturaleza de la serie.
+    \end{itemize}
+\end{teorema}
+
+% \subsubsection{Criterio de la integral}
+
+\begin{teorema}{\textbf{(Criterio de la Integral).}}
+    Dada una serie $\sum\limits_n a_n$, sea $f(x)$ una función positiva y decreciente en el intervalo $[1, +\infty)$ tal que, para todo número natural $n$, $f(n) = a_n$. Entonces, $\sum\limits_n a_n$ es convergente si y solo si 
+    \begin{equation}
+        \int\limits_1^\infty f(x) \, dx = F \in \mathbb{R} \ .
+    \end{equation}
+\end{teorema}
+
+Un resultado interesante de este criterio, es que permite evaluar fácilmente el error cometido al truncar la serie en el $n-$ésimo término, pues 
+\begin{equation}
+    E < \int_n^\infty f(x) \, dx \ .
+\end{equation}
+
+\begin{ejemplo}
+    \textbf{Series armónicas.} Las series armónicas son las series de la forma 
+    \begin{equation}
+        \sum_{n=1}^\infty \frac{1}{n^\alpha} \ ,
+    \end{equation}
+    donde $\alpha$ es un número real positivo.
+    
+    Utilizando el criterio de la integral, podemos evaluar el valor de $\alpha$ para el cual la serie converge. En efecto, si integramos el argumento de la serie, tenemos que 
+    \begin{equation*}
+        \int_1^n \frac{1}{x^\alpha} \, dx = \left\{ \begin{dcases}
+            \dfrac{n^{1-\alpha}-1}{1-\alpha} \ , \quad \text{si } \alpha \neq 1 \ , \\
+            \ln n \ , \quad \text{si } \alpha = 1 \ .
+        \end{dcases} \right.
+    \end{equation*}
+
+    Podemos observar que, al tomar el límite cuando $n\to\infty$, el resultado de la integral converge solo si $\alpha > 1$, de modo que las series armónicas solo convergen para $\alpha > 1$.
+\end{ejemplo}
+
+
+
+\subsection{Series alternadas}
+
+\begin{defi}
+    Una serie se dice \textbf{alternada} cuando los términos de esta alternan su signo. Generalmente, son expresadas como 
+    \begin{equation}
+        \sum_{n=1}^\infty a_n = \sum_{n=1}^\infty (-1)^n b_n \ ,
+    \end{equation}
+    con $b_n > 0$ o $b_n < 0$, para todos los valores de $n$.
+\end{defi}
+
+Para determinar la convergencia de una serie alternada, se utiliza el criterio de Leibnitz:
+\begin{teorema}{\textbf{(Criterio de Leibnitz).}}
+    Dada una serie alternada \emph{monótona decreciente} $\sum\limits_n a_n = \sum\limits_n (-1)^n b_n$, esto es, que la sucesión de los valores absolutos de sus términos es decreciente:
+    \begin{equation*}
+        |a_{n+1}| < |a_n| \ ,
+    \end{equation*}
+    tal que 
+    \begin{equation*}
+        \lim_{n \to \infty} |a_n| = 0 \ ,
+    \end{equation*}
+    Entonces, la serie es convergente.
+\end{teorema}
+
+Un resultado interesante de las series alternadas convergentes, es que podemos estimar el error que se produce al aproximar la suma de la serie por una suma parcial $S_n$. Si una serie alternada es tal que $0 \leq b_{n+1} \leq b_n$, y $S$ es la suma de esta serie, entonces el error vendrá dado por 
+\begin{equation}
+    E = |S - S_n| \leq |b_{n+1}| \ .
+\end{equation}
+
+\subsection{Álgebra de Series}
+
+Dadas dos series convergentes $\sum\limits_n u_n = S$ y $\sum\limits_s v_n = T$, y dados dos números reales $k$ y $a$, se cumplen las siguientes propiedades.
+\begin{enumerate}
+    \item La serie $k \sum\limits_n u_n = kS$ es convergente.
+    \item La serie $\sum\limits_n (u_n + v_n) = S+T$ es convergente.
+    \item La suma $a + \sum\limits_n u_n = a+S$, lo que muestra que la adición o remoción de un número finito de términos a una serie \textbf{no afecta su convergencia}.
+    \item Si dos series son absolutamente convergentes, entonces la serie $\sum\limits_n w_n = ST$, donde
+    \begin{equation*}
+        w_n = u_1 v_n + u_2 v_{n-1} + \dots + u_nv_1 \ ,
+    \end{equation*}
+    es absolutamente convergente, y se denomina el \textbf{producto de Cauchy} de las series originales.
+    \item En general, derivar o integrar una serie término a término no resultará en una serie con las mismas propiedades de convergencia.
+\end{enumerate}
+
+\section{Series funcionales}
+
+\subsection{Convergencia puntual y uniforme}
+
+Dada una sucesión de funciones reales de variable real con el mismo dominio $D \subset \mathbb{R}$, $\{ f_n(x) \}_{n=1}^\infty$. Para cada punto $x_0 \in D$ del dominio, podemos construir una sucesión de números reales formada por los valores de las funciones en este punto, es decir, $\{ f_n(x_0) \}_{n=1}^\infty$.
+
+Sea $S$ el conjunto de todos los puntos $x_0$ para los que dicha sucesión converge. Llamaremos \textbf{función límite} de la sucesión $\{ f_n(x) \}_{n=1}^\infty$ a la función definida en $S$ como 
+\begin{equation} \label{eq:funcion-limite}
+    f(x) = \lim_{n \to \infty} f_n(x) \ .
+\end{equation}
+
+\begin{defi}
+    Puesto que el límite \eqref{eq:funcion-limite} ha sido obtenido punto a punto y se ha almacenado en la función $f$, diremos que la sucesión $\{ f_n(x) \}_{n=1}^\infty$ \textbf{converge puntualmente} a $f(x)$.
+\end{defi}
+
+Una consideración importante es que esta función \emph{no necesariamente heredará las propiedades de continuidad, derivabilidad e integrabilidad de las funciones} $f_n(x)$.
+
+\begin{ejemplo}{\textbf{Pérdida de continuidad.}}
+    Consideremos las funciones $f_n(x) = x^n$, con $x \in [0,1]$. Si tomamos el límite cuando $n \to \infty$, podemos observar que
+    \begin{equation*}
+        f(x) = \lim_{n \to \infty} f_n(x) = \left\{
+            \begin{dcases}
+                0 \ , \quad \text{si } 0 \leq x < 1 \ , \\
+                1 \ , \quad \text{si } x=1 \ .
+            \end{dcases}
+         \right.
+    \end{equation*}
+
+    De esta forma, observamos que pese a que las funciones $f_n(x)$ son continuas en $[0,1]$, su función límite es discontinua en $x=1$, pues su límite por la izquierda no corresponde con su valor en dicho punto:
+    \begin{equation*}
+        \lim_{x\to 1^-} f(x) = 0 \neq f(1) = 1 \ .
+    \end{equation*}
+\end{ejemplo}
+
+\begin{ejemplo}{\textbf{Pérdida de integrabilidad.}}
+    Sean las funciones $f_n(x) = nx(1-x^2)^n$, definidas en el intervalo $[0,1]$. Notamos que su función límite viene dada por
+    \begin{equation*}
+        \lim_{n \to \infty} f_n(x) = 0 \ .
+    \end{equation*}
+
+    Si integramos las funciones $f_n(x)$, tendremos que 
+    \begin{equation*}
+        \int\limits_0^1 f_n(x) \, dx = \left[ - \frac{n}{2} \frac{(1-x^2)^{n+1}}{n+1} \right]_0^1 = \frac{n}{2(n+1)} \ .
+    \end{equation*}
+
+    Luego, si tomamos el límite a la integral, tendremos que 
+    \begin{equation*}
+        \lim_{n \to \infty} \int\limits_0^1 f_n(x) \, dx = \frac{1}{2} \ ,
+    \end{equation*}
+    mientras que la integral del límite será 
+    \begin{equation*}
+        \int\limits_0^1 \lim_{n \to \infty} f_n(x) \, dx = 0 \ .
+    \end{equation*}
+\end{ejemplo}
+
+\begin{defi}
+    Sea $\{ f_n(x) \}_{n=1}^\infty$ una sucesión que converge puntualmente hacia $f(x)$ en $S$. Diremos que ella \textbf{converge uniformemente} a $f$ en el conjunto $S$ si 
+    \begin{equation}
+        \lim_{n \to \infty} \sup_{x \in S} |f_n(x) - f(x)| = 0 \ ,
+    \end{equation} 
+    es decir, la diferencia máxima entre $f_n(x)$ y $f(x)$ en todo el dominio $S$ tiende a cero.
+\end{defi}
+
+Dada una sucesión de funciones reales $\{ f_n(x) \}_{n=1}^\infty$ con el mismo dominio $D$, sea la suma parcial 
+\begin{equation*}
+    s_n(x) = f_1(x) + f_2(x) + \dots f_n(x) = \sum_{i=1}^n f_i(x) \ .
+\end{equation*}
+Entonces,
+\begin{itemize}
+    \item si $s_n(x)$ converge puntualmente a una función $s(x)$, se dice que la serie de funciones $\sum\limits_n f_n(x)$ converge puntualmente a $s(x)$.
+    \item si $s_n(x)$ converge uniformemente a una función $s(x)$, se dice que la serie de funciones $\sum\limits_n f_n(x)$ converge uniformemente a $s(x)$.
+\end{itemize}
+
+\begin{defi}{\textbf{(Criterio M de Weierstrass)}}
+    Si $\sum\limits_n f_n(x)$ converge \textbf{puntualmente} hacia $s(x)$ en un intervalo $S$ y existe una serie numérica convergente de términos positivos $\sum\limits_n a_n$ tal que $0 \leq |f_n(x)| \leq a_n$, para todo $n \geq 1$ y $x \in S$. Entonces, $\sum\limits_n f_n(x)$ converge uniformemente en $S$.
+\end{defi}
+
+\begin{ejemplo}
+    Podemos estudiar la convergencia absoluta y uniforme de la serie 
+    \begin{equation*}
+        S = \sum_{n=1}^\infty \frac{2^n}{n!} \sin(nx) \ .
+    \end{equation*}
+
+    Para verificar su convergencia absoluta, necesitamos que la serie $\sum\limits_n \left|\frac{2^n}{n!} \sin(nx)\right|$ converja. Notemos que
+    \begin{equation*}
+        \sum_{n=1}^\infty \left|\frac{2^n}{n!} \sin(nx)\right| \leq \sum_{n=1}^\infty \left|\frac{2^n}{n!} \right| \ ,
+    \end{equation*} 
+    pues $|\sin(nx)| \leq 1$, para todo $n$, y para todo $x$. Gracias a un criterio de comparación, observamos que como $|S_1|$ se encuentra inferiormente acotada por 0 y superiormente acotada por una serie convergente, $|S_1|$ converge, y por ello \emph{converge absolutamente}.
+
+    Para estudiar la convergencia uniforme, haremos uso del criterio $M$ de Weierstrass.
+
+    La segunda condición del criterio se satisface al probar la convergencia absoluta, por lo que basta probar la primera condición, es decir, que la función converge puntualmente.
+
+    En efecto, tenemos que 
+    \begin{equation*}
+        \lim_{n \to \infty} \left( \frac{2^n}{n!} \sin(nx) \right) = \underbrace{\left( \frac{2^n}{n!} \right)}_{\text{nula}} \underbrace{\left( \sin(nx) \right)}_{\text{acotada}} = 0 \ ,
+    \end{equation*}
+    de modo que como el límite anterior existe, según el criterio $M$ de Weierstrass, $S_1$ \emph{converge uniformemente}.
+\end{ejemplo}
+
+La importancia de definir la convergencia uniforme tiene que ver con la conservación de la continuidad e integrabilidad de la sucesión de funciones. La derivabilidad, en cambio, requiere de cirtas condiciones para ser preservada. Podemos resumir estas propiedades en el siguiente teorema.
+
+\begin{teorema}
+    Sea la sucesión de funciones $\{ f_n(x) \}_{n=1}^\infty$, y sea la serie $\sum\limits_n f_n(x)$, tal que ambas convergen uniformemente en un intervalo $S$ a $f(x)$ y $s(x)$, respectivamente. Entonces, 
+    \begin{itemize}
+        \item Si cada función $f_n(x)$ es continua en $S$, entonces $f(x)$ y $s(x)$ son continuas en $S$:
+        \begin{equation*}
+            \lim_{x \to a} \sum_{n = 1}^\infty f_n(x) = \sum_{n=1}^\infty \lim_{x \to a} f_n(x) \ , \quad x \in S \ .
+        \end{equation*}
+        \item Si $S = [a,b]$, Sean
+        \begin{equation*}
+            g_n(x) = \int\limits_a^x f_n(t) \, dt \quad \text{y } \quad g(x) = \int\limits_a^x f(t) \, dt \ ,  \quad x \in [a,b] \ . 
+        \end{equation*}
+        Entonces, $g_n(x)$ converge uniformemente a $g(x)$ en $[a,b]$:
+        \begin{equation*}
+            \lim_{n \to \infty} \int\limits_a^x f_n(t) \, dt = \int\limits_a^x \lim_{n \to \infty} f_n(t) \, dt \ .
+        \end{equation*}
+        \item Si $S = [a,b]$, y cada función $f_n(x)$ es continua en $[a,b]$, entonces 
+        \begin{equation*}
+            \lim_{n \to \infty} \sum_{i=1}^n \int\limits_a^x f_i(t) \, dt = \int\limits_a^x \lim_{n \to \infty} \sum_{i=1}^n f_i(t) \, dt \ , \quad x \in [a,b] \ . 
+        \end{equation*} 
+        \item Si las funciones $f_n(x)$ son derivables, y la sucesión $\{ f'_n(x) \}_{n=1}^\infty$ converge uniformemente a un punto $a$ en $S$, entonces 
+        \begin{equation*}
+            f'(x) = \lim_{n \to \infty} f'_n(x) \ ,
+        \end{equation*}
+        para todo $x \in S$.
+        \item Si las funciones $f_n(x)$ son derivables, y la serie $\sum\limits_n f'_n(x)$ converge uniformemente a un punto $a$ en $S$, entonces 
+        \begin{equation*}
+            \sum_n f'_n(x) = s'(x) \ .
+        \end{equation*}
+    \end{itemize}
+\end{teorema}
+
+Una forma conveniente de determinar la convergencia uniforme de una serie funcional son los siguientes criterios.
+\begin{teorema}{\textbf{Criterio de Dirichlet.}}
+    La serie $\sum\limits_n g_n(x)f_n(x)$ converge uniformemente en $S$ si 
+    \begin{itemize}
+        \item $\sum\limits_n f_n(x)$ es una serie uniformemente acotada, es decir, existe un valor $M$ tal que $|s_n(x)| = \left| \sum\limits_{i=1}^n f_i(x)  \right| < M$, para todo $n \in \mathbb{N}$ y $x \in s$, y además 
+        \item $\{ g_n(x) \}_{n=1}^\infty$ es una sucesión monótona de funciones uniformemente convergentes a cero, $\lim\limits_{n \to \infty} g_n(x) = 0 $, para todo $x \in S$.
+    \end{itemize}
+\end{teorema}
+
+\begin{teorema}{\textbf{Criterio de Abel.}}
+    La serie $\sum\limits_n g_n(x)f_n(x)$ converge uniformemente en $S$ si 
+    \begin{itemize}
+        \item $\sum\limits_n f_n(x)$ es una serie uniformemente convergente en $S$, y además 
+        \item $\{ g_n(x) \}_{n=1}^\infty$ es una sucesión monótona de funciones uniformemente acotadas.
+    \end{itemize}
+\end{teorema}
+
+\subsection{Series de potencias}
+
+\begin{defi}
+    Se denomina \textbf{serie de potencias} a toda serie funcional de la forma 
+    \begin{equation}
+        \sum_{n=1}^\infty a_n (x-x_0)^n \ .
+    \end{equation}
+\end{defi}
+
+\begin{defi}
+    Se denomina \textbf{radio de convergencia} de una serie de potencias a la cantidad 
+    \begin{equation}
+        R = \lim_{n \to \infty} \left| \frac{a_n}{a_{n+1}} \right| = \sqrt[n]{\frac{1}{|a_n|}} \ ,
+    \end{equation}
+    que determina el intervalo donde la serie converge puntualmente. Consideramos tres casos:
+    \begin{itemize}
+        \item Si $R = \infty$, entonces el dominio de convergencia corresponde a todos los números reales.
+        \item Si $R = 0$, entonces la serie converge únicamente para $x = x_0$.
+        \item Si $R$ es un número real no nulo, entonces el dominio de convergencia es el intervalo \emph{abierto} $(x_0 - R, x_0 + R)$.
+    \end{itemize}
+\end{defi}
+
+\begin{propiedad}{\textbf{Propiedades de las series de potencias.}}
+    Respecto a la convergencia de las series de potencias, ellas satisfacen las siguientes propiedades:
+    \begin{enumerate}[series=potencias]
+        \item En cualquier punto interior al dominio de convergencia, la serie es \textbf{absolutamente convergente},
+        \begin{equation*}
+            s(x) = \sum_{n=1}^\infty |a_n (x-x_0)^n| \ .
+        \end{equation*}
+        \item En cualquier punto exterior al dominio de convergencia, la serie \textbf{diverge} u \textbf{oscila}.
+        \item En los extemos del dominio de convergencia, la serie puede converger, diverger u oscilar.
+        \item La serie es \textbf{uniformemente convergente} en cualquier intervalo cerrado contenido en su dominio de convergencia.
+    \end{enumerate}
+
+    Respecto a la continuidad, derivabilidad e integrabilidad, se satisface que 
+    \begin{enumerate}[resume, series=potencias]
+        \item La serie es continua en cada punto de su dominio de convergencia.
+        \item La serie es derivable término a término en cada punto de su dominio de convergencia,
+        \begin{equation*}
+            \frac{d}{dx} \sum_{n=1}^\infty a_n(x-x_0)^n = \sum_{n=1}^\infty \frac{d}{dx} [a_n (x-x_0)^n] = \sum_{n=1}^\infty n a_n(x-x_0)^{n-1} \ ,
+        \end{equation*}
+        y su derivada tiene el mismo radio de convergencia.
+        \item La serie es integrable término a término en cualquier intervalo cerrado contenido en su dominio de convergencia,
+        \begin{equation*}
+            \int\limits_a^b \sum_{n=1}^\infty a_n(x-x_0)^n \, dx = \sum_{n=1}^\infty \int\limits_a^b a_n(x-x_0)^n \, dx \ ,
+        \end{equation*}
+        donde $[a,b] \subset (x_0-R, x_0+R)$.
+        \item Si dos series de potencias con sumas $P(x)$ y $Q(x)$ poseen dominios de convergencia con alguna región en común, entonces las series producidas por la suma, la diferencia o el producto de $P(x)$ y $Q(x)$ convergen en la región en común.
+    \end{enumerate}
+\end{propiedad}
+
+\begin{teorema}
+    Si dos series de potencias, $\sum\limits_{n=1}^\infty a_n(x-x_0)^n$ y $\sum\limits_{n=1}^\infty b_n(x-x_0)^n$ convergen a la misma función suma $f(x)$ en un entorno del punto $x_0$, entonces las series coinciden términoa término,
+    \begin{equation*}
+        a_n = b_n \, \quad \forall n \geq 1 \ .
+    \end{equation*}
+\end{teorema}
+
+
+\subsection{Expansión en serie de Taylor}
+
+\begin{teorema}{\textbf(de Taylor).}
+    Dada una función $f(x)$ con derivadas continuas en un intervalo $[a, b]$ hasta el orden $n$. Entonces, para un punto $x \in [a,b]$, $f$ puede aproximarse por la siguiente serie de potencias:
+    \begin{equation}
+        f(x) \approx \sum_{k=0}^{n-1} \frac{f^{(k)}(a)}{k!} (x-a)^k + h_n(x) (x-a)^{n} \ ,
+    \end{equation}    
+    donde el \textbf{resto} de la expansión $R_n(x) = h_n(x) (x-a)^n$ es dado por
+    \begin{equation}
+        R_n(x) =  \frac{f^{(n)}(\xi)}{n!} (x-a)^n \, \quad \xi \in [a, x] \ .
+    \end{equation}
+
+    Cuando $\lim\limits_{n \to \infty} R_n(x) = 0$, la expansión toma el nombre de \textbf{serie de Taylor}
+    \begin{equation}
+        f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(x_0)}{n!} (x-x_0)^n \ .
+    \end{equation}   
+\end{teorema}
+
+\begin{ejemplo}
+    Algunas series de Taylor comúnmente utilizadas son 
+    \begin{itemize}
+        \item $\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \dots = \sum\limits_{n=1}^\infty (-1)^{n-1} \dfrac{x^{2n-1}}{(2n-1)!}$, para todo $x \in \mathbb{R}$.
+        \item $\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \dots = \sum\limits_{n=1}^\infty (-1)^{n-1} \dfrac{x^{2n-2}}{(2n-2)!}$, para todo $x \in \mathbb{R}$.
+        \item $e^x = 1 + x + \frac{x^2}{2!} + \dots = \sum\limits_{n=0}^\infty \dfrac{x^n}{n!}$, para todo $x \in \mathbb{R}$.
+        \item $\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \dots = \sum\limits_{n=1}^\infty (-1)^{{n+1}} \dfrac{x^n}{n}$, para $x \in (-1,1)$.
+        \item $(1+x)^{-1} = 1 - x + x^2 - \dots = \sum\limits_{n=0}^\infty (-1)^n x^n$, para $x \in (-1,1)$.
+    \end{itemize}
+\end{ejemplo}
+
+\begin{teorema}{\textbf{(del binomial).}}
+    La función $(1+x)^m$, donde $m$ es un número real y $0 < x < 1$ puede expandirse en una serie de Taylor de la forma 
+    \begin{equation}
+        (1+x)^m  = \sum_{n=0}^\infty \frac{m (m-1) \dots (m-n+1)}{n!} x^n = \sum_{n=0}^\infty \binom{m}{n} x^n \ ,
+    \end{equation}
+    donde si $m$ es un número entero positivo, entonces tendremos una sumatoria finita,
+    \begin{equation}
+        (1+x)^m = \sum_{n=0}^\infty \frac{m!}{(m-n)!n!} x^n = \sum_{n=0}^m \binom{m}{n} x^n \ ,
+    \end{equation}
+    pues el coeficiente binómico se anulará cuando $n \geq m+1$.
+\end{teorema}
+
+\begin{obs}{Observación}
+    Cuando $m$ es un número entero negativo, el coeficiente binómico toma la siguiente forma:
+    \begin{equation}
+        \binom{m}{n} = (-1)^n \frac{(|m|+n-1)!}{n! (|m|-1)!} = (-1)^n \binom{|m|+n-1}{n} \ .
+    \end{equation}
+\end{obs}
