@@ -1,1 +1,3 @@
-v1.0.0 (05/08/25) Primera versión disponible del Apunte. Aún posee errores, temas faltantes hacia el final, y está un poco desordenada. En este archivo se irán publicando las modificaciones que realice.
+v1.0 (05/08/25) Primera versión disponible del Apunte. Aún posee errores, temas faltantes hacia el final, y está un poco desordenada. En este archivo se irán publicando las modificaciones que realice.
+
+v1.1 (07/08/25) Añadidas figuras en el capítulo 1, sección 1.1 y sección 1.2. Mejoras de redacción en el mismo capítulo, y redistribución de párrafos (los primeros párrafos quedan como introducción al capítulo, no parte de la sección)

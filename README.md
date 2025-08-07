@@ -6,36 +6,62 @@ La versión actualizada del archivo .pdf compilado lo puede encontrar en este [l
 
 Puede también encontrarse el historial de cambios realizados al apunte en el documento [Changelog.txt](https://github.com/Pedroga-cc/MMG/blob/main/changelog.txt)
 
-<!-- ## Contenidos:
+## Contenidos:
 
-* Series de Fourier
+* Análisis vectorial
 
-* Transformada de Fourier 
+  - Coordenadas curvilíneas ortogonales
+  - Operador nabla
+  - Teoremas integrales
+  - Teoría del potencial
+
+* Tensores Cartesianos
+
+  - Definición.
+  - Transformaciones ortogonales.
+  - Álgebra tensorial.
+  - Pseudotensores.
+  - Análisis tensorial.
  
-* Delta de Dirac
+* Series infinitas
 
-* Ecuaciones Diferenciales Parciales: 
+  - Series numéricas.
+  - Criterios de convergencia.
+  - Series alternadas.
+  - Series funcionales.
+  - Convergencia puntual y uniforme.
+  - Series de potencias.
+  - Series de Taylor.
+  - Teorema del binomial.
 
-  - Método de separación de variables
-  - Método de las transformadas integrales
-  - Método de las funciones de Green
+* Cálculo Complejo: 
+
+  - El campo de los números complejos
+  - Funciones complejas
+  - Derivabilidad de funciones complejas
+  - Integrales complejas
+  - Fórmula Integral de Cauchy
+  - Series de Taylor y Laurent
+  - Residuos, polos y singularidades
+  - Teorema del Residuo
+  - Aplicaciones a cálculo en una variable
 
 
-* Funciones especiales:
+* Transformadas Integrales:
 
-  - Funciones de Legendre
+  - Serie de Fourier
+  - Transformada de Fourier
+  - Delta de Dirac
+  - Convolución
+  - Transformada de Laplace
+  - Aplicaciones a EDO y EDP
 
-  - Funciones asociadas de Legendre
+* Funciones de Legendre
 
-  - Armónicos Esféricos
-
-  - Funciones de Bessel
-
-  - Funciones modificadas de Bessel
-
-  - Funciones esféricas de Bessel
-
-* Tensores Cartesianos -->
+  - Polinomios de Legendre
+  - Funciones de segunda especie
+  - Polinomios asociados de Bessel
+  - Armónicos esféricos
 
 <!-- Además, en los apéndices se cubren los siguientes temas:
 

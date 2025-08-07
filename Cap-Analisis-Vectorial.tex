@@ -1,12 +1,10 @@
 \chapter{Análisis Vectorial}
 
-\section{Coordenadas curvilíneas ortogonales}
-
 Hasta ahora, probablemente poseen una familiaridad trabajando con coordenadas cartesianas en el espacio $\mathbb{R}^3$. Para definir un punto en este sistema, utilizamos las coordenadas $(x,y,z)$, que corresponden a la proyección del vector posición $\x$ sobre cada uno de los ejes cartesianos, rectas perpendiculares entre sí. Si mantenemos constante una de estas coordenadas, definimos un \emph{plano} perpendicular al eje que se ha mantenido constante. 
 
 De esta forma, un punto $P$ con coordenadas $(a,b,c)$ corresponde también a la intersección de los planos $x=a$, $y=b$, $z=c$, perpendiculares a los ejes $x$, $y$ y $z$, respectivamente.
 
-En este sistema, superficies más generales pueden describirse implícitamente, mediante expresiones del tipo $F(x,y,z) = c$, donde $c$ es un valor constante. Por ejemplo, una esfera de radio $R$ puede ser descrita por la expresión $x^2+y^2+z^2 = R^2$. Distintos valores de $c$ permiten describir una \emph{familia} de superficies, con la misma naturaleza, pero diferente posición.
+En este sistema, superficies más generales pueden describirse implícitamente mediante expresiones del tipo $F(x,y,z) = c$, donde $c$ es un valor constante. Por ejemplo, una esfera de radio $R$ puede ser descrita por la expresión $x^2+y^2+z^2 = R^2$. Distintos valores de $c$ permiten describir una \emph{familia} de superficies, con la misma naturaleza, pero diferentes posiciones.
 
 Antes de entrar más de lleno en la discusión, recordemos e introduzcamos algunas definiciones.
 
@@ -35,13 +33,18 @@ Antes de entrar más de lleno en la discusión, recordemos e introduzcamos algun
 \begin{defi} \marginnote{Vector posición}
     Dado un sistema coordenado en un espacio de $n$ dimensiones, podemos definir el \textbf{vector posición} $\vec{x}$, que une el origen del sistema con punto con coordenadas $x_i$, con $i = 1, 2, \dots, n$ como
 \begin{equation} \label{eq:vector-posicion}
-    \vec{x} = \sum_{i=1}^n x_i \hat{e}_i \ ,
+    \vec{x} = x_1 \hat{e}_1 + x_2 \hat{e}_2 + \dots + x_n \hat{e}_n = \sum_{i=1}^n x_i \hat{e}_i \ ,
 \end{equation}
 donde las \textbf{componentes del vector} en la base $\{ \hat{e}_i\}_{i=1}^n$ pueden expresarse como
 \begin{equation}
     x_i = \vec{x} \cdot \hat{e}_i \ .
 \end{equation}
 \end{defi}
+
+Durante este capítulo, nos limitaremos a trabajar en tres dimensiones, pues son las necesarias para describir la gran mayoría de los fenómenos físicos que pueden interesarnos.
+
+\section{Coordenadas curvilíneas ortogonales}
+
 
 Supongamos que existen tres superficies descritas por las ecuaciones
 \begin{equation}
@@ -67,9 +70,9 @@ De esta forma, dado un punto $P$ con coordenadas cartesianas $(a,b,c)$, y con co
 \begin{equation}
     x(c_1, c_2, c_3) = a \, , \quad y(c_1, c_2, c_3) = b \, , \quad z(c_1, c_2, c_3) = c \ ,
 \end{equation} 
-y el vector posición $\x(x,y,z) = x \hat{i} + y \hat{j} + z \hat{k}$ podrá expresarse como 
+y el vector posición $\x(x,y,z) = x \hat{\imath} + y \hat{\jmath} + z \hat{k}$ podrá expresarse como 
 \begin{equation*}
-    \x(q_1, q_2, q_3) = x(q_1, q_2, q_3) \hat{i} + y(q_1, q_2, q_3) \hat{j} + z(q_1, q_2, q_3) \hat{k} \ .
+    \x(q_1, q_2, q_3) = x(q_1, q_2, q_3) \hat{\imath} + y(q_1, q_2, q_3) \hat{\jmath} + z(q_1, q_2, q_3) \hat{k} \ .
 \end{equation*}
 
 ¿Podremos expresar el vector posición en términos de vectores unitarios, tangentes a cada una de las superficies coordenadas?
@@ -93,9 +96,9 @@ De esta forma, el vector posición puede escribirse en términos del sistema de 
 \begin{equation}
     \x(q_1, q_2, q_3) = R_1 \hat{e}_1 + R_2 \hat{e}_2 + R_3 \hat{e}_3 \ ,
 \end{equation}
-donde, en general, $(R_1, R_2, R_3) \neq (q_1, q_2, q_3)$, y en su lugar,
+donde, en general, $(R_1, R_2, R_3) \neq (q_1, q_2, q_3)$, pues las componentes del vector en este nuevo sistema coordenado se obtienen como,
 \begin{equation*}
-    R_i = \x \cdot \hat{e}_i \ .
+    R_i = \x \cdot \hat{e}_i = \x \cdot \frac{\vec{e}_i}{h_i} \ .
 \end{equation*}
 
 \begin{obs}{Observación}
@@ -145,7 +148,7 @@ donde, en general, $(R_1, R_2, R_3) \neq (q_1, q_2, q_3)$, y en su lugar,
 
 En coordenadas cilíndricas $(\rho, \phi, z)$, el vector posición de un punto con coordenadas cartesianas $(x,y,z)$ puede representarse como 
 \begin{equation}
-    \x = \rho \cos \phi \hat{i} + \rho \sin \phi \hat{j} + z \hat{k} \ ,
+    \x = \rho \cos \phi \hat{\imath} + \rho \sin \phi \hat{\jmath} + z \hat{k} \ ,
 \end{equation}
 de donde se deduce que la relación entre ambos sistemas es 
 \begin{equation}
@@ -167,8 +170,8 @@ donde $\rho \in [0, +\infty)$, $\phi \in [0, 2\pi]$, y $z \in (-\infty, +\infty)
 
 A partir del vector posición, podemos obtener los vectores direccionales 
 \begin{align}
-    \vec{e}_\rho & = \frac{\partial \x}{\partial \rho} = \cos \phi \hat{i} + \sin \phi \hat{j} \ , \\
-    \vec{e}_\phi & = \frac{\partial \x}{\partial \phi} = -\rho \sin \phi  \hat{i} + \rho \cos \phi \hat{j} \ , \\
+    \vec{e}_\rho & = \frac{\partial \x}{\partial \rho} = \cos \phi \hat{\imath} + \sin \phi \hat{\jmath} \ , \\
+    \vec{e}_\phi & = \frac{\partial \x}{\partial \phi} = -\rho \sin \phi  \hat{\imath} + \rho \cos \phi \hat{\jmath} \ , \\
     \vec{e}_z & = \frac{\partial \x}{\partial z} = \hat{k} \ ,
 \end{align}
 con respectivos factores de escala 
@@ -185,12 +188,18 @@ y un elemento de volumen será
     dV(\rho, \phi, z) = \rho d\rho d\phi dz \ .
 \end{equation}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{Figuras/Lineas-coordenadas-cilindricas.png}
+    \caption{Sistema coordenado cilíndrico. Se puede apreciar que un punto en este es completamente determinado por la intersección de dos planos ($z =$ constante y $\phi = $ constante) y una superficie cilíndrica ($\rho = $ constante). Además, es posible apreciar la dirección de los tres vectores unitarios, $\hat{e}_\rho = \hat{\rho}$, $\hat{e}_\phi = \hat{\phi}$ y $\hat{e}_z = \hat{z}$.}
+\end{figure}
+
 
 \subsection{Coordenadas esféricas}
 
 En coordenadas esféricas $(r, \theta, \phi)$, el vector posición de un punto con coordenadas cartesianas $(x,y,z)$ puede representarse como 
 \begin{equation}
-    \x = r \cos \phi \sin \theta \hat{i} + r \sin \phi \sin \theta \hat{j} + r \cos \theta \hat{k} \ ,
+    \x = r \cos \phi \sin \theta \hat{\imath} + r \sin \phi \sin \theta \hat{\jmath} + r \cos \theta \hat{k} \ ,
 \end{equation}
 de donde se deduce que la relación entre ambos sistemas es 
 \begin{equation}
@@ -212,9 +221,9 @@ donde $\rho \in [0, +\infty)$, $\phi \in [0, 2\pi]$, y $\theta \in [0, \pi]$.
 
 A partir del vector posición, podemos obtener los vectores direccionales 
 \begin{align}
-    \vec{e}_r & = \frac{\partial \x}{\partial r} = \sin \theta \cos \phi \hat{i} + \sin \theta \sin \phi \hat{j} + \cos \theta \hat{k} \ , \\
-    \vec{e}_\theta & = \frac{\partial \x}{\partial \theta} = r \cos \phi \cos \theta \hat{i} + r \sin \theta \cos \theta \hat{j} - r \sin \theta \hat{k} \ , \\
-    \vec{e}_\phi & = \frac{\partial \x}{\partial \phi} = -r \sin \theta \sin \phi  \hat{i} + r \sin \theta \cos \phi \hat{j} \ ,
+    \vec{e}_r & = \frac{\partial \x}{\partial r} = \sin \theta \cos \phi \hat{\imath} + \sin \theta \sin \phi \hat{\jmath} + \cos \theta \hat{k} \ , \\
+    \vec{e}_\theta & = \frac{\partial \x}{\partial \theta} = r \cos \phi \cos \theta \hat{\imath} + r \sin \theta \cos \theta \hat{\jmath} - r \sin \theta \hat{k} \ , \\
+    \vec{e}_\phi & = \frac{\partial \x}{\partial \phi} = -r \sin \theta \sin \phi  \hat{\imath} + r \sin \theta \cos \phi \hat{\jmath} \ ,
 \end{align}
 con respectivos factores de escala 
 \begin{equation}
@@ -230,6 +239,11 @@ y un elemento de volumen será
     dV(\rho, \phi, z) = r^2 \sin \theta dr d\theta d\phi \ .
 \end{equation}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{Figuras/Lineas-coordenadas-esfericas.png}
+    \caption{Sistema coordenado esférico. Se puede apreciar que un punto en este es completamente determinado por la intersección de un ($\phi = $ constante), una superficie cónica ($\theta = $ constante) y una superficie esférica ($r = $ constante). Además, es posible apreciar la dirección de los tres vectores unitarios, $\hat{e}_r = \hat{r}$, $\hat{e}_\theta = \hat{\theta}$ y $\hat{e}_\phi = \hat{\phi}$.}
+\end{figure}
 
 \section{El operador Nabla}
 
@@ -240,7 +254,7 @@ Definiremos estas operaciones desde el punto de vista matemático, pues si bien 
 \begin{defi}
     Se define el operador \textbf{nabla} (o \emph{del} en inglés) en coordenadas cartesianas como 
     \begin{equation}
-        \nabla \equiv \hat{i} \frac{\partial}{\partial x} + \hat{j} \frac{\partial}{\partial y} + \hat{k} \frac{\partial}{\partial z} \ .
+        \nabla \equiv \hat{\imath} \frac{\partial}{\partial x} + \hat{\jmath} \frac{\partial}{\partial y} + \hat{k} \frac{\partial}{\partial z} \ .
     \end{equation}
 \end{defi}
 
@@ -252,9 +266,15 @@ Definiremos estas operaciones desde el punto de vista matemático, pues si bien 
     En el caso que el campo sea constante (como un plano), entonces el gradiente corresponde al vector \emph{perpendicular} a la superficie definida por el campo $\phi$. 
 \end{defi}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=12cm]{Figuras/Gradiente.png}
+    \caption{Ilustración del concepto de gradiente. Nuestro campo escalar es representado por la escala de grises, donde un color más oscuro denota un mayor valor. Las flechas indican la dirección del gradiente en cada punto donde ellas aparecen, el que siempre apunta en la dirección de mayor cambio en la intensidad de la escala.}
+\end{figure}
+
 En coordenadas cartesianas, el gradiente puede escribirse como 
 \begin{equation}
-    \nabla \phi = \hat{i} \frac{\partial \phi}{\partial x} + \hat{j} \frac{\partial \phi}{\partial y} + \hat{z} \frac{\partial \phi}{\partial z} \ ,
+    \nabla \phi = \hat{\imath} \frac{\partial \phi}{\partial x} + \hat{\jmath} \frac{\partial \phi}{\partial y} + \hat{z} \frac{\partial \phi}{\partial z} \ ,
 \end{equation}
 mientras que en un sistema curvilíneo ortogonal podrá representarse como 
 \begin{equation}
@@ -263,7 +283,7 @@ mientras que en un sistema curvilíneo ortogonal podrá representarse como
 
 Podemos representar cambios infinitesimales en el campo $\phi$, por ejemplo entre dos puntos $Q = (x_Q, y_Q, z_Q)$ y $P = (x_P, y_P, z_P)$ infinitesimalmente cercanos, mediante el diferencial $d\phi$:
 \begin{equation*}
-    d\phi = \phi(Q) - \phi(P) = \phi(x_Q, y_Q, z_Q) - \phi(x_P, y_P, z_P) = \frac{\partial \phi}{\partial x} dx + \frac{\partial \phi}{\partial y} + \frac{\partial \phi}{\partial z} dz \ ,
+    d\phi = \phi(Q) - \phi(P) = \phi(x_Q, y_Q, z_Q) - \phi(x_P, y_P, z_P) = \frac{\partial \phi}{\partial x} dx + \frac{\partial \phi}{\partial y} dy + \frac{\partial \phi}{\partial z} dz \ ,
 \end{equation*}
 donde $d\x = (dx, dy, dz) = (x_Q - x_P, y_Q - y_P, z_Q - z_P)$ representa un vector que conecta por puntos $P$ y $Q$.
 
@@ -353,10 +373,10 @@ Relacionado a la divergencia de un campo vectorial, existe un teorema que nos pe
 
 En coordenadas cartesianas, este toma la forma 
 \begin{align}
-    \nonumber \nabla \times \vec{A} & = \left( \frac{\partial A_z}{\partial y} - \frac{\partial A_y}{\partial z} \right) \hat{i} + \left( \frac{\partial A_x}{\partial z} - \frac{\partial A_z}{\partial x} \right) \hat{j} + \left( \frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y} \right) \hat{k} \\
+    \nonumber \nabla \times \vec{A} & = \left( \frac{\partial A_z}{\partial y} - \frac{\partial A_y}{\partial z} \right) \hat{\imath} + \left( \frac{\partial A_x}{\partial z} - \frac{\partial A_z}{\partial x} \right) \hat{\jmath} + \left( \frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y} \right) \hat{k} \\
     & = \left|
     \begin{array}{ccc}
-        \hat{i} & \hat{j} & \hat{k} \\
+        \hat{\imath} & \hat{\jmath} & \hat{k} \\
         \dfrac{\partial}{\partial x} & \dfrac{\partial}{\partial y} & \dfrac{\partial}{\partial z} \\
         A_x & A_y & A_z \\
     \end{array}
@@ -409,11 +429,12 @@ Dados los campos escalares $\phi$ y $\psi$, y los campos vectoriales $\vec{A}$ y
     \item $\nabla \cdot (\vec{A} \times \vec{B}) = \vec{B} \cdot (\nabla \times \vec{A}) - \vec{A} \cdot (\nabla \times \vec{B})$.
     \item $\nabla \times (\phi \vec{A}) = \nabla \phi \times \vec{A} + \phi \nabla \times \vec{A}$.
     \item $\nabla(\vec{A} \cdot \vec{B}) = \vec{A} \times (\nabla \times \vec{B}) + \vec{B} \times (\nabla \times \vec{A}) + (\vec{A} \cdot \nabla) \vec{B} + (\vec{B} \cdot \nabla) \vec{A}$,
+    donde 
+    \begin{equation*}
+        \vec{A} \cdot \nabla = A_x \frac{\partial}{\partial x} + A_y \frac{\partial}{\partial y} + A_z \frac{\partial}{\partial z} \ .
+    \end{equation*}
 \end{itemize}
-donde 
-\begin{equation*}
-    \vec{A} \cdot \nabla = A_x \frac{\partial}{\partial x} + A_y \frac{\partial}{\partial y} + A_z \frac{\partial}{\partial z} \ .
-\end{equation*}
+
 
 De igual forma, podemos estudiar las aplicaciones sucesivas del operador nabla sobre campos escalares o vectoriales. Enumeraremos únicamente aquellas cantidades que sí tiene sentido definir:
 \begin{itemize}
