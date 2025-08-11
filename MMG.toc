@@ -1,0 +1,99 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Análisis Vectorial}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Coordenadas curvilíneas ortogonales}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Elementos infinitesimales}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Coordenadas cilíndricas}{4}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Coordenadas esféricas}{5}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}El operador Nabla}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Gradiente}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Divergencia}{9}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Rotacional}{10}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Identidades vectoriales}{11}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}Teoría del potencial}{12}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Teorema de Helmholtz}{13}{subsection.1.3.1}%
+\contentsline {chapter}{\numberline {2}Introducción a los Tensores Cartesianos}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Transformaciones Ortogonales}{15}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Convenio de suma de Einstein}{16}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Tensores Cartesianos}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Propiedades}{20}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Álgebra Tensorial}{20}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Pseudovectores y pseudotensores}{22}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Propiedades}{23}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Símbolo de Levi-Civita}{23}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Tensores duales}{24}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Análisis tensorial}{25}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Derivación}{26}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Integración}{27}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Covarianza y contravarianza}{29}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Series Numéricas y Funcionales}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Series numéricas}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Convergencia absoluta y condicional}{33}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Criterios de convergencia comunes}{33}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Series alternadas}{36}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Álgebra de Series}{36}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Series funcionales}{37}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Convergencia puntual y uniforme}{37}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Series de potencias}{41}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Expansión en serie de Taylor}{42}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Elementos de Cálculo Complejo}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}El conjunto de los números complejos, $\mathbb {C}$}{46}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Nociones de topología en $\mathbb {C}$}{47}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Funciones de variable compleja}{47}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Derivabilidad de funciones complejas}{49}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Ecuaciones de Cauchy-Riemann}{51}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Funciones analíticas}{52}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Funciones elementales}{54}{subsection.4.3.3}%
+\contentsline {subsubsection}{Función exponencial}{54}{section*.11}%
+\contentsline {subsubsection}{Funciones trigonométricas}{54}{section*.12}%
+\contentsline {subsubsection}{Funciones hiperbólicas}{54}{section*.13}%
+\contentsline {subsubsection}{Función logaritmo}{54}{section*.14}%
+\contentsline {subsubsection}{Funciones polinomiales}{54}{section*.15}%
+\contentsline {section}{\numberline {4.4}Integración Compleja}{54}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Fórmula Integral de Cauchy}{57}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Expansiones en series}{59}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Serie de Taylor}{59}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Serie de Laurent}{60}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Singularidades, polos y residuos}{61}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Integrales definidas mediante integrales de contorno}{64}{subsection.4.5.4}%
+\contentsline {chapter}{\numberline {5}Transformadas Integrales}{65}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Serie de Fourier}{65}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Periodicidad y paridad de funciones}{65}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Serie de Fourier trigonométrica}{69}{subsection.5.1.2}%
+\contentsline {subsubsection}{Serie de Fourier de una función compleja de variable real}{71}{section*.18}%
+\contentsline {subsection}{\numberline {5.1.3}Series de senos y cosenos}{71}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Serie exponencial}{73}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}Transformada de Fourier}{75}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Propiedades de la transformada de Fourier}{83}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Transformadas seno y coseno}{88}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Delta de Dirac}{89}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Representación integral}{91}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Delta de Dirac tridimensional}{92}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Convolución}{95}{subsection.5.2.6}%
+\contentsline {section}{\numberline {5.3}Transformada de Laplace}{100}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Transformada inversa de Laplace}{104}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}$F(s)$ con polos}{105}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Propiedades de la transformada de Laplace}{107}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Convolución}{109}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Aplicaciones de la transformada de Laplace}{112}{subsection.5.3.5}%
+\contentsline {subsubsection}{Ecuaciones diferenciales lineales con coeficientes constantes}{112}{section*.28}%
+\contentsline {subsubsection}{Sistema de ecuaciones lineales}{113}{section*.29}%
+\contentsline {chapter}{\numberline {6}Funciones de Legendre}{117}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ecuación y Funciones de Legendre}{117}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Resolviendo la ecuación de Legendre}{117}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Función Generatriz}{120}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Propiedades}{122}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Funciones de Legendre de segunda especie}{125}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}Ecuación y funciones asociadas de Legendre}{127}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Resolviendo la ecuación asociada de Legendre}{127}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Función generatriz}{129}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Propiedades}{130}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Armónicos Esféricos}{132}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Propiedades}{133}{subsection.6.3.1}%
+\contentsline {chapter}{\numberline {A}El Método de Separación de Va\-riables}{137}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Resolviendo la ecuación de Helmholtz}{139}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Coordenadas cartesianas}{139}{subsection.Alph1.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Coordenadas cilíndricas}{141}{subsection.Alph1.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Coordenadas esféricas}{142}{subsection.Alph1.1.3}%
+\contentsline {section}{\numberline {A.2}El método de series para EDO}{145}{section.Alph1.2}%
+\contentsline {chapter}{\numberline {B}Coordenadas Curvilíneas Generalizadas}{153}{appendix.Alph2}%
+\contentsline {chapter}{Referencias}{155}{appendix*.33}%
