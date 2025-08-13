@@ -325,6 +325,12 @@ donde en el sistema coordenado, $\vec{A} = (A_1, A_2, A_3)$.
 
 Siguiendo la interpretación de la divergencia como un flujo, tendremos que si $\nabla \cdot \vec{A} > 0$, diremos que existe una \textbf{fuente} de líneas de campo en dicha región. En cambio, cuando $\nabla \cdot \vec{A} < 0$, diremos que existe un \textbf{sumidero} en la región.
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{Figuras/Divergence.png}
+    \caption{Divergencia de tres campos vectoriales. Nótese que el signo de esta cantidad depende del número de vectores \emph{entrantes} y \emph{salientes} de una superficie imaginaria que encierre al campo.}
+\end{figure}
+
 \begin{defi}
     Dado un campo vectorial $\vec{A}(\x)$, decimos que este es \textbf{solenoidal} si 
     \begin{equation}
@@ -411,11 +417,56 @@ De forma similar al teorema de Gauss, el teorema de Stokes es una forma de conec
     \end{equation}
 \end{teorema}
 
-En este caso, los diferenciales $d\x$ y $d\vec{S}$ están relacionados entre sí. Una vez fijamos el sentido en que recorreremos el contorno utilizando el vector $d\x$, podemos notar que este es un vector tangente a la superficie $S$. Viendo la figura X, observamos que existen solo dos posibles vectores perpendiculares a $d\x$ que a su vez sean tangentes a $S$: uno que apunta hacia la superficie, que llamaremos $d\x'$, y uno que no lo hace. Teniendo esto en cuenta, el vector $d\vec{S}$ puede ser obtenido como 
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width = 0.9\textwidth]{Figuras/Stokes'_Theorem.png}
+        \caption{}
+        \label{fig:stokes}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width = 0.9\textwidth]{Figuras/Curlorient.png}
+        % \vfill
+        \caption{}
+        \label{fig:orientation}
+    \end{subfigure}
+    % \includegraphics[width=8cm]{Figuras/Stokes'_Theorem.png}
+    \caption{(a) Ilustración del Teorema de Stokes. La superficie $\Sigma$ se encuentra delimitada por la curva $\partial \Sigma$. El sentido en el que se recorre la curva y el vector normal a la superficie se encuentran relacionados entre sí mediante la regla de la mano derecha. (b) Una forma alternativa de representar la obtención del vector normal $d\vec{S}$ mediante el uso de un vector perpendicular a la superficie, $d\vec{x}'$.}
+\end{figure}
+
+En este caso, los diferenciales $d\x$ y $d\vec{S}$ están relacionados entre sí. Una vez fijamos el sentido en que recorreremos el contorno utilizando el vector $d\x$, el vector $d\vec{S}$ deberá seguir el sentido establecido por la \textbf{regla de la mano derecha}.
+
+\begin{ejemplo}
+    Considere el campo vectorial $\vec{F} = z\hat{\imath} + 2xy \hat{\jmath} + (x+y)\hat{k}$. Calcule la integral de superficie del rotacional de $\vec{F}$ sobre la superficie de la figura inferior.
+    % \begin{figure}
+    \begin{center}
+        \includegraphics[width=6cm]{Figuras/superficie-complicada-2.png}
+    \end{center}
+    \captionof{figure}{Superficie complicada en presencia del campo vectorial $\vec{F}$.}
+    % \end{figure}
+
+    \textbf{Solución.}
+
+    Lograr parametrizar esta superficie no es tarea sencilla, pues tampoco tenemos su forma funcional. Sin embargo, podemos hacer uso del Teorema de Stokes para solucionar dicha integral.
+
+    Notemos que la superficie es cerrada, y su único contorno es un círculo, $C$, de radio 1 en el plano $xy$. Esta curva puede ser entonces parametrizada como $(\cos t, \sin t, 1)$, con $0 \leq t \leq 2\pi$. De esta forma, tenemos que 
+    \begin{align*}
+        \int_S (\nabla \times \vec{F}) \cdot d\vec{S} & = \int_C \vec{F} \cdot d\vec{r} \\
+        & = \int_0^{2\pi} (1, 2 \sin t \cos t, \cos t + \sin t) \cdot (-\sin t, \cos t, 0) \, dt \\
+        & = \int_0^{2\pi} (-\sin t + 2 \sin t \cos^2 t) \, dt \\
+        & = \left[ \cos t - \frac{2\cos^3 t}{3} \right]_0^{2\pi} \\
+        & = \cos(2\pi) - \frac{2 \cos^3 (2\pi)}{3} - \left( \cos 0 - \frac{2 \cos^3 0}{3} \right) \\
+        & = 0 \ ,
+    \end{align*}
+    resultado que es independiente de la orientación de nuestro sistema coordenado.
+\end{ejemplo}
+
+Como vimos en el ejemplo anterior, a pesar de lo complicada que pueda ser una superficie, gracias al teorema de Stokes podemos simplificar los cálculos algebraicos. Es más, para \emph{cualquier} superficie suave $S$, delimitada por una curva $C$ cerrada, entonces 
 \begin{equation*}
-    d\vec{S} = d\x \times d\x' \ ,
+    \int_S (\nabla \times \vec{F}) \cdot d\vec{S} = 0 \ ,
 \end{equation*}
-es decir, debe seguir el sentido establecido por la \textbf{regla de la mano derecha}.
+debido a que la integral de línea sobre el contorno de una superficie suave se anulará.
 
 \subsection{Identidades vectoriales}
 
