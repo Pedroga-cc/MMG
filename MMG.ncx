@@ -1,0 +1,696 @@
+
+   <?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" 
+"http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"> 
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">                    <head> 
+<meta name="dtb:uid" content="http://example.com/MMG"/> 
+<meta name="dtb:depth" content="3"/> 
+<meta name="dtb:totalPageCount" content="0"/> 
+<meta name="dtb:maxPageNumber" content="0"/> 
+</head> 
+<docTitle> 
+<text>Unnamed</text> 
+</docTitle> 
+<navMap> 
+<navPoint id="navPoint-1" playOrder="1"> 
+<navLabel> 
+<text><navmark type="likechapter"></navmark>  Prefacio</text> 
+</navLabel> 
+<content src="MMGli1.html#x2-1000" /></navPoint> 
+ 
+<navPoint id="navPoint-2" playOrder="2"> 
+<navLabel> 
+<text><navmark type="likechapter"></navmark> Índice general</text> 
+</navLabel> 
+<content src="MMGli2.html#x3-2000" /></navPoint> 
+ 
+<navPoint id="navPoint-3" playOrder="3"> 
+<navLabel> 
+<text><navmark type="chapter">1</navmark>  Análisis Vectorial</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-30001" /> 
+<navPoint id="navPoint-4" playOrder="4"> 
+<navLabel> 
+<text><navmark type="section">1.1</navmark>
+Coordenadas curvilíneas ortogonales</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-40001.1" /> 
+<navPoint id="navPoint-5" playOrder="5"> 
+<navLabel> 
+<text><navmark type="subsection">1.1.1</navmark> Elementos infinitesimales</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-50001.1.1" /></navPoint> 
+ 
+<navPoint id="navPoint-6" playOrder="6"> 
+<navLabel> 
+<text><navmark type="subsection">1.1.2</navmark>
+Coordenadas cilíndricas</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-60001.1.2" /></navPoint> 
+ 
+<navPoint id="navPoint-7" playOrder="7"> 
+<navLabel> 
+<text><navmark type="subsection">1.1.3</navmark> Coordenadas esféricas</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-70001.1.3" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-8" playOrder="8"> 
+<navLabel> 
+<text><navmark type="section">1.2</navmark> El operador
+Nabla</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-80001.2" /> 
+<navPoint id="navPoint-9" playOrder="9"> 
+<navLabel> 
+<text><navmark type="subsection">1.2.1</navmark> Gradiente</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-90001.2.1" /></navPoint> 
+ 
+<navPoint id="navPoint-10" playOrder="10"> 
+<navLabel> 
+<text><navmark type="subsection">1.2.2</navmark> Divergencia</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-100001.2.2" /></navPoint> 
+ 
+<navPoint id="navPoint-11" playOrder="11"> 
+<navLabel> 
+<text><navmark type="subsection">1.2.3</navmark> Rotacional</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-110001.2.3" /></navPoint> 
+ 
+<navPoint id="navPoint-12" playOrder="12"> 
+<navLabel> 
+<text><navmark type="subsection">1.2.4</navmark>
+Identidades vectoriales</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-120001.2.4" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-13" playOrder="13"> 
+<navLabel> 
+<text><navmark type="section">1.3</navmark> Teoría del potencial</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-130001.3" /> 
+<navPoint id="navPoint-14" playOrder="14"> 
+<navLabel> 
+<text><navmark type="subsection">1.3.1</navmark> Teorema
+de Helmholtz</text> 
+</navLabel> 
+<content src="MMGch1.html#x4-140001.3.1" /></navPoint> 
+</navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-15" playOrder="15"> 
+<navLabel> 
+<text><navmark type="chapter">2</navmark>   Introducción a los Tensores Cartesianos</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-150002" /> 
+<navPoint id="navPoint-16" playOrder="16"> 
+<navLabel> 
+<text><navmark type="section">2.1</navmark>
+Transformaciones Ortogonales</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-160002.1" /> 
+<navPoint id="navPoint-17" playOrder="17"> 
+<navLabel> 
+<text><navmark type="subsection">2.1.1</navmark> Convenio de suma de Einstein</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-170002.1.1" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-18" playOrder="18"> 
+<navLabel> 
+<text><navmark type="section">2.2</navmark>
+Tensores Cartesianos</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-180002.2" /> 
+<navPoint id="navPoint-19" playOrder="19"> 
+<navLabel> 
+<text><navmark type="subsection">2.2.1</navmark> Propiedades</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-190002.2.1" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-20" playOrder="20"> 
+<navLabel> 
+<text><navmark type="section">2.3</navmark> Álgebra Tensorial</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-200002.3" /></navPoint> 
+ 
+<navPoint id="navPoint-21" playOrder="21"> 
+<navLabel> 
+<text><navmark type="section">2.4</navmark>
+Pseudovectores y pseudotensores</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-210002.4" /> 
+<navPoint id="navPoint-22" playOrder="22"> 
+<navLabel> 
+<text><navmark type="subsection">2.4.1</navmark> Propiedades</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-220002.4.1" /></navPoint> 
+ 
+<navPoint id="navPoint-23" playOrder="23"> 
+<navLabel> 
+<text><navmark type="subsection">2.4.2</navmark> Símbolo
+de Levi-Civita</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-230002.4.2" /></navPoint> 
+ 
+<navPoint id="navPoint-24" playOrder="24"> 
+<navLabel> 
+<text><navmark type="subsection">2.4.3</navmark> Tensores duales</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-240002.4.3" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-25" playOrder="25"> 
+<navLabel> 
+<text><navmark type="section">2.5</navmark> Análisis tensorial</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-250002.5" /> 
+<navPoint id="navPoint-26" playOrder="26"> 
+<navLabel> 
+<text><navmark type="subsection">2.5.1</navmark>
+Derivación</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-260002.5.1" /></navPoint> 
+ 
+<navPoint id="navPoint-27" playOrder="27"> 
+<navLabel> 
+<text><navmark type="subsection">2.5.2</navmark> Integración</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-270002.5.2" /> 
+<navPoint id="navPoint-28" playOrder="28"> 
+<navLabel> 
+<text><navmark type="likesubsubsection"></navmark> Integrales de línea</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-28000" /></navPoint> 
+ 
+<navPoint id="navPoint-29" playOrder="29"> 
+<navLabel> 
+<text><navmark type="likesubsubsection"></navmark> Integrales
+de superficie</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-29000" /></navPoint> 
+ 
+<navPoint id="navPoint-30" playOrder="30"> 
+<navLabel> 
+<text><navmark type="likesubsubsection"></navmark> Integrales de volumen</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-30000" /></navPoint> 
+ 
+<navPoint id="navPoint-31" playOrder="31"> 
+<navLabel> 
+<text><navmark type="likesubsubsection"></navmark> Teoremas integrales</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-31000" /></navPoint> 
+</navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-32" playOrder="32"> 
+<navLabel> 
+<text><navmark type="section">2.6</navmark>
+Covarianza y contravarianza</text> 
+</navLabel> 
+<content src="MMGch2.html#x5-320002.6" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-33" playOrder="33"> 
+<navLabel> 
+<text><navmark type="chapter">3</navmark>  Series Numéricas y Funcionales</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-330003" /> 
+<navPoint id="navPoint-34" playOrder="34"> 
+<navLabel> 
+<text><navmark type="section">3.1</navmark>
+Series numéricas</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-340003.1" /> 
+<navPoint id="navPoint-35" playOrder="35"> 
+<navLabel> 
+<text><navmark type="subsection">3.1.1</navmark> Convergencia absoluta y condicional</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-350003.1.1" /></navPoint> 
+ 
+<navPoint id="navPoint-36" playOrder="36"> 
+<navLabel> 
+<text><navmark type="subsection">3.1.2</navmark>
+Criterios de convergencia comunes</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-360003.1.2" /></navPoint> 
+ 
+<navPoint id="navPoint-37" playOrder="37"> 
+<navLabel> 
+<text><navmark type="subsection">3.1.3</navmark> Series alternadas</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-370003.1.3" /></navPoint> 
+ 
+<navPoint id="navPoint-38" playOrder="38"> 
+<navLabel> 
+<text><navmark type="subsection">3.1.4</navmark>
+Álgebra de Series</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-380003.1.4" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-39" playOrder="39"> 
+<navLabel> 
+<text><navmark type="section">3.2</navmark> Series funcionales</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-390003.2" /> 
+<navPoint id="navPoint-40" playOrder="40"> 
+<navLabel> 
+<text><navmark type="subsection">3.2.1</navmark> Convergencia
+puntual y uniforme</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-400003.2.1" /></navPoint> 
+ 
+<navPoint id="navPoint-41" playOrder="41"> 
+<navLabel> 
+<text><navmark type="subsection">3.2.2</navmark> Series de potencias</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-410003.2.2" /></navPoint> 
+ 
+<navPoint id="navPoint-42" playOrder="42"> 
+<navLabel> 
+<text><navmark type="subsection">3.2.3</navmark> Expansión en
+serie de Taylor</text> 
+</navLabel> 
+<content src="MMGch3.html#x6-420003.2.3" /></navPoint> 
+</navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-43" playOrder="43"> 
+<navLabel> 
+<text><navmark type="chapter">4</navmark>  Elementos de Cálculo Complejo</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-430004" /> 
+<navPoint id="navPoint-44" playOrder="44"> 
+<navLabel> 
+<text><navmark type="section">4.1</navmark> El conjunto
+de los números complejos,  </text> 
+</navLabel> 
+<content src="MMGch4.html#x7-440004.1" /> 
+<navPoint id="navPoint-45" playOrder="45"> 
+<navLabel> 
+<text><navmark type="subsection">4.1.1</navmark> Nociones de topología en  </text> 
+</navLabel> 
+<content src="MMGch4.html#x7-450004.1.1" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-46" playOrder="46"> 
+<navLabel> 
+<text><navmark type="section">4.2</navmark>
+Funciones de variable compleja</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-460004.2" /></navPoint> 
+ 
+<navPoint id="navPoint-47" playOrder="47"> 
+<navLabel> 
+<text><navmark type="section">4.3</navmark> Derivabilidad de funciones
+complejas</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-470004.3" /> 
+<navPoint id="navPoint-48" playOrder="48"> 
+<navLabel> 
+<text><navmark type="subsection">4.3.1</navmark> Ecuaciones de Cauchy-Riemann</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-480004.3.1" /></navPoint> 
+ 
+<navPoint id="navPoint-49" playOrder="49"> 
+<navLabel> 
+<text><navmark type="subsection">4.3.2</navmark> Funciones
+analíticas</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-490004.3.2" /></navPoint> 
+ 
+<navPoint id="navPoint-50" playOrder="50"> 
+<navLabel> 
+<text><navmark type="subsection">4.3.3</navmark> Funciones elementales</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-500004.3.3" /> 
+<navPoint id="navPoint-51" playOrder="51"> 
+<navLabel> 
+<text><navmark type="subsubsection"></navmark> Función exponencial</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-51000" /></navPoint> 
+ 
+<navPoint id="navPoint-52" playOrder="52"> 
+<navLabel> 
+<text><navmark type="subsubsection"></navmark>
+Funciones trigonométricas</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-52000" /></navPoint> 
+ 
+<navPoint id="navPoint-53" playOrder="53"> 
+<navLabel> 
+<text><navmark type="subsubsection"></navmark> Funciones hiperbólicas</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-53000" /></navPoint> 
+ 
+<navPoint id="navPoint-54" playOrder="54"> 
+<navLabel> 
+<text><navmark type="subsubsection"></navmark> Función
+logaritmo</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-54000" /></navPoint> 
+ 
+<navPoint id="navPoint-55" playOrder="55"> 
+<navLabel> 
+<text><navmark type="subsubsection"></navmark> Funciones polinomiales</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-55000" /></navPoint> 
+</navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-56" playOrder="56"> 
+<navLabel> 
+<text><navmark type="section">4.4</navmark> Integración Compleja</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-560004.4" /> 
+<navPoint id="navPoint-57" playOrder="57"> 
+<navLabel> 
+<text><navmark type="subsection">4.4.1</navmark>
+Fórmula Integral de Cauchy</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-570004.4.1" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-58" playOrder="58"> 
+<navLabel> 
+<text><navmark type="section">4.5</navmark> Expansiones en series</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-580004.5" /> 
+<navPoint id="navPoint-59" playOrder="59"> 
+<navLabel> 
+<text><navmark type="subsection">4.5.1</navmark> Serie
+de Taylor</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-590004.5.1" /></navPoint> 
+ 
+<navPoint id="navPoint-60" playOrder="60"> 
+<navLabel> 
+<text><navmark type="subsection">4.5.2</navmark> Serie de Laurent</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-600004.5.2" /></navPoint> 
+ 
+<navPoint id="navPoint-61" playOrder="61"> 
+<navLabel> 
+<text><navmark type="subsection">4.5.3</navmark> Singularidades, polos y
+residuos</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-610004.5.3" /></navPoint> 
+ 
+<navPoint id="navPoint-62" playOrder="62"> 
+<navLabel> 
+<text><navmark type="subsection">4.5.4</navmark> Integrales definidas mediante integrales de contorno</text> 
+</navLabel> 
+<content src="MMGch4.html#x7-620004.5.4" /></navPoint> 
+</navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-63" playOrder="63"> 
+<navLabel> 
+<text><navmark type="chapter">5</navmark>
+Transformadas Integrales</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-630005" /> 
+<navPoint id="navPoint-64" playOrder="64"> 
+<navLabel> 
+<text><navmark type="section">5.1</navmark> Serie de Fourier</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-640005.1" /> 
+<navPoint id="navPoint-65" playOrder="65"> 
+<navLabel> 
+<text><navmark type="subsection">5.1.1</navmark> Periodicidad y
+paridad de funciones</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-650005.1.1" /></navPoint> 
+ 
+<navPoint id="navPoint-66" playOrder="66"> 
+<navLabel> 
+<text><navmark type="subsection">5.1.2</navmark> Serie de Fourier trigonométrica</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-660005.1.2" /> 
+<navPoint id="navPoint-67" playOrder="67"> 
+<navLabel> 
+<text><navmark type="subsubsection"></navmark> Serie de
+Fourier de una función compleja de variable real</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-67000" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-68" playOrder="68"> 
+<navLabel> 
+<text><navmark type="subsection">5.1.3</navmark> Series de senos y
+cosenos</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-680005.1.3" /></navPoint> 
+ 
+<navPoint id="navPoint-69" playOrder="69"> 
+<navLabel> 
+<text><navmark type="subsection">5.1.4</navmark> Serie exponencial</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-690005.1.4" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-70" playOrder="70"> 
+<navLabel> 
+<text><navmark type="section">5.2</navmark> Transformada de Fourier</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-700005.2" /> 
+<navPoint id="navPoint-71" playOrder="71"> 
+<navLabel> 
+<text><navmark type="subsection">5.2.1</navmark>
+Propiedades de la transformada de Fourier</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-710005.2.1" /></navPoint> 
+ 
+<navPoint id="navPoint-72" playOrder="72"> 
+<navLabel> 
+<text><navmark type="subsection">5.2.2</navmark> Transformadas seno y
+coseno</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-720005.2.2" /></navPoint> 
+ 
+<navPoint id="navPoint-73" playOrder="73"> 
+<navLabel> 
+<text><navmark type="subsection">5.2.3</navmark> Delta de Dirac</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-730005.2.3" /></navPoint> 
+ 
+<navPoint id="navPoint-74" playOrder="74"> 
+<navLabel> 
+<text><navmark type="subsection">5.2.4</navmark> Representación integral</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-740005.2.4" /></navPoint> 
+ 
+<navPoint id="navPoint-75" playOrder="75"> 
+<navLabel> 
+<text><navmark type="subsection">5.2.5</navmark>
+Delta de Dirac tridimensional</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-750005.2.5" /></navPoint> 
+ 
+<navPoint id="navPoint-76" playOrder="76"> 
+<navLabel> 
+<text><navmark type="subsection">5.2.6</navmark> Convolución</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-760005.2.6" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-77" playOrder="77"> 
+<navLabel> 
+<text><navmark type="section">5.3</navmark> Transformada
+de Laplace</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-770005.3" /> 
+<navPoint id="navPoint-78" playOrder="78"> 
+<navLabel> 
+<text><navmark type="subsection">5.3.1</navmark> Transformada inversa de Laplace</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-780005.3.1" /></navPoint> 
+ 
+<navPoint id="navPoint-79" playOrder="79"> 
+<navLabel> 
+<text><navmark type="subsection">5.3.2</navmark> F.s/ con
+polos</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-790005.3.2" /></navPoint> 
+ 
+<navPoint id="navPoint-80" playOrder="80"> 
+<navLabel> 
+<text><navmark type="subsection">5.3.3</navmark> Propiedades de la transformada de Laplace</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-800005.3.3" /></navPoint> 
+ 
+<navPoint id="navPoint-81" playOrder="81"> 
+<navLabel> 
+<text><navmark type="subsection">5.3.4</navmark>
+                                                                                  
+                                                                                  
+Convolución</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-810005.3.4" /></navPoint> 
+ 
+<navPoint id="navPoint-82" playOrder="82"> 
+<navLabel> 
+<text><navmark type="subsection">5.3.5</navmark> Aplicaciones de la transformada de Laplace</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-820005.3.5" /> 
+<navPoint id="navPoint-83" playOrder="83"> 
+<navLabel> 
+<text><navmark type="subsubsection"></navmark>
+Ecuaciones diferenciales lineales con coeficientes constantes</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-83000" /></navPoint> 
+ 
+<navPoint id="navPoint-84" playOrder="84"> 
+<navLabel> 
+<text><navmark type="subsubsection"></navmark>
+Sistema de ecuaciones lineales</text> 
+</navLabel> 
+<content src="MMGch5.html#x9-84000" /></navPoint> 
+</navPoint> 
+</navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-85" playOrder="85"> 
+<navLabel> 
+<text><navmark type="chapter">6</navmark>   Funciones de Legendre</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-850006" /> 
+<navPoint id="navPoint-86" playOrder="86"> 
+<navLabel> 
+<text><navmark type="section">6.1</navmark>
+Ecuación y Funciones de Legendre</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-860006.1" /> 
+<navPoint id="navPoint-87" playOrder="87"> 
+<navLabel> 
+<text><navmark type="subsection">6.1.1</navmark> Resolviendo la ecuación de
+Legendre</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-870006.1.1" /></navPoint> 
+ 
+<navPoint id="navPoint-88" playOrder="88"> 
+<navLabel> 
+<text><navmark type="subsection">6.1.2</navmark> Función Generatriz</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-880006.1.2" /></navPoint> 
+ 
+<navPoint id="navPoint-89" playOrder="89"> 
+<navLabel> 
+<text><navmark type="subsection">6.1.3</navmark> Propiedades</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-890006.1.3" /></navPoint> 
+ 
+<navPoint id="navPoint-90" playOrder="90"> 
+<navLabel> 
+<text><navmark type="subsection">6.1.4</navmark>
+Funciones de Legendre de segunda especie</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-900006.1.4" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-91" playOrder="91"> 
+<navLabel> 
+<text><navmark type="section">6.2</navmark> Ecuación y funciones
+asociadas de Legendre</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-910006.2" /> 
+<navPoint id="navPoint-92" playOrder="92"> 
+<navLabel> 
+<text><navmark type="subsection">6.2.1</navmark> Resolviendo la ecuación asociada de
+Legendre</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-920006.2.1" /></navPoint> 
+ 
+<navPoint id="navPoint-93" playOrder="93"> 
+<navLabel> 
+<text><navmark type="subsection">6.2.2</navmark> Función generatriz</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-930006.2.2" /></navPoint> 
+ 
+<navPoint id="navPoint-94" playOrder="94"> 
+<navLabel> 
+<text><navmark type="subsection">6.2.3</navmark> Propiedades</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-940006.2.3" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-95" playOrder="95"> 
+<navLabel> 
+<text><navmark type="section">6.3</navmark>
+Armónicos Esféricos</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-950006.3" /> 
+<navPoint id="navPoint-96" playOrder="96"> 
+<navLabel> 
+<text><navmark type="subsection">6.3.1</navmark> Propiedades</text> 
+</navLabel> 
+<content src="MMGch6.html#x12-960006.3.1" /></navPoint> 
+</navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-97" playOrder="97"> 
+<navLabel> 
+<text><navmark type="appendix">A</navmark>  El Método de Separación
+de Variables</text> 
+</navLabel> 
+<content src="MMGap1.html#x14-97000A" /> 
+<navPoint id="navPoint-98" playOrder="98"> 
+<navLabel> 
+<text><navmark type="section">A.1</navmark> Resolviendo la ecuación de Helmholtz</text> 
+</navLabel> 
+<content src="MMGap1.html#x14-98000A.1" /> 
+<navPoint id="navPoint-99" playOrder="99"> 
+<navLabel> 
+<text><navmark type="subsection">A.1.1</navmark>
+Coordenadas cartesianas</text> 
+</navLabel> 
+<content src="MMGap1.html#x14-99000A.1.1" /></navPoint> 
+ 
+<navPoint id="navPoint-100" playOrder="100"> 
+<navLabel> 
+<text><navmark type="subsection">A.1.2</navmark> Coordenadas cilíndricas</text> 
+</navLabel> 
+<content src="MMGap1.html#x14-100000A.1.2" /></navPoint> 
+ 
+<navPoint id="navPoint-101" playOrder="101"> 
+<navLabel> 
+<text><navmark type="subsection">A.1.3</navmark>
+Coordenadas esféricas</text> 
+</navLabel> 
+<content src="MMGap1.html#x14-101000A.1.3" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-102" playOrder="102"> 
+<navLabel> 
+<text><navmark type="section">A.2</navmark> El método de series para EDO</text> 
+</navLabel> 
+<content src="MMGap1.html#x14-102000A.2" /></navPoint> 
+</navPoint> 
+ 
+<navPoint id="navPoint-103" playOrder="103"> 
+<navLabel> 
+<text><navmark type="appendix">B</navmark>
+Coordenadas Curvilíneas Generalizadas</text> 
+</navLabel> 
+<content src="MMGap2.html#x18-103000B" /></navPoint> 
+ 
+<navPoint id="navPoint-104" playOrder="104"> 
+<navLabel> 
+<text><navmark type="likechapter"></navmark>  Referencias</text> 
+</navLabel> 
+<content src="MMGli3.html#x19-104000" /></navPoint> 
+ 
+<navPoint id="navPoint-105" playOrder="105"> 
+<navLabel> 
+<text><navmark type="chapter"></navmark> Referencias</text> 
+</navLabel> 
+<content src="MMGli3.html#Q1-19-128" />
+   </navPoint> 
+</navMap>
+   </ncx>

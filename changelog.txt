@@ -5,3 +5,5 @@ v1.1 (07/08/25) Añadidas figuras en el capítulo 1, sección 1.1 y sección 1.2
 v1.2 (11/08/25) Corrección de typos en la definición de elemento de volumen y en las coordenadas esféricas.
 
 v1.3 (13/08/25) Añadido ejemplo e imágenes en Rotacional y Teorema de Stokes (Sección 1.2.3)
+
+v1.4 (19/08/25) Corrección de tupo en ecuación 1.26 (theta en lugar de phi)

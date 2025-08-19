@@ -1,0 +1,368 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{2}{x2-1000}{QQ2-2-1}{Prefacio}}{5}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{3}{x3-2000}{QQ2-3-2}{\'{I}ndice general}}{9}\relax 
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{4}{x4-30001}{QQ2-4-3}{Análisis Vectorial}}{5}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-3003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.1\else \numberline {1.1}Definición\fi }}{5}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-3007}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.2\else \numberline {1.2}Definición\fi }}{7}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-3011}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.3\else \numberline {1.3}Definición\fi }}{7}\relax 
+\doTocEntry\tocsection{1.1}{\csname a:TocLink\endcsname{4}{x4-40001.1}{QQ2-4-4}{Coordenadas curvilíneas ortogonales}}{9}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-4004}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.4\else \numberline {1.4}Definición\fi }}{9}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-4009}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.5\else \numberline {1.5}Definición\fi }}{11}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-4013}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.6\else \numberline {1.6}Definición\fi }}{12}\relax 
+\doTocEntry\tocsubsection{1.1.1}{\csname a:TocLink\endcsname{4}{x4-50001.1.1}{QQ2-4-5}{Elementos infinitesimales}}{14}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-5003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.7\else \numberline {1.7}Definición\fi }}{14}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-5007}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.8\else \numberline {1.8}Definición\fi }}{15}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-5011}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.9\else \numberline {1.9}Definición\fi }}{15}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-5015}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.10\else \numberline {1.10}Definición\fi }}{16}\relax 
+\doTocEntry\tocsubsection{1.1.2}{\csname a:TocLink\endcsname{4}{x4-60001.1.2}{QQ2-4-6}{Coordenadas cilíndricas}}{17}\relax 
+\doTocEntry\toclof{1.1}{\csname a:TocLink\endcsname{4}{x4-6009r1}{}{\ignorespaces Sistema coordenado cilíndrico. Se puede apreciar que un punto en este es completamente determinado por la intersección de dos planos ($z =$ constante y $\phi = $ constante) y una superficie cilíndrica ($\rho = $ constante). Además, es posible apreciar la dirección de los tres vectores unitarios, $\hat  {e}_\rho = \hat  {\rho }$, $\hat  {e}_\phi = \hat  {\phi }$ y $\hat  {e}_z = \hat  {z}$.}}{figure}\relax 
+\doTocEntry\tocsubsection{1.1.3}{\csname a:TocLink\endcsname{4}{x4-70001.1.3}{QQ2-4-8}{Coordenadas esféricas}}{23}\relax 
+\doTocEntry\toclof{1.2}{\csname a:TocLink\endcsname{4}{x4-7009r2}{}{\ignorespaces Sistema coordenado esférico. Se puede apreciar que un punto en este es completamente determinado por la intersección de un ($\phi = $ constante), una superficie cónica ($\theta = $ constante) y una superficie esférica ($r = $ constante). Además, es posible apreciar la dirección de los tres vectores unitarios, $\hat  {e}_r = \hat  {r}$, $\hat  {e}_\theta = \hat  {\theta }$ y $\hat  {e}_\phi = \hat  {\phi }$.}}{figure}\relax 
+\doTocEntry\tocsection{1.2}{\csname a:TocLink\endcsname{4}{x4-80001.2}{QQ2-4-10}{El operador Nabla}}{28}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-8005}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.11\else \numberline {1.11}Definición\fi }}{28}\relax 
+\doTocEntry\tocsubsection{1.2.1}{\csname a:TocLink\endcsname{4}{x4-90001.2.1}{QQ2-4-11}{Gradiente}}{29}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-9003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.12\else \numberline {1.12}Definición\fi }}{29}\relax 
+\doTocEntry\toclof{1.3}{\csname a:TocLink\endcsname{4}{x4-9004r3}{}{\ignorespaces Ilustración del concepto de gradiente. Nuestro campo escalar es representado por la escala de grises, donde un color más oscuro denota un mayor valor. Las flechas indican la dirección del gradiente en cada punto donde ellas aparecen, el que siempre apunta en la dirección de mayor cambio en la intensidad de la escala.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-9010}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.13\else \numberline {1.13}Definición\fi }}{34}\relax 
+\doTocEntry\tocsubsection{1.2.2}{\csname a:TocLink\endcsname{4}{x4-100001.2.2}{QQ2-4-13}{Divergencia}}{35}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-10003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.14\else \numberline {1.14}Definición\fi }}{35}\relax 
+\doTocEntry\toclof{1.4}{\csname a:TocLink\endcsname{4}{x4-10006r4}{}{\ignorespaces Divergencia de tres campos vectoriales. Nótese que el signo de esta cantidad depende del número de vectores \emph  {entrantes} y \emph  {salientes} de una superficie imaginaria que encierre al campo.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-10009}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.15\else \numberline {1.15}Definición\fi }}{39}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-10013}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.1\else \numberline {1.1}Ejemplo\fi }}{39}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-10017}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.1\else \numberline {1.1}Teorema\fi }}{40}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-10021}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.2\else \numberline {1.2}Ejemplo\fi }}{41}\relax 
+\doTocEntry\tocsubsection{1.2.3}{\csname a:TocLink\endcsname{4}{x4-110001.2.3}{QQ2-4-15}{Rotacional}}{42}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-11003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.16\else \numberline {1.16}Definición\fi }}{42}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-11008}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.17\else \numberline {1.17}Definición\fi }}{44}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-11012}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.2\else \numberline {1.2}Teorema\fi }}{45}\relax 
+\doTocEntry\toclof{1.5}{\csname a:TocLink\endcsname{4}{x4-11016r5}{}{\ignorespaces (a) Ilustración del Teorema de Stokes. La superficie $\Sigma $ se encuentra delimitada por la curva $\partial \Sigma $. El sentido en el que se recorre la curva y el vector normal a la superficie se encuentran relacionados entre sí mediante la regla de la mano derecha. (b) Una forma alternativa de representar la obtención del vector normal $d\vec  {S}$ mediante el uso de un vector perpendicular a la superficie, $d\vec  {x}'$.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-11019}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.3\else \numberline {1.3}Ejemplo\fi }}{48}\relax 
+\doTocEntry\toclof{1.6}{\csname a:TocLink\endcsname{4}{x4-11020r6}{}{\ignorespaces Superficie complicada en presencia del campo vectorial $\vec  {F}$.}}{figure}\relax 
+\doTocEntry\tocsubsection{1.2.4}{\csname a:TocLink\endcsname{4}{x4-120001.2.4}{QQ2-4-18}{Identidades vectoriales}}{50}\relax 
+\doTocEntry\tocsection{1.3}{\csname a:TocLink\endcsname{4}{x4-130001.3}{QQ2-4-19}{Teoría del potencial}}{52}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-13005}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.3\else \numberline {1.3}Teorema\fi }}{52}\relax 
+\doTocEntry\tocsubsection{1.3.1}{\csname a:TocLink\endcsname{4}{x4-140001.3.1}{QQ2-4-20}{Teorema de Helmholtz}}{53}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-14003}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.4\else \numberline {1.4}Teorema\fi }}{54}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{4}{x4-14009}{}{\ifthmt@listswap Corolario\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x1.3.1\else \numberline {1.3.1}Corolario\fi }}{55}\relax 
+\doTocEntry\tocchapter{2}{\csname a:TocLink\endcsname{5}{x5-150002}{QQ2-5-21}{Introducción a los Tensores Cartesianos}}{61}\relax 
+\doTocEntry\tocsection{2.1}{\csname a:TocLink\endcsname{5}{x5-160002.1}{QQ2-5-22}{Transformaciones Ortogonales}}{61}\relax 
+\doTocEntry\toclof{2.1}{\csname a:TocLink\endcsname{5}{x5-16001r1}{}{\ignorespaces Una transformación ortogonal de dos bases ortonotmales en 3 dimensiones, $\hat  {e}_i$ y $\hat  {e}'_j$}}{figure}\relax 
+\doTocEntry\tocsubsection{2.1.1}{\csname a:TocLink\endcsname{5}{x5-170002.1.1}{QQ2-5-24}{Convenio de suma de Einstein}}{65}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-17006}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.1\else \numberline {2.1}Definición\fi }}{67}\relax 
+\doTocEntry\tocsection{2.2}{\csname a:TocLink\endcsname{5}{x5-180002.2}{QQ2-5-25}{Tensores Cartesianos}}{69}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-18003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.2\else \numberline {2.2}Definición\fi }}{70}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-18008}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.3\else \numberline {2.3}Definición\fi }}{71}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-18012}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.1\else \numberline {2.1}Ejemplo\fi }}{72}\relax 
+\doTocEntry\tocsubsection{2.2.1}{\csname a:TocLink\endcsname{5}{x5-190002.2.1}{QQ2-5-26}{Propiedades}}{75}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-19003}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.1\else \numberline {2.1}Propiedad\fi }}{76}\relax 
+\doTocEntry\tocsection{2.3}{\csname a:TocLink\endcsname{5}{x5-200002.3}{QQ2-5-27}{Álgebra Tensorial}}{77}\relax 
+\doTocEntry\tocsection{2.4}{\csname a:TocLink\endcsname{5}{x5-210002.4}{QQ2-5-28}{Pseudovectores y pseudotensores}}{83}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-21003}{}{\ifthmt@listswap Definición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.4\else \numberline {2.4}Definición\fi }}{83}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-21007}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.5\else \numberline {2.5}Definición\fi }}{84}\relax 
+\doTocEntry\tocsubsection{2.4.1}{\csname a:TocLink\endcsname{5}{x5-220002.4.1}{QQ2-5-29}{Propiedades}}{84}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-22003}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.2\else \numberline {2.2}Propiedad\fi }}{85}\relax 
+\doTocEntry\tocsubsection{2.4.2}{\csname a:TocLink\endcsname{5}{x5-230002.4.2}{QQ2-5-30}{Símbolo de Levi-Civita}}{85}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-23003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.6\else \numberline {2.6}Definición\fi }}{86}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-23009}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.3\else \numberline {2.3}Propiedad\fi }}{87}\relax 
+\doTocEntry\tocsubsection{2.4.3}{\csname a:TocLink\endcsname{5}{x5-240002.4.3}{QQ2-5-31}{Tensores duales}}{90}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-24003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.7\else \numberline {2.7}Definición\fi }}{91}\relax 
+\doTocEntry\tocsection{2.5}{\csname a:TocLink\endcsname{5}{x5-250002.5}{QQ2-5-32}{Análisis tensorial}}{93}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-25003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.8\else \numberline {2.8}Definición\fi }}{93}\relax 
+\doTocEntry\tocsubsection{2.5.1}{\csname a:TocLink\endcsname{5}{x5-260002.5.1}{QQ2-5-33}{Derivación}}{94}\relax 
+\doTocEntry\tocsubsection{2.5.2}{\csname a:TocLink\endcsname{5}{x5-270002.5.2}{QQ2-5-34}{Integración}}{97}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{5}{x5-28000}{QQ2-5-35}{Integrales de línea}}{97}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{5}{x5-29000}{QQ2-5-36}{Integrales de superficie}}{99}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{5}{x5-30000}{QQ2-5-37}{Integrales de volumen}}{100}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{5}{x5-31000}{QQ2-5-38}{Teoremas integrales}}{101}\relax 
+\doTocEntry\tocsection{2.6}{\csname a:TocLink\endcsname{5}{x5-320002.6}{QQ2-5-39}{Covarianza y contravarianza}}{103}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{5}{x5-32009}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x2.9\else \numberline {2.9}Definición\fi }}{106}\relax 
+\doTocEntry\tocchapter{3}{\csname a:TocLink\endcsname{6}{x6-330003}{QQ2-6-40}{Series Numéricas y Funcionales}}{113}\relax 
+\doTocEntry\tocsection{3.1}{\csname a:TocLink\endcsname{6}{x6-340003.1}{QQ2-6-41}{Series numéricas}}{113}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-34003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.1\else \numberline {3.1}Definición\fi }}{113}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-34006}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.2\else \numberline {3.2}Definición\fi }}{114}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-34010}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.3\else \numberline {3.3}Definición\fi }}{115}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-34015}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.4\else \numberline {3.4}Definición\fi }}{116}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-34022}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.5\else \numberline {3.5}Definición\fi }}{117}\relax 
+\doTocEntry\tocsubsection{3.1.1}{\csname a:TocLink\endcsname{6}{x6-350003.1.1}{QQ2-6-42}{Convergencia absoluta y condicional}}{119}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-35003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.6\else \numberline {3.6}Definición\fi }}{119}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-35007}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.1\else \numberline {3.1}Teorema\fi }}{120}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-35011}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.7\else \numberline {3.7}Definición\fi }}{120}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-35014}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.2\else \numberline {3.2}Teorema\fi }}{121}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-35017}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.3\else \numberline {3.3}Teorema\fi }}{121}\relax 
+\doTocEntry\tocsubsection{3.1.2}{\csname a:TocLink\endcsname{6}{x6-360003.1.2}{QQ2-6-43}{Criterios de convergencia comunes}}{122}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-36003}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.4\else \numberline {3.4}Teorema\fi }}{122}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-36007}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.5\else \numberline {3.5}Teorema\fi }}{123}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-36010}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.6\else \numberline {3.6}Teorema\fi }}{123}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-36013}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.7\else \numberline {3.7}Teorema\fi }}{124}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-36017}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.8\else \numberline {3.8}Teorema\fi }}{125}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-36021}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.9\else \numberline {3.9}Teorema\fi }}{126}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-36026}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.1\else \numberline {3.1}Ejemplo\fi }}{128}\relax 
+\doTocEntry\tocsubsection{3.1.3}{\csname a:TocLink\endcsname{6}{x6-370003.1.3}{QQ2-6-44}{Series alternadas}}{129}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-37003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.8\else \numberline {3.8}Definición\fi }}{129}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-37007}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.10\else \numberline {3.10}Teorema\fi }}{130}\relax 
+\doTocEntry\tocsubsection{3.1.4}{\csname a:TocLink\endcsname{6}{x6-380003.1.4}{QQ2-6-45}{Álgebra de Series}}{131}\relax 
+\doTocEntry\tocsection{3.2}{\csname a:TocLink\endcsname{6}{x6-390003.2}{QQ2-6-46}{Series funcionales}}{132}\relax 
+\doTocEntry\tocsubsection{3.2.1}{\csname a:TocLink\endcsname{6}{x6-400003.2.1}{QQ2-6-47}{Convergencia puntual y uniforme}}{132}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-40004}{}{\ifthmt@listswap Definición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.9\else \numberline {3.9}Definición\fi }}{133}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-40007}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.2\else \numberline {3.2}Ejemplo\fi }}{134}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-40010}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.3\else \numberline {3.3}Ejemplo\fi }}{135}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-40013}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.10\else \numberline {3.10}Definición\fi }}{137}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-40017}{}{\ifthmt@listswap Definición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.11\else \numberline {3.11}Definición\fi }}{138}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-40020}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.4\else \numberline {3.4}Ejemplo\fi }}{139}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-40023}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.11\else \numberline {3.11}Teorema\fi }}{140}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-40026}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.12\else \numberline {3.12}Teorema\fi }}{144}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-40029}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.13\else \numberline {3.13}Teorema\fi }}{145}\relax 
+\doTocEntry\tocsubsection{3.2.2}{\csname a:TocLink\endcsname{6}{x6-410003.2.2}{QQ2-6-48}{Series de potencias}}{145}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-41003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.12\else \numberline {3.12}Definición\fi }}{145}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-41007}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.13\else \numberline {3.13}Definición\fi }}{146}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-41011}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.1\else \numberline {3.1}Propiedad\fi }}{147}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-41022}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.14\else \numberline {3.14}Teorema\fi }}{149}\relax 
+\doTocEntry\tocsubsection{3.2.3}{\csname a:TocLink\endcsname{6}{x6-420003.2.3}{QQ2-6-49}{Expansión en serie de Taylor}}{150}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-42003}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.15\else \numberline {3.15}Teorema\fi }}{150}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-42009}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.5\else \numberline {3.5}Ejemplo\fi }}{152}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{6}{x6-42012}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x3.16\else \numberline {3.16}Teorema\fi }}{152}\relax 
+\doTocEntry\tocchapter{4}{\csname a:TocLink\endcsname{7}{x7-430004}{QQ2-7-50}{Elementos de Cálculo Complejo}}{159}\relax 
+\doTocEntry\tocsection{4.1}{\csname a:TocLink\endcsname{7}{x7-440004.1}{QQ2-7-51}{El conjunto de los números complejos, $\mathbb  {C}$}}{160}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-44003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.1\else \numberline {4.1}Definición\fi }}{160}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-44007}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.1\else \numberline {4.1}Teorema\fi }}{161}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-44018}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{162}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-44021}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.2\else \numberline {4.2}Definición\fi }}{162}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-44025}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.3\else \numberline {4.3}Definición\fi }}{163}\relax 
+\doTocEntry\tocsubsection{4.1.1}{\csname a:TocLink\endcsname{7}{x7-450004.1.1}{QQ2-7-52}{Nociones de topología en $\mathbb  {C}$}}{165}\relax 
+\doTocEntry\tocsection{4.2}{\csname a:TocLink\endcsname{7}{x7-460004.2}{QQ2-7-53}{Funciones de variable compleja}}{165}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-46003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.4\else \numberline {4.4}Definición\fi }}{165}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-46006}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.1\else \numberline {4.1}Ejemplo\fi }}{165}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-46009}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.5\else \numberline {4.5}Definición\fi }}{166}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-46012}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.2\else \numberline {4.2}Teorema\fi }}{168}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-46015}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.6\else \numberline {4.6}Definición\fi }}{169}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-46018}{}{\ifthmt@listswap Corolario\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.2.1\else \numberline {4.2.1}Corolario\fi }}{169}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-46021}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.2\else \numberline {4.2}Ejemplo\fi }}{170}\relax 
+\doTocEntry\tocsection{4.3}{\csname a:TocLink\endcsname{7}{x7-470004.3}{QQ2-7-54}{Derivabilidad de funciones complejas}}{171}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-47003}{}{\ifthmt@listswap Definición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.7\else \numberline {4.7}Definición\fi }}{171}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-47007}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.3\else \numberline {4.3}Ejemplo\fi }}{172}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-47010}{}{\ifthmt@listswap Teorema\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.3\else \numberline {4.3}Teorema\fi }}{173}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-47012}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{174}\relax 
+\doTocEntry\tocsubsection{4.3.1}{\csname a:TocLink\endcsname{7}{x7-480004.3.1}{QQ2-7-55}{Ecuaciones de Cauchy-Riemann}}{175}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-48006}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.4\else \numberline {4.4}Teorema\fi }}{179}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-48009}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.4\else \numberline {4.4}Ejemplo\fi }}{179}\relax 
+\doTocEntry\tocsubsection{4.3.2}{\csname a:TocLink\endcsname{7}{x7-490004.3.2}{QQ2-7-56}{Funciones analíticas}}{181}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-49003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.8\else \numberline {4.8}Definición\fi }}{181}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-49006}{}{\ifthmt@listswap Definición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.9\else \numberline {4.9}Definición\fi }}{182}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-49009}{}{\ifthmt@listswap Definición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.10\else \numberline {4.10}Definición\fi }}{182}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-49013}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.5\else \numberline {4.5}Teorema\fi }}{183}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-49016}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.11\else \numberline {4.11}Definición\fi }}{183}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-49019}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.5\else \numberline {4.5}Ejemplo\fi }}{184}\relax 
+\doTocEntry\tocsubsection{4.3.3}{\csname a:TocLink\endcsname{7}{x7-500004.3.3}{QQ2-7-57}{Funciones elementales}}{184}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{7}{x7-51000}{QQ2-7-58}{Función exponencial}}{184}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{7}{x7-52000}{QQ2-7-59}{Funciones trigonométricas}}{184}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{7}{x7-53000}{QQ2-7-60}{Funciones hiperbólicas}}{184}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{7}{x7-54000}{QQ2-7-61}{Función logaritmo}}{184}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{7}{x7-55000}{QQ2-7-62}{Funciones polinomiales}}{185}\relax 
+\doTocEntry\tocsection{4.4}{\csname a:TocLink\endcsname{7}{x7-560004.4}{QQ2-7-63}{Integración Compleja}}{185}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56003}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.6\else \numberline {4.6}Ejemplo\fi }}{186}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56009}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.12\else \numberline {4.12}Definición\fi }}{187}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56012}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.13\else \numberline {4.13}Definición\fi }}{187}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56015}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.14\else \numberline {4.14}Definición\fi }}{187}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56019}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.6\else \numberline {4.6}Teorema\fi }}{188}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56023}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.7\else \numberline {4.7}Ejemplo\fi }}{189}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56026}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.7\else \numberline {4.7}Teorema\fi }}{190}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56033}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.8\else \numberline {4.8}Teorema\fi }}{192}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56037}{}{\ifthmt@listswap Corolario\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.4.1\else \numberline {4.4.1}Corolario\fi }}{193}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-56041}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.9\else \numberline {4.9}Teorema\fi }}{193}\relax 
+\doTocEntry\tocsubsection{4.4.1}{\csname a:TocLink\endcsname{7}{x7-570004.4.1}{QQ2-7-64}{Fórmula Integral de Cauchy}}{195}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-57006}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.15\else \numberline {4.15}Definición\fi }}{199}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-57010}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.10\else \numberline {4.10}Teorema\fi }}{200}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-57014}{}{\ifthmt@listswap Corolario\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.4.2\else \numberline {4.4.2}Corolario\fi }}{201}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-57018}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.8\else \numberline {4.8}Ejemplo\fi }}{201}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-57021}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.11\else \numberline {4.11}Teorema\fi }}{202}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-57025}{}{\ifthmt@listswap Corolario\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.4.3\else \numberline {4.4.3}Corolario\fi }}{203}\relax 
+\doTocEntry\tocsection{4.5}{\csname a:TocLink\endcsname{7}{x7-580004.5}{QQ2-7-65}{Expansiones en series}}{203}\relax 
+\doTocEntry\tocsubsection{4.5.1}{\csname a:TocLink\endcsname{7}{x7-590004.5.1}{QQ2-7-66}{Serie de Taylor}}{203}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-59004}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.12\else \numberline {4.12}Teorema\fi }}{204}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-59007}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{205}\relax 
+\doTocEntry\tocsubsection{4.5.2}{\csname a:TocLink\endcsname{7}{x7-600004.5.2}{QQ2-7-67}{Serie de Laurent}}{206}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-60003}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.13\else \numberline {4.13}Teorema\fi }}{206}\relax 
+\doTocEntry\tocsubsection{4.5.3}{\csname a:TocLink\endcsname{7}{x7-610004.5.3}{QQ2-7-68}{Singularidades, polos y residuos}}{207}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.16\else \numberline {4.16}Definición\fi }}{208}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61006}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.17\else \numberline {4.17}Definición\fi }}{208}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61009}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.18\else \numberline {4.18}Definición\fi }}{208}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61013}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.14\else \numberline {4.14}Teorema\fi }}{209}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61018}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.19\else \numberline {4.19}Definición\fi }}{210}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61022}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.20\else \numberline {4.20}Definición\fi }}{210}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61025}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.9\else \numberline {4.9}Ejemplo\fi }}{211}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61028}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.15\else \numberline {4.15}Teorema\fi }}{212}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61033}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.21\else \numberline {4.21}Definición\fi }}{212}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61036}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.10\else \numberline {4.10}Ejemplo\fi }}{212}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61039}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.22\else \numberline {4.22}Definición\fi }}{213}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61042}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.16\else \numberline {4.16}Teorema\fi }}{214}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61045}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.23\else \numberline {4.23}Definición\fi }}{214}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61049}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.11\else \numberline {4.11}Ejemplo\fi }}{215}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61052}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.17\else \numberline {4.17}Teorema\fi }}{218}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{7}{x7-61057}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x4.12\else \numberline {4.12}Ejemplo\fi }}{219}\relax 
+\doTocEntry\tocsubsection{4.5.4}{\csname a:TocLink\endcsname{7}{x7-620004.5.4}{QQ2-7-69}{Integrales definidas mediante integrales de contorno}}{220}\relax 
+\doTocEntry\tocchapter{5}{\csname a:TocLink\endcsname{9}{x9-630005}{QQ2-9-70}{Transformadas Integrales}}{225}\relax 
+\doTocEntry\tocsection{5.1}{\csname a:TocLink\endcsname{9}{x9-640005.1}{QQ2-9-71}{Serie de Fourier}}{225}\relax 
+\doTocEntry\tocsubsection{5.1.1}{\csname a:TocLink\endcsname{9}{x9-650005.1.1}{QQ2-9-72}{Periodicidad y paridad de funciones}}{225}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.1\else \numberline {5.1}Definición\fi }}{225}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65007}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.1\else \numberline {5.1}Propiedad\fi }}{226}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65015}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.1\else \numberline {5.1}Ejemplo\fi }}{228}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65018}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.2\else \numberline {5.2}Definición\fi }}{229}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65021}{}{\ifthmt@listswap Proposición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.1\else \numberline {5.1}Proposición\fi }}{229}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65023}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{230}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65026}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.3\else \numberline {5.3}Definición\fi }}{231}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65030}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.2\else \numberline {5.2}Ejemplo\fi }}{232}\relax 
+\doTocEntry\toclof{5.1}{\csname a:TocLink\endcsname{9}{x9-65031r1}{}{\ignorespaces Extensión periódica de una función real seccionalmente continua en $[-\pi ,\pi ]$.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65034}{}{\ifthmt@listswap Definición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.4\else \numberline {5.4}Definición\fi }}{233}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65039}{}{\ifthmt@listswap Proposición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.2\else \numberline {5.2}Proposición\fi }}{234}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-65042}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.5\else \numberline {5.5}Definición\fi }}{235}\relax 
+\doTocEntry\toclof{5.2}{\csname a:TocLink\endcsname{9}{x9-65043r2}{}{\ignorespaces Extensión par e impar de una función real seccionalmente continua en $[0,a]$. }}{figure}\relax 
+\doTocEntry\tocsubsection{5.1.2}{\csname a:TocLink\endcsname{9}{x9-660005.1.2}{QQ2-9-75}{Serie de Fourier trigonométrica}}{239}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-66003}{}{\ifthmt@listswap Proposición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.3\else \numberline {5.3}Proposición\fi }}{239}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-66006}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.6\else \numberline {5.6}Definición\fi }}{239}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-66009}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.7\else \numberline {5.7}Definición\fi }}{240}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-66016}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.8\else \numberline {5.8}Definición\fi }}{241}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-66020}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.3\else \numberline {5.3}Ejemplo\fi }}{242}\relax 
+\doTocEntry\toclof{5.3}{\csname a:TocLink\endcsname{9}{x9-66022r3}{}{\ignorespaces Serie de Fourier de la función $f(x) = x^2, -\pi \leq x \leq \pi $, truncada hasta $n = 4$.}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{9}{x9-67000}{QQ2-9-77}{Serie de Fourier de una función compleja de variable real}}{244}\relax 
+\doTocEntry\tocsubsection{5.1.3}{\csname a:TocLink\endcsname{9}{x9-680005.1.3}{QQ2-9-78}{Series de senos y cosenos}}{245}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-68003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.9\else \numberline {5.9}Definición\fi }}{246}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-68006}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.4\else \numberline {5.4}Ejemplo\fi }}{246}\relax 
+\doTocEntry\toclof{5.4}{\csname a:TocLink\endcsname{9}{x9-68007r4}{}{\ignorespaces Serie de Fourier de la función signo truncada hasta $n = 4$.}}{figure}\relax 
+\doTocEntry\tocsubsection{5.1.4}{\csname a:TocLink\endcsname{9}{x9-690005.1.4}{QQ2-9-80}{Serie exponencial}}{249}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-69003}{}{\ifthmt@listswap Proposición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.4\else \numberline {5.4}Proposición\fi }}{249}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-69007}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.10\else \numberline {5.10}Definición\fi }}{250}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-69010}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.11\else \numberline {5.11}Definición\fi }}{251}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-69014}{}{\ifthmt@listswap Proposición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.5\else \numberline {5.5}Proposición\fi }}{252}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-69016}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{252}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-69019}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.2\else \numberline {5.2}Propiedad\fi }}{255}\relax 
+\doTocEntry\tocsection{5.2}{\csname a:TocLink\endcsname{9}{x9-700005.2}{QQ2-9-81}{Transformada de Fourier}}{257}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70005}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.12\else \numberline {5.12}Definición\fi }}{258}\relax 
+\doTocEntry\toclof{5.5}{\csname a:TocLink\endcsname{9}{x9-70006r5}{}{\ignorespaces Espectro de Fourier.}}{figure}\relax 
+\doTocEntry\toclof{5.6}{\csname a:TocLink\endcsname{9}{x9-70007r6}{}{\ignorespaces Espectro de Fourier cuando $L \to + \infty $.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70011}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.13\else \numberline {5.13}Definición\fi }}{265}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70015}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.14\else \numberline {5.14}Definición\fi }}{266}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70022}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.15\else \numberline {5.15}Definición\fi }}{269}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70025}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.1\else \numberline {5.1}Teorema\fi }}{269}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70027}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{270}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70030}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.2\else \numberline {5.2}Teorema\fi }}{271}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70033}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{272}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70037}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.5\else \numberline {5.5}Ejemplo\fi }}{272}\relax 
+\doTocEntry\toclof{5.7}{\csname a:TocLink\endcsname{9}{x9-70039r7}{}{\ignorespaces Pulso cuadrado y su transformada de Fourier, con $a = 5$.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-70042}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.6\else \numberline {5.6}Ejemplo\fi }}{274}\relax 
+\doTocEntry\toclof{5.8}{\csname a:TocLink\endcsname{9}{x9-70047r8}{}{\ignorespaces Distribución gaussiana y su transformada de Fourier para $n=1$ y $\beta =1$ .}}{figure}\relax 
+\doTocEntry\toclof{5.9}{\csname a:TocLink\endcsname{9}{x9-70049r9}{}{\ignorespaces Distribución gaussiana y su transformada de Fourier para $n=1$ y $\beta =0.25$ .}}{figure}\relax 
+\doTocEntry\tocsubsection{5.2.1}{\csname a:TocLink\endcsname{9}{x9-710005.2.1}{QQ2-9-87}{Propiedades de la transformada de Fourier}}{277}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-71003}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.3\else \numberline {5.3}Propiedad\fi }}{277}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-71012}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{279}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-71020}{}{\ifthmt@listswap Proposición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.6\else \numberline {5.6}Proposición\fi }}{284}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-71024}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{285}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-71027}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.3\else \numberline {5.3}Teorema\fi \thmtformatoptarg {de Parseval}}}{287}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-71029}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{288}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-71032}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.7\else \numberline {5.7}Ejemplo\fi }}{290}\relax 
+\doTocEntry\tocsubsection{5.2.2}{\csname a:TocLink\endcsname{9}{x9-720005.2.2}{QQ2-9-88}{Transformadas seno y coseno}}{291}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-72003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.16\else \numberline {5.16}Definición\fi }}{292}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-72008}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.17\else \numberline {5.17}Definición\fi }}{295}\relax 
+\doTocEntry\tocsubsection{5.2.3}{\csname a:TocLink\endcsname{9}{x9-730005.2.3}{QQ2-9-89}{Delta de Dirac}}{296}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-73005}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.18\else \numberline {5.18}Definición\fi }}{297}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-73011}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.4\else \numberline {5.4}Propiedad\fi }}{299}\relax 
+\doTocEntry\tocsubsection{5.2.4}{\csname a:TocLink\endcsname{9}{x9-740005.2.4}{QQ2-9-90}{Representación integral}}{303}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-74005}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.8\else \numberline {5.8}Ejemplo\fi }}{304}\relax 
+\doTocEntry\tocsubsection{5.2.5}{\csname a:TocLink\endcsname{9}{x9-750005.2.5}{QQ2-9-91}{Delta de Dirac tridimensional}}{306}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-75007}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{308}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-75012}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.9\else \numberline {5.9}Ejemplo\fi }}{313}\relax 
+\doTocEntry\tocsubsection{5.2.6}{\csname a:TocLink\endcsname{9}{x9-760005.2.6}{QQ2-9-92}{Convolución}}{315}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-76003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.19\else \numberline {5.19}Definición\fi }}{316}\relax 
+\doTocEntry\toclof{5.10}{\csname a:TocLink\endcsname{9}{x9-76006r10}{}{\ignorespaces Distribución de carga de densidad $\rho (\vec  {x})$.}}{figure}\relax 
+\doTocEntry\toclof{5.11}{\csname a:TocLink\endcsname{9}{x9-76007r11}{}{\ignorespaces Idea matemática de la convolución. En (a), se expresa cada función en términos de la variable de integración $y$. En (b), se refleja la gráfica de $g(y)$ con respecto al eje vertical, es decir, $g(y) \rightarrow g(-y)$. En (c), se traslada la gráfica de $g(-y)$, $x$ unidades. Luego, se traslapan las gráficas de $f(y)$ y $g(x-y)$ de tal forma que el área sombreada corresponde al valor de $f * g$ para ese valor de $x$.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-76010}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.5\else \numberline {5.5}Propiedad\fi }}{323}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-76016}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.4\else \numberline {5.4}Teorema\fi \thmtformatoptarg {de convolución de Fourier}}}{325}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-76019}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{326}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-76022}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.10\else \numberline {5.10}Ejemplo\fi }}{329}\relax 
+\doTocEntry\tocsection{5.3}{\csname a:TocLink\endcsname{9}{x9-770005.3}{QQ2-9-95}{Transformada de Laplace}}{333}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.20\else \numberline {5.20}Definición\fi }}{333}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77006}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.11\else \numberline {5.11}Ejemplo\fi }}{334}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77009}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.12\else \numberline {5.12}Ejemplo\fi }}{335}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77012}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.13\else \numberline {5.13}Ejemplo\fi }}{337}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77016}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.21\else \numberline {5.21}Definición\fi }}{338}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77019}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.14\else \numberline {5.14}Ejemplo\fi }}{339}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77022}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.5\else \numberline {5.5}Teorema\fi \thmtformatoptarg {de existencia}}}{341}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77025}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.6\else \numberline {5.6}Teorema\fi }}{343}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77028}{}{\ifthmt@listswap Proposición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.7\else \numberline {5.7}Proposición\fi }}{343}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-77030}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{344}\relax 
+\doTocEntry\tocsubsection{5.3.1}{\csname a:TocLink\endcsname{9}{x9-780005.3.1}{QQ2-9-96}{Transformada inversa de Laplace}}{346}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-78003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.22\else \numberline {5.22}Definición\fi }}{346}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-78007}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.7\else \numberline {5.7}Teorema\fi \thmtformatoptarg {de Lerch}}}{347}\relax 
+\doTocEntry\tocsubsection{5.3.2}{\csname a:TocLink\endcsname{9}{x9-790005.3.2}{QQ2-9-97}{$F(s)$ con polos}}{349}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-79003}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.8\else \numberline {5.8}Teorema\fi }}{350}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-79006}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.15\else \numberline {5.15}Ejemplo\fi }}{351}\relax 
+\doTocEntry\tocsubsection{5.3.3}{\csname a:TocLink\endcsname{9}{x9-800005.3.3}{QQ2-9-98}{Propiedades de la transformada de Laplace}}{353}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80003}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.9\else \numberline {5.9}Teorema\fi }}{353}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80009}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.16\else \numberline {5.16}Ejemplo\fi }}{354}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80012}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.10\else \numberline {5.10}Teorema\fi \thmtformatoptarg {Propiedad de la derivada}}}{355}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80015}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.11\else \numberline {5.11}Teorema\fi \thmtformatoptarg {Transformada de Laplace de derivadas de orden superior}}}{356}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80018}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.17\else \numberline {5.17}Ejemplo\fi }}{356}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80021}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.12\else \numberline {5.12}Teorema\fi }}{358}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80023}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{359}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80026}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.13\else \numberline {5.13}Teorema\fi }}{359}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80029}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.18\else \numberline {5.18}Ejemplo\fi }}{360}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-80032}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.14\else \numberline {5.14}Teorema\fi \thmtformatoptarg {Integral de una transformada}}}{361}\relax 
+\doTocEntry\tocsubsection{5.3.4}{\csname a:TocLink\endcsname{9}{x9-810005.3.4}{QQ2-9-99}{Convolución}}{362}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-81003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.23\else \numberline {5.23}Definición\fi }}{362}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-81006}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.15\else \numberline {5.15}Teorema\fi \thmtformatoptarg {Propiedades de la convolución}}}{363}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-81009}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.16\else \numberline {5.16}Teorema\fi \thmtformatoptarg {de Convolución}}}{364}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-81011}{}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Demostración}}{365}\relax 
+\doTocEntry\toclof{5.12}{\csname a:TocLink\endcsname{9}{x9-81012r12}{}{\ignorespaces Región de integración.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-81015}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.19\else \numberline {5.19}Ejemplo\fi }}{367}\relax 
+\doTocEntry\tocsubsection{5.3.5}{\csname a:TocLink\endcsname{9}{x9-820005.3.5}{QQ2-9-101}{Aplicaciones de la transformada de Laplace}}{369}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{9}{x9-83000}{QQ2-9-102}{Ecuaciones diferenciales lineales con coeficientes constantes}}{369}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-83003}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.20\else \numberline {5.20}Ejemplo\fi }}{370}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{9}{x9-84000}{QQ2-9-103}{Sistema de ecuaciones lineales}}{372}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{9}{x9-84003}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x5.21\else \numberline {5.21}Ejemplo\fi }}{372}\relax 
+\doTocEntry\toclof{5.13}{\csname a:TocLink\endcsname{9}{x9-84004r13}{}{\ignorespaces Circuito eléctrico.}}{figure}\relax 
+\doTocEntry\tocchapter{6}{\csname a:TocLink\endcsname{12}{x12-850006}{QQ2-12-105}{Funciones de Legendre}}{383}\relax 
+\doTocEntry\tocsection{6.1}{\csname a:TocLink\endcsname{12}{x12-860006.1}{QQ2-12-106}{Ecuación y Funciones de Legendre}}{383}\relax 
+\doTocEntry\tocsubsection{6.1.1}{\csname a:TocLink\endcsname{12}{x12-870006.1.1}{QQ2-12-107}{Resolviendo la ecuación de Legendre}}{384}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-87014}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.1\else \numberline {6.1}Definición\fi }}{389}\relax 
+\doTocEntry\toclof{6.1}{\csname a:TocLink\endcsname{12}{x12-87017r1}{}{\ignorespaces Primeros seis polinomios de Legendre. Adaptación de \href  {https://github.com/gfrubi/FM2/blob/master/figuras-editables/fig-Legendre.py}{este} código. La adaptación se encuentra \href  {https://github.com/Pedroga-cc/Fisica-Matematica-II/blob/main/Figuras/Plotter_Legendre.py}{aquí}.}}{figure}\relax 
+\doTocEntry\tocsubsection{6.1.2}{\csname a:TocLink\endcsname{12}{x12-880006.1.2}{QQ2-12-109}{Función Generatriz}}{394}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-88003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.2\else \numberline {6.2}Definición\fi }}{394}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-88010}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.1\else \numberline {6.1}Ejemplo\fi }}{396}\relax 
+\doTocEntry\tocsubsection{6.1.3}{\csname a:TocLink\endcsname{12}{x12-890006.1.3}{QQ2-12-110}{Propiedades}}{398}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-89003}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.1\else \numberline {6.1}Propiedad\fi }}{398}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-89021}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.2\else \numberline {6.2}Ejemplo\fi }}{401}\relax 
+\doTocEntry\tocsubsection{6.1.4}{\csname a:TocLink\endcsname{12}{x12-900006.1.4}{QQ2-12-111}{Funciones de Legendre de segunda especie}}{405}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-90003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.3\else \numberline {6.3}Definición\fi }}{405}\relax 
+\doTocEntry\toclof{6.2}{\csname a:TocLink\endcsname{12}{x12-90008r2}{}{\ignorespaces Primeras seis funciones de Legendre de segunda especie. Nótese el comportamiento asintótico alrededor de los extremos $x = -1$ y $x=1$. Adaptación de \href  {https://github.com/gfrubi/FM2/blob/master/figuras-editables/fig-Legendre.py}{este} código. La adaptación se encuentra \href  {https://github.com/Pedroga-cc/Fisica-Matematica-II/blob/main/Figuras/Plotter_Legendre.py}{aquí}.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-90011}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.2\else \numberline {6.2}Propiedad\fi }}{411}\relax 
+\doTocEntry\tocsection{6.2}{\csname a:TocLink\endcsname{12}{x12-910006.2}{QQ2-12-113}{Ecuación y funciones asociadas de Legendre}}{413}\relax 
+\doTocEntry\tocsubsection{6.2.1}{\csname a:TocLink\endcsname{12}{x12-920006.2.1}{QQ2-12-114}{Resolviendo la ecuación asociada de Legendre}}{414}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-92008}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.4\else \numberline {6.4}Definición\fi }}{419}\relax 
+\doTocEntry\tocsubsection{6.2.2}{\csname a:TocLink\endcsname{12}{x12-930006.2.2}{QQ2-12-115}{Función generatriz}}{420}\relax 
+\doTocEntry\tocsubsection{6.2.3}{\csname a:TocLink\endcsname{12}{x12-940006.2.3}{QQ2-12-116}{Propiedades}}{422}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-94003}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.3\else \numberline {6.3}Propiedad\fi }}{422}\relax 
+\doTocEntry\tocsection{6.3}{\csname a:TocLink\endcsname{12}{x12-950006.3}{QQ2-12-117}{Armónicos Esféricos}}{426}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-95009}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.5\else \numberline {6.5}Definición\fi }}{428}\relax 
+\doTocEntry\tocsubsection{6.3.1}{\csname a:TocLink\endcsname{12}{x12-960006.3.1}{QQ2-12-118}{Propiedades}}{429}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-96003}{}{\ifthmt@listswap Propiedad\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.4\else \numberline {6.4}Propiedad\fi }}{429}\relax 
+\doTocEntry\toclof{6.3}{\csname a:TocLink\endcsname{12}{x12-96021r3}{}{\ignorespaces Descripción geométrica de los ángulos involucrados en el teorema de adición de armónicos esféricos.}}{figure}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-96024}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.3\else \numberline {6.3}Ejemplo\fi }}{435}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{12}{x12-96027}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}x6.4\else \numberline {6.4}Ejemplo\fi }}{437}\relax 
+\doTocEntry\tocappendix{A}{\csname a:TocLink\endcsname{14}{x14-97000A}{QQ2-14-120}{El Método de Separación de Va\-riables}}{445}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{14}{x14-97003}{}{\ifthmt@listswap Definición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}xA.1\else \numberline {A.1}Definición\fi }}{445}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{14}{x14-97008}{}{\ifthmt@listswap Proposición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}xA.1\else \numberline {A.1}Proposición\fi }}{446}\relax 
+\doTocEntry\tocsection{A.1}{\csname a:TocLink\endcsname{14}{x14-98000A.1}{QQ2-14-121}{Resolviendo la ecuación de Helmholtz}}{448}\relax 
+\doTocEntry\tocsubsection{A.1.1}{\csname a:TocLink\endcsname{14}{x14-99000A.1.1}{QQ2-14-122}{Coordenadas cartesianas}}{449}\relax 
+\doTocEntry\tocsubsection{A.1.2}{\csname a:TocLink\endcsname{14}{x14-100000A.1.2}{QQ2-14-123}{Coordenadas cilíndricas}}{453}\relax 
+\doTocEntry\tocsubsection{A.1.3}{\csname a:TocLink\endcsname{14}{x14-101000A.1.3}{QQ2-14-124}{Coordenadas esféricas}}{459}\relax 
+\doTocEntry\tocsection{A.2}{\csname a:TocLink\endcsname{14}{x14-102000A.2}{QQ2-14-125}{El método de series para EDO}}{466}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{14}{x14-102007}{}{\ifthmt@listswap Definición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}xA.2\else \numberline {A.2}Definición\fi }}{468}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{14}{x14-102010}{}{\ifthmt@listswap Definición\nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}xA.3\else \numberline {A.3}Definición\fi }}{468}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{14}{x14-102013}{}{\ifthmt@listswap Proposición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}xA.2\else \numberline {A.2}Proposición\fi }}{469}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{14}{x14-102024}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}xA.1\else \numberline {A.1}Ejemplo\fi }}{471}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{14}{x14-102042}{}{\ifthmt@listswap Ejemplo\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}xA.2\else \numberline {A.2}Ejemplo\fi }}{475}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{14}{x14-102055}{}{\ifthmt@listswap Teorema\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}xA.1\else \numberline {A.1}Teorema\fi \thmtformatoptarg {de Fuchs}}}{479}\relax 
+\doTocEntry\tocloe{}{\csname a:TocLink\endcsname{14}{x14-102060}{}{\ifthmt@listswap Proposición\unhbox \voidb@x \nobreak  \relax \leavevmode \special {t4ht@+&{35}x00A0{59}}xA.3\else \numberline {A.3}Proposición\fi }}{480}\relax 
+\doTocEntry\tocappendix{B}{\csname a:TocLink\endcsname{18}{x18-103000B}{QQ2-18-126}{Coordenadas Curvilíneas Generalizadas}}{489}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{19}{x19-104000}{QQ2-19-127}{Referencias}}{495}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{19}{Q1-19-128}{}{Referencias}}{495}\relax 
+\par 

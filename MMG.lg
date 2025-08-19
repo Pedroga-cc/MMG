@@ -1,0 +1,1716 @@
+htfcss: SourceSansPro-It-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss:  stix-mathcal  font-family: 'STIXMathCalligraphy', serif;
+htfcss: SourceSansPro-Regular-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-Regular-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-It-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-Regular-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-It-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: SourceSansPro-Bold-tlf-t1 font-weight: bold; font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-Regular-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-Regular-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-Regular-tlf-sc-t1 font-variant: small-caps; font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-Regular-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-It-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-Bold-tlf-t1 font-weight: bold; font-name: 'Source Sans Pro', sans-serif
+htfcss: SourceSansPro-Regular-tlf-t1 font-name: 'Source Sans Pro', sans-serif
+File: MMG.html
+File: MMG.css
+File: MMG.tmp
+File: MMGli1.html
+File: MMGli2.html
+File: MMGch1.html
+File: MMGch2.html
+File: MMGch3.html
+File: MMGch4.html
+File: MMG8.html
+File: MMGch5.html
+File: MMG10.html
+File: MMG11.html
+File: MMGch6.html
+File: MMG13.html
+File: MMGap1.html
+File: MMG15.html
+File: MMG16.html
+File: MMG17.html
+File: MMGap2.html
+File: MMGli3.html
+File: MMG.ncx
+File: content.opf
+File: content-part2.opf
+Css: p{margin-top:0;margin-bottom:0}
+Css: p.indent{text-indent:0;}
+Css: p + p{margin-top:1em;}
+Css: p + div, p + pre {margin-top:1em;}
+Css: div + p, pre + p {margin-top:1em;}
+Css: a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: table.tabular{border-collapse: collapse; border-spacing: 0;}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: div.par-math-display, div.math-display{text-align:center;}
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p:first-child{ margin-bottom:0; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: div.newtheorem .head{font-weight: bold;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: pre.verbatim {font-family: monospace,monospace; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: code.verb{font-family:monospace,monospace;}
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 0px; margin:0px; }
+Css: .hline td, .cline td{ padding: 0; }
+Css: .hline hr, .cline hr{border:none;border-top:1px solid black;}
+Css: .hline {border-top: 1px solid black;}
+Css: .hline + .vspace:last-child{display:none;}
+Css: .hline:first-child{border-bottom:1px solid black;border-top:none;}
+Css: .tabbing-right {text-align:right;}
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: .reversemarginpar{float:left;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: .newpage{page-break-before:always;}
+Css: .rotatebox{display: inline-block;}
+Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
+Css: .index-item, .index-subitem, .index-subsubitem {display:block}
+Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: h1.partHead{text-align: center}
+Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: .subsubsectionHead, .likesubsubsectionHead { font-size: 1em; }
+Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+Css: .verse{white-space:nowrap; margin-left:2em}
+Css: div.maketitle {text-align:center;}
+Css: h2.titleHead{text-align:center;}
+Css: div.maketitle{ margin-bottom: 2em; }
+Css: div.author, div.date {text-align:center;}
+Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+Css: div.author{white-space: nowrap;}
+Font_Size: 12
+Css: h1.partHead{text-align: center}
+Css:  .chapterToc, .likechapterToc {margin-left:0em;}
+Css:  .likesectionToc, .sectionToc {margin-left:1em;}
+Css:  .likesubsectionToc, .subsectionToc {margin-left:2em;}
+Css:  .likesubsectionToc, .subsectionToc {margin-left:2em;}
+Css:  .likesubsubsectionToc, .subsubsectionToc {margin-left:3em;}
+Css: .paragraphToc, .likeparagraphToc {margin-left:4em;}
+Css: .subparagraphToc, .likesubparagraphToc {margin-left:5em;}
+Css: .equation td{text-align:center; }
+Css: .equation-star td{text-align:center; }
+Css: table.equation-star { width:100%; }
+Css: table.equation { width:100%; }
+Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
+Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+Css: td.align-label { width:5%; text-align:center; }
+Css: td.align-odd { text-align:right; padding-right:0.3em;}
+Css: td.align-even { text-align:left; padding-right:0.6em;}
+Css: table.multline, table.multline-star {width:100%;}
+Css: td.gather {text-align:center; }
+Css: table.gather {width:100%;}
+Css: div.gather-star {text-align:center;}
+Css: .caption span.id{font-weight: bold;}
+Css:  .wrapfig-r, .wrapfig-ri, .wrapfig-ir, .wrapfig-ro, .wrapfig-or {float:right; text-align:left; margin-left:auto; margin-top:0.5em;} 
+Css:  .wrapfig-l, .wrapfig-li, .wrapfig-il, .wrapfig-lo, .wrapfig-ol {float:left; text-align:left; margin-right:auto; margin-top:0.5em;} 
+Css: .wrapfig-r .caption td.content, .wrapfig-ri .caption td.content, .wrapfig-ir .caption td.content, .wrapfig-ro .caption td.content, .wrapfig-or .caption td.content, .wrapfig-l .caption td.content, .wrapfig-li .caption td.content, .wrapfig-il .caption td.content, .wrapfig-lo .caption td.content, .wrapfig-ol .caption td.content {white-space: normal; }
+Css: .wrapfig-r .caption, .wrapfig-ri .caption, .wrapfig-ir .caption, .wrapfig-ro .caption, .wrapfig-or .caption, .wrapfig-l .caption, .wrapfig-li .caption, .wrapfig-il .caption, .wrapfig-lo .caption, .wrapfig-ol .caption {width:30%; }
+Css: .framedenv{border: 1px solid black;}
+Css: .tcolorbox{margin-top:0.5em;margin-bottom: 0.5em;}
+Css: .tcolorbox .lowerbox{margin-top:0pt;}
+Css: div.verbatiminput {font-family: monospace,monospace; white-space: nowrap; }
+Css: code.lstinline{font-family:monospace,monospace;}
+Css: pre.listings{font-family: monospace,monospace; white-space: pre-wrap; margin-top:0.5em; margin-bottom:0.5em; }
+Css: .lstlisting .label{margin-right:0.5em; }
+Css: pre.lstlisting{font-family: monospace,monospace; white-space: pre-wrap; margin-top:0.5em; margin-bottom:0.5em; }
+Css: pre.lstinputlisting{ font-family: monospace,monospace; white-space: pre-wrap; }
+Css: .lstinputlisting .label{margin-right:0.5em;}
+Css: .cancel{background: linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);}
+Css: .bcancel{background: linear-gradient(to bottom left, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);}
+Css: .xcancel{background: linear-gradient(to bottom left, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%), linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);}
+Css: dl.enumerate-enumitem{display:grid; grid-template-columns: 3ch 1fr; align-items: top; row-gap:1ch;}
+Css: div.subfigure {text-align:center;display:inline-block; max-width:45%;}
+Css: .marginnote{ font-style: italic;} 
+Css:  @media (min-width: 104ch){ .marginnote{ display: block; float: right; width: 12ch; margin-right: -14ch; font-style: normal; }} 
+Css: dt.printshorthands{float:left; clear:left; margin-right:1em;}
+Css: dd.thebibliography {margin-left: 2.5em;}
+Css: dt.thebibliography {float:left; clear:left; margin-right:1em;}
+--- needs --- MMG.idv[2] ==> MMG0x.svg ---
+--- needs --- MMG.idv[4] ==> MMG1x.svg ---
+--- needs --- MMG.idv[6] ==> MMG2x.svg ---
+--- needs --- MMG.idv[8] ==> MMG3x.svg ---
+--- needs --- MMG.idv[10] ==> MMG4x.svg ---
+--- needs --- MMG.idv[12] ==> MMG5x.svg ---
+--- needs --- MMG.idv[13] ==> MMG6x.svg ---
+--- needs --- MMG.idv[15] ==> MMG7x.svg ---
+--- needs --- MMG.idv[16] ==> MMG8x.svg ---
+--- needs --- MMG.idv[18] ==> MMG9x.svg ---
+--- needs --- MMG.idv[20] ==> MMG10x.svg ---
+--- needs --- MMG.idv[22] ==> MMG11x.svg ---
+--- needs --- MMG.idv[24] ==> MMG12x.svg ---
+--- needs --- MMG.idv[26] ==> MMG13x.svg ---
+--- needs --- MMG.idv[27] ==> MMG14x.svg ---
+--- needs --- MMG.idv[28] ==> MMG15x.svg ---
+--- needs --- MMG.idv[29] ==> MMG16x.svg ---
+--- needs --- MMG.idv[31] ==> MMG17x.svg ---
+--- needs --- MMG.idv[32] ==> MMG18x.svg ---
+--- needs --- MMG.idv[33] ==> MMG19x.svg ---
+--- needs --- MMG.idv[35] ==> MMG20x.svg ---
+--- needs --- MMG.idv[37] ==> MMG21x.svg ---
+--- needs --- MMG.idv[39] ==> MMG22x.svg ---
+--- needs --- MMG.idv[41] ==> MMG23x.svg ---
+Css: #tcolobox-1 .tcolorbox-title{color: #FFFFFF; background-color: #205F78;}
+Css: #tcolobox-1 .tcolorbox-content{color: #000000; background-color: #F4FAF9; border: 1px solid #205F78;}
+Css: #tcolobox-1 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
+--- needs --- MMG.idv[43] ==> MMG24x.svg ---
+--- needs --- MMG.idv[44] ==> MMG25x.svg ---
+--- needs --- MMG.idv[46] ==> MMG26x.svg ---
+--- needs --- MMG.idv[48] ==> MMG27x.svg ---
+--- needs --- MMG.idv[50] ==> MMG28x.svg ---
+--- needs --- MMG.idv[52] ==> MMG29x.svg ---
+--- needs --- MMG.idv[53] ==> MMG30x.svg ---
+--- needs --- MMG.idv[54] ==> MMG31x.svg ---
+--- needs --- MMG.idv[56] ==> MMG32x.svg ---
+--- needs --- MMG.idv[58] ==> MMG33x.svg ---
+--- needs --- MMG.idv[60] ==> MMG34x.svg ---
+--- needs --- MMG.idv[62] ==> MMG35x.svg ---
+--- needs --- MMG.idv[63] ==> MMG36x.svg ---
+--- needs --- MMG.idv[64] ==> MMG37x.svg ---
+--- needs --- MMG.idv[65] ==> MMG38x.svg ---
+--- needs --- MMG.idv[66] ==> MMG39x.svg ---
+--- needs --- MMG.idv[67] ==> MMG40x.svg ---
+--- needs --- MMG.idv[68] ==> MMG41x.svg ---
+--- needs --- MMG.idv[69] ==> MMG42x.svg ---
+--- needs --- MMG.idv[70] ==> MMG43x.svg ---
+--- needs --- MMG.idv[71] ==> MMG44x.svg ---
+--- needs --- MMG.idv[72] ==> MMG45x.svg ---
+--- needs --- MMG.idv[74] ==> MMG46x.svg ---
+--- needs --- MMG.idv[76] ==> MMG47x.svg ---
+--- needs --- MMG.idv[78] ==> MMG48x.svg ---
+File: Figuras/Lineas-coordenadas-cilindricas.png
+--- needs --- MMG.idv[80] ==> MMG51x.svg ---
+--- needs --- MMG.idv[81] ==> MMG52x.svg ---
+--- needs --- MMG.idv[83] ==> MMG53x.svg ---
+--- needs --- MMG.idv[85] ==> MMG54x.svg ---
+--- needs --- MMG.idv[87] ==> MMG55x.svg ---
+--- needs --- MMG.idv[88] ==> MMG56x.svg ---
+--- needs --- MMG.idv[89] ==> MMG57x.svg ---
+--- needs --- MMG.idv[90] ==> MMG58x.svg ---
+--- needs --- MMG.idv[91] ==> MMG59x.svg ---
+--- needs --- MMG.idv[92] ==> MMG60x.svg ---
+--- needs --- MMG.idv[93] ==> MMG61x.svg ---
+--- needs --- MMG.idv[94] ==> MMG62x.svg ---
+--- needs --- MMG.idv[95] ==> MMG63x.svg ---
+--- needs --- MMG.idv[96] ==> MMG64x.svg ---
+--- needs --- MMG.idv[97] ==> MMG65x.svg ---
+--- needs --- MMG.idv[98] ==> MMG66x.svg ---
+--- needs --- MMG.idv[99] ==> MMG67x.svg ---
+--- needs --- MMG.idv[100] ==> MMG68x.svg ---
+--- needs --- MMG.idv[101] ==> MMG69x.svg ---
+--- needs --- MMG.idv[103] ==> MMG70x.svg ---
+--- needs --- MMG.idv[105] ==> MMG71x.svg ---
+File: Figuras/Lineas-coordenadas-esfericas.png
+--- needs --- MMG.idv[107] ==> MMG75x.svg ---
+--- needs --- MMG.idv[108] ==> MMG76x.svg ---
+--- needs --- MMG.idv[109] ==> MMG77x.svg ---
+--- needs --- MMG.idv[111] ==> MMG78x.svg ---
+File: Figuras/Gradiente.png
+--- needs --- MMG.idv[113] ==> MMG79x.svg ---
+--- needs --- MMG.idv[115] ==> MMG80x.svg ---
+--- needs --- MMG.idv[117] ==> MMG81x.svg ---
+--- needs --- MMG.idv[118] ==> MMG82x.svg ---
+--- needs --- MMG.idv[119] ==> MMG83x.svg ---
+--- needs --- MMG.idv[120] ==> MMG84x.svg ---
+--- needs --- MMG.idv[122] ==> MMG85x.svg ---
+--- needs --- MMG.idv[123] ==> MMG86x.svg ---
+--- needs --- MMG.idv[125] ==> MMG87x.svg ---
+--- needs --- MMG.idv[126] ==> MMG88x.svg ---
+--- needs --- MMG.idv[127] ==> MMG89x.svg ---
+--- needs --- MMG.idv[128] ==> MMG90x.svg ---
+--- needs --- MMG.idv[130] ==> MMG91x.svg ---
+--- needs --- MMG.idv[132] ==> MMG92x.svg ---
+--- needs --- MMG.idv[133] ==> MMG93x.svg ---
+--- needs --- MMG.idv[134] ==> MMG94x.svg ---
+File: Figuras/Divergence.png
+--- needs --- MMG.idv[136] ==> MMG95x.svg ---
+--- needs --- MMG.idv[137] ==> MMG96x.svg ---
+--- needs --- MMG.idv[138] ==> MMG97x.svg ---
+--- needs --- MMG.idv[140] ==> MMG98x.svg ---
+--- needs --- MMG.idv[142] ==> MMG99x.svg ---
+--- needs --- MMG.idv[143] ==> MMG100x.svg ---
+--- needs --- MMG.idv[144] ==> MMG101x.svg ---
+--- needs --- MMG.idv[145] ==> MMG102x.svg ---
+--- needs --- MMG.idv[147] ==> MMG103x.svg ---
+--- needs --- MMG.idv[149] ==> MMG104x.svg ---
+--- needs --- MMG.idv[151] ==> MMG105x.svg ---
+--- needs --- MMG.idv[153] ==> MMG106x.svg ---
+--- needs --- MMG.idv[154] ==> MMG107x.svg ---
+--- needs --- MMG.idv[155] ==> MMG108x.svg ---
+--- needs --- MMG.idv[156] ==> MMG109x.svg ---
+--- needs --- MMG.idv[157] ==> MMG110x.svg ---
+--- needs --- MMG.idv[159] ==> MMG111x.svg ---
+--- needs --- MMG.idv[160] ==> MMG112x.svg ---
+--- needs --- MMG.idv[161] ==> MMG113x.svg ---
+--- needs --- MMG.idv[162] ==> MMG114x.svg ---
+--- needs --- MMG.idv[163] ==> MMG115x.svg ---
+--- needs --- MMG.idv[164] ==> MMG116x.svg ---
+--- needs --- MMG.idv[165] ==> MMG117x.svg ---
+--- needs --- MMG.idv[166] ==> MMG118x.svg ---
+--- needs --- MMG.idv[167] ==> MMG119x.svg ---
+--- needs --- MMG.idv[169] ==> MMG120x.svg ---
+--- needs --- MMG.idv[170] ==> MMG121x.svg ---
+--- needs --- MMG.idv[171] ==> MMG122x.svg ---
+--- needs --- MMG.idv[173] ==> MMG123x.svg ---
+--- needs --- MMG.idv[174] ==> MMG124x.svg ---
+--- needs --- MMG.idv[175] ==> MMG125x.svg ---
+--- needs --- MMG.idv[176] ==> MMG126x.svg ---
+--- needs --- MMG.idv[178] ==> MMG127x.svg ---
+--- needs --- MMG.idv[179] ==> MMG128x.svg ---
+--- needs --- MMG.idv[180] ==> MMG129x.svg ---
+File: Figuras/Stokes'_Theorem.png
+File: Figuras/Curlorient.png
+--- needs --- MMG.idv[182] ==> MMG132x.svg ---
+--- needs --- MMG.idv[183] ==> MMG133x.svg ---
+--- needs --- MMG.idv[185] ==> MMG134x.svg ---
+--- needs --- MMG.idv[186] ==> MMG135x.svg ---
+--- needs --- MMG.idv[187] ==> MMG136x.svg ---
+--- needs --- MMG.idv[188] ==> MMG137x.svg ---
+--- needs --- MMG.idv[189] ==> MMG138x.svg ---
+--- needs --- MMG.idv[190] ==> MMG139x.svg ---
+--- needs --- MMG.idv[191] ==> MMG140x.svg ---
+--- needs --- MMG.idv[192] ==> MMG141x.svg ---
+--- needs --- MMG.idv[193] ==> MMG142x.svg ---
+File: Figuras/superficie-complicada-2.png
+--- needs --- MMG.idv[194] ==> MMG144x.svg ---
+--- needs --- MMG.idv[196] ==> MMG145x.svg ---
+--- needs --- MMG.idv[197] ==> MMG146x.svg ---
+--- needs --- MMG.idv[198] ==> MMG147x.svg ---
+--- needs --- MMG.idv[199] ==> MMG148x.svg ---
+--- needs --- MMG.idv[200] ==> MMG149x.svg ---
+--- needs --- MMG.idv[201] ==> MMG150x.svg ---
+--- needs --- MMG.idv[202] ==> MMG151x.svg ---
+--- needs --- MMG.idv[203] ==> MMG152x.svg ---
+--- needs --- MMG.idv[205] ==> MMG153x.svg ---
+--- needs --- MMG.idv[206] ==> MMG154x.svg ---
+--- needs --- MMG.idv[207] ==> MMG155x.svg ---
+--- needs --- MMG.idv[208] ==> MMG156x.svg ---
+--- needs --- MMG.idv[209] ==> MMG157x.svg ---
+--- needs --- MMG.idv[210] ==> MMG158x.svg ---
+--- needs --- MMG.idv[211] ==> MMG159x.svg ---
+--- needs --- MMG.idv[212] ==> MMG160x.svg ---
+--- needs --- MMG.idv[213] ==> MMG161x.svg ---
+--- needs --- MMG.idv[214] ==> MMG162x.svg ---
+--- needs --- MMG.idv[215] ==> MMG163x.svg ---
+--- needs --- MMG.idv[216] ==> MMG164x.svg ---
+--- needs --- MMG.idv[217] ==> MMG165x.svg ---
+--- needs --- MMG.idv[218] ==> MMG166x.svg ---
+--- needs --- MMG.idv[219] ==> MMG167x.svg ---
+--- needs --- MMG.idv[220] ==> MMG168x.svg ---
+--- needs --- MMG.idv[221] ==> MMG169x.svg ---
+--- needs --- MMG.idv[222] ==> MMG170x.svg ---
+--- needs --- MMG.idv[223] ==> MMG171x.svg ---
+--- needs --- MMG.idv[224] ==> MMG172x.svg ---
+--- needs --- MMG.idv[225] ==> MMG173x.svg ---
+--- needs --- MMG.idv[226] ==> MMG174x.svg ---
+--- needs --- MMG.idv[227] ==> MMG175x.svg ---
+--- needs --- MMG.idv[228] ==> MMG176x.svg ---
+--- needs --- MMG.idv[229] ==> MMG177x.svg ---
+--- needs --- MMG.idv[230] ==> MMG178x.svg ---
+--- needs --- MMG.idv[231] ==> MMG179x.svg ---
+--- needs --- MMG.idv[232] ==> MMG180x.svg ---
+--- needs --- MMG.idv[233] ==> MMG181x.svg ---
+--- needs --- MMG.idv[234] ==> MMG182x.svg ---
+--- needs --- MMG.idv[236] ==> MMG183x.svg ---
+--- needs --- MMG.idv[237] ==> MMG184x.svg ---
+--- needs --- MMG.idv[239] ==> MMG185x.svg ---
+--- needs --- MMG.idv[240] ==> MMG186x.svg ---
+--- needs --- MMG.idv[241] ==> MMG187x.svg ---
+--- needs --- MMG.idv[242] ==> MMG188x.svg ---
+--- needs --- MMG.idv[243] ==> MMG189x.svg ---
+--- needs --- MMG.idv[244] ==> MMG190x.svg ---
+--- needs --- MMG.idv[245] ==> MMG191x.svg ---
+--- needs --- MMG.idv[246] ==> MMG192x.svg ---
+--- needs --- MMG.idv[247] ==> MMG193x.svg ---
+--- needs --- MMG.idv[248] ==> MMG194x.svg ---
+--- needs --- MMG.idv[249] ==> MMG195x.svg ---
+--- needs --- MMG.idv[250] ==> MMG196x.svg ---
+--- needs --- MMG.idv[251] ==> MMG197x.svg ---
+--- needs --- MMG.idv[252] ==> MMG198x.svg ---
+--- needs --- MMG.idv[253] ==> MMG199x.svg ---
+--- needs --- MMG.idv[254] ==> MMG200x.svg ---
+--- needs --- MMG.idv[255] ==> MMG201x.svg ---
+--- needs --- MMG.idv[256] ==> MMG202x.svg ---
+--- needs --- MMG.idv[258] ==> MMG203x.svg ---
+--- needs --- MMG.idv[259] ==> MMG204x.svg ---
+--- needs --- MMG.idv[260] ==> MMG205x.svg ---
+--- needs --- MMG.idv[261] ==> MMG206x.svg ---
+--- needs --- MMG.idv[262] ==> MMG207x.svg ---
+--- needs --- MMG.idv[263] ==> MMG208x.svg ---
+--- needs --- MMG.idv[264] ==> MMG209x.svg ---
+--- needs --- MMG.idv[265] ==> MMG210x.svg ---
+--- needs --- MMG.idv[266] ==> MMG211x.svg ---
+--- needs --- MMG.idv[267] ==> MMG212x.svg ---
+--- needs --- MMG.idv[268] ==> MMG213x.svg ---
+--- needs --- MMG.idv[269] ==> MMG214x.svg ---
+--- needs --- MMG.idv[271] ==> MMG215x.svg ---
+--- needs --- MMG.idv[272] ==> MMG216x.svg ---
+--- needs --- MMG.idv[273] ==> MMG217x.svg ---
+--- needs --- MMG.idv[274] ==> MMG218x.svg ---
+--- needs --- MMG.idv[275] ==> MMG219x.svg ---
+--- needs --- MMG.idv[276] ==> MMG220x.svg ---
+--- needs --- MMG.idv[278] ==> MMG221x.svg ---
+--- needs --- MMG.idv[279] ==> MMG222x.svg ---
+--- needs --- MMG.idv[280] ==> MMG223x.svg ---
+--- needs --- MMG.idv[281] ==> MMG224x.svg ---
+--- needs --- MMG.idv[282] ==> MMG225x.svg ---
+--- needs --- MMG.idv[283] ==> MMG226x.svg ---
+--- needs --- MMG.idv[284] ==> MMG227x.svg ---
+--- needs --- MMG.idv[285] ==> MMG228x.svg ---
+--- needs --- MMG.idv[286] ==> MMG229x.svg ---
+--- needs --- MMG.idv[287] ==> MMG230x.svg ---
+--- needs --- MMG.idv[288] ==> MMG231x.svg ---
+File: Figuras/fig-rotacion-bases-.png
+--- needs --- MMG.idv[290] ==> MMG232x.svg ---
+--- needs --- MMG.idv[291] ==> MMG233x.svg ---
+--- needs --- MMG.idv[293] ==> MMG234x.svg ---
+--- needs --- MMG.idv[295] ==> MMG235x.svg ---
+--- needs --- MMG.idv[296] ==> MMG236x.svg ---
+--- needs --- MMG.idv[297] ==> MMG237x.svg ---
+--- needs --- MMG.idv[299] ==> MMG238x.svg ---
+--- needs --- MMG.idv[300] ==> MMG239x.svg ---
+--- needs --- MMG.idv[302] ==> MMG240x.svg ---
+--- needs --- MMG.idv[303] ==> MMG241x.svg ---
+--- needs --- MMG.idv[304] ==> MMG242x.svg ---
+--- needs --- MMG.idv[306] ==> MMG243x.svg ---
+--- needs --- MMG.idv[307] ==> MMG244x.svg ---
+--- needs --- MMG.idv[309] ==> MMG245x.svg ---
+--- needs --- MMG.idv[311] ==> MMG246x.svg ---
+--- needs --- MMG.idv[313] ==> MMG247x.svg ---
+--- needs --- MMG.idv[315] ==> MMG248x.svg ---
+--- needs --- MMG.idv[317] ==> MMG249x.svg ---
+--- needs --- MMG.idv[318] ==> MMG250x.svg ---
+--- needs --- MMG.idv[319] ==> MMG251x.svg ---
+--- needs --- MMG.idv[321] ==> MMG252x.svg ---
+--- needs --- MMG.idv[323] ==> MMG253x.svg ---
+--- needs --- MMG.idv[325] ==> MMG254x.svg ---
+--- needs --- MMG.idv[326] ==> MMG255x.svg ---
+--- needs --- MMG.idv[327] ==> MMG256x.svg ---
+--- needs --- MMG.idv[328] ==> MMG257x.svg ---
+--- needs --- MMG.idv[329] ==> MMG258x.svg ---
+--- needs --- MMG.idv[330] ==> MMG259x.svg ---
+--- needs --- MMG.idv[331] ==> MMG260x.svg ---
+--- needs --- MMG.idv[332] ==> MMG261x.svg ---
+--- needs --- MMG.idv[333] ==> MMG262x.svg ---
+--- needs --- MMG.idv[335] ==> MMG263x.svg ---
+--- needs --- MMG.idv[336] ==> MMG264x.svg ---
+--- needs --- MMG.idv[337] ==> MMG265x.svg ---
+--- needs --- MMG.idv[338] ==> MMG266x.svg ---
+--- needs --- MMG.idv[339] ==> MMG267x.svg ---
+--- needs --- MMG.idv[340] ==> MMG268x.svg ---
+--- needs --- MMG.idv[341] ==> MMG269x.svg ---
+--- needs --- MMG.idv[342] ==> MMG270x.svg ---
+--- needs --- MMG.idv[343] ==> MMG271x.svg ---
+--- needs --- MMG.idv[344] ==> MMG272x.svg ---
+--- needs --- MMG.idv[345] ==> MMG273x.svg ---
+--- needs --- MMG.idv[347] ==> MMG274x.svg ---
+--- needs --- MMG.idv[348] ==> MMG275x.svg ---
+--- needs --- MMG.idv[350] ==> MMG276x.svg ---
+--- needs --- MMG.idv[351] ==> MMG277x.svg ---
+--- needs --- MMG.idv[352] ==> MMG278x.svg ---
+--- empty picture --- MMG.idv[352] ---
+--- needs --- MMG.idv[354] ==> MMG279x.svg ---
+--- needs --- MMG.idv[356] ==> MMG280x.svg ---
+--- needs --- MMG.idv[358] ==> MMG281x.svg ---
+--- needs --- MMG.idv[360] ==> MMG282x.svg ---
+--- needs --- MMG.idv[362] ==> MMG283x.svg ---
+--- needs --- MMG.idv[364] ==> MMG284x.svg ---
+--- needs --- MMG.idv[366] ==> MMG285x.svg ---
+--- needs --- MMG.idv[368] ==> MMG286x.svg ---
+--- needs --- MMG.idv[370] ==> MMG287x.svg ---
+--- needs --- MMG.idv[371] ==> MMG288x.svg ---
+--- needs --- MMG.idv[372] ==> MMG289x.svg ---
+--- needs --- MMG.idv[373] ==> MMG290x.svg ---
+--- needs --- MMG.idv[375] ==> MMG291x.svg ---
+--- needs --- MMG.idv[377] ==> MMG292x.svg ---
+--- needs --- MMG.idv[379] ==> MMG293x.svg ---
+--- needs --- MMG.idv[381] ==> MMG294x.svg ---
+--- needs --- MMG.idv[383] ==> MMG295x.svg ---
+--- needs --- MMG.idv[385] ==> MMG296x.svg ---
+--- needs --- MMG.idv[387] ==> MMG297x.svg ---
+--- needs --- MMG.idv[389] ==> MMG298x.svg ---
+--- needs --- MMG.idv[390] ==> MMG299x.svg ---
+--- needs --- MMG.idv[391] ==> MMG300x.svg ---
+--- needs --- MMG.idv[393] ==> MMG301x.svg ---
+--- needs --- MMG.idv[395] ==> MMG302x.svg ---
+--- needs --- MMG.idv[397] ==> MMG303x.svg ---
+--- needs --- MMG.idv[399] ==> MMG304x.svg ---
+--- needs --- MMG.idv[401] ==> MMG305x.svg ---
+--- needs --- MMG.idv[403] ==> MMG306x.svg ---
+--- needs --- MMG.idv[405] ==> MMG307x.svg ---
+--- needs --- MMG.idv[407] ==> MMG308x.svg ---
+--- needs --- MMG.idv[409] ==> MMG309x.svg ---
+--- needs --- MMG.idv[411] ==> MMG310x.svg ---
+--- needs --- MMG.idv[412] ==> MMG311x.svg ---
+--- needs --- MMG.idv[413] ==> MMG312x.svg ---
+--- needs --- MMG.idv[414] ==> MMG313x.svg ---
+--- needs --- MMG.idv[416] ==> MMG314x.svg ---
+--- needs --- MMG.idv[417] ==> MMG315x.svg ---
+--- needs --- MMG.idv[418] ==> MMG316x.svg ---
+--- needs --- MMG.idv[419] ==> MMG317x.svg ---
+--- needs --- MMG.idv[421] ==> MMG318x.svg ---
+--- needs --- MMG.idv[423] ==> MMG319x.svg ---
+--- needs --- MMG.idv[424] ==> MMG320x.svg ---
+--- needs --- MMG.idv[426] ==> MMG321x.svg ---
+--- needs --- MMG.idv[428] ==> MMG322x.svg ---
+--- needs --- MMG.idv[430] ==> MMG323x.svg ---
+--- needs --- MMG.idv[431] ==> MMG324x.svg ---
+--- needs --- MMG.idv[432] ==> MMG325x.svg ---
+--- needs --- MMG.idv[433] ==> MMG326x.svg ---
+--- needs --- MMG.idv[435] ==> MMG327x.svg ---
+--- needs --- MMG.idv[437] ==> MMG328x.svg ---
+--- needs --- MMG.idv[439] ==> MMG329x.svg ---
+--- needs --- MMG.idv[441] ==> MMG330x.svg ---
+--- needs --- MMG.idv[443] ==> MMG331x.svg ---
+--- needs --- MMG.idv[445] ==> MMG332x.svg ---
+--- needs --- MMG.idv[447] ==> MMG333x.svg ---
+--- needs --- MMG.idv[449] ==> MMG334x.svg ---
+--- needs --- MMG.idv[450] ==> MMG335x.svg ---
+--- needs --- MMG.idv[452] ==> MMG336x.svg ---
+--- needs --- MMG.idv[453] ==> MMG337x.svg ---
+--- needs --- MMG.idv[455] ==> MMG338x.svg ---
+--- needs --- MMG.idv[457] ==> MMG339x.svg ---
+--- needs --- MMG.idv[459] ==> MMG340x.svg ---
+--- needs --- MMG.idv[461] ==> MMG341x.svg ---
+--- needs --- MMG.idv[462] ==> MMG342x.svg ---
+--- needs --- MMG.idv[464] ==> MMG343x.svg ---
+--- needs --- MMG.idv[465] ==> MMG344x.svg ---
+--- needs --- MMG.idv[467] ==> MMG345x.svg ---
+--- needs --- MMG.idv[469] ==> MMG346x.svg ---
+--- needs --- MMG.idv[470] ==> MMG347x.svg ---
+--- needs --- MMG.idv[472] ==> MMG348x.svg ---
+--- needs --- MMG.idv[474] ==> MMG349x.svg ---
+--- needs --- MMG.idv[476] ==> MMG350x.svg ---
+--- needs --- MMG.idv[478] ==> MMG351x.svg ---
+--- needs --- MMG.idv[479] ==> MMG352x.svg ---
+--- needs --- MMG.idv[481] ==> MMG353x.svg ---
+--- needs --- MMG.idv[483] ==> MMG354x.svg ---
+--- needs --- MMG.idv[484] ==> MMG355x.svg ---
+--- needs --- MMG.idv[486] ==> MMG356x.svg ---
+--- needs --- MMG.idv[488] ==> MMG357x.svg ---
+--- needs --- MMG.idv[490] ==> MMG358x.svg ---
+--- needs --- MMG.idv[491] ==> MMG359x.svg ---
+--- needs --- MMG.idv[492] ==> MMG360x.svg ---
+--- needs --- MMG.idv[494] ==> MMG361x.svg ---
+--- needs --- MMG.idv[496] ==> MMG362x.svg ---
+--- needs --- MMG.idv[498] ==> MMG363x.svg ---
+--- needs --- MMG.idv[500] ==> MMG364x.svg ---
+--- needs --- MMG.idv[502] ==> MMG365x.svg ---
+--- needs --- MMG.idv[504] ==> MMG366x.svg ---
+--- needs --- MMG.idv[506] ==> MMG367x.svg ---
+--- needs --- MMG.idv[508] ==> MMG368x.svg ---
+--- needs --- MMG.idv[510] ==> MMG369x.svg ---
+--- needs --- MMG.idv[512] ==> MMG370x.svg ---
+--- needs --- MMG.idv[514] ==> MMG371x.svg ---
+--- needs --- MMG.idv[516] ==> MMG372x.svg ---
+--- needs --- MMG.idv[518] ==> MMG373x.svg ---
+--- needs --- MMG.idv[519] ==> MMG374x.svg ---
+--- needs --- MMG.idv[521] ==> MMG375x.svg ---
+--- needs --- MMG.idv[523] ==> MMG376x.svg ---
+--- needs --- MMG.idv[525] ==> MMG377x.svg ---
+--- needs --- MMG.idv[526] ==> MMG378x.svg ---
+--- needs --- MMG.idv[528] ==> MMG379x.svg ---
+--- needs --- MMG.idv[530] ==> MMG380x.svg ---
+--- needs --- MMG.idv[531] ==> MMG381x.svg ---
+--- needs --- MMG.idv[532] ==> MMG382x.svg ---
+--- needs --- MMG.idv[534] ==> MMG383x.svg ---
+--- needs --- MMG.idv[536] ==> MMG384x.svg ---
+--- needs --- MMG.idv[538] ==> MMG385x.svg ---
+--- needs --- MMG.idv[539] ==> MMG386x.svg ---
+--- needs --- MMG.idv[540] ==> MMG387x.svg ---
+--- needs --- MMG.idv[542] ==> MMG388x.svg ---
+--- needs --- MMG.idv[544] ==> MMG389x.svg ---
+--- needs --- MMG.idv[545] ==> MMG390x.svg ---
+--- needs --- MMG.idv[547] ==> MMG391x.svg ---
+--- needs --- MMG.idv[548] ==> MMG392x.svg ---
+--- needs --- MMG.idv[550] ==> MMG393x.svg ---
+--- needs --- MMG.idv[551] ==> MMG394x.svg ---
+--- needs --- MMG.idv[553] ==> MMG395x.svg ---
+--- needs --- MMG.idv[554] ==> MMG396x.svg ---
+--- needs --- MMG.idv[556] ==> MMG397x.svg ---
+--- needs --- MMG.idv[558] ==> MMG398x.svg ---
+--- needs --- MMG.idv[560] ==> MMG399x.svg ---
+--- needs --- MMG.idv[562] ==> MMG400x.svg ---
+--- needs --- MMG.idv[564] ==> MMG401x.svg ---
+--- needs --- MMG.idv[566] ==> MMG402x.svg ---
+--- needs --- MMG.idv[567] ==> MMG403x.svg ---
+--- needs --- MMG.idv[569] ==> MMG404x.svg ---
+--- needs --- MMG.idv[571] ==> MMG405x.svg ---
+--- needs --- MMG.idv[572] ==> MMG406x.svg ---
+--- needs --- MMG.idv[574] ==> MMG407x.svg ---
+--- needs --- MMG.idv[575] ==> MMG408x.svg ---
+--- needs --- MMG.idv[576] ==> MMG409x.svg ---
+--- needs --- MMG.idv[577] ==> MMG410x.svg ---
+--- needs --- MMG.idv[578] ==> MMG411x.svg ---
+--- needs --- MMG.idv[579] ==> MMG412x.svg ---
+--- needs --- MMG.idv[580] ==> MMG413x.svg ---
+--- needs --- MMG.idv[581] ==> MMG414x.svg ---
+--- needs --- MMG.idv[582] ==> MMG415x.svg ---
+--- needs --- MMG.idv[583] ==> MMG416x.svg ---
+--- needs --- MMG.idv[584] ==> MMG417x.svg ---
+--- needs --- MMG.idv[586] ==> MMG418x.svg ---
+--- needs --- MMG.idv[588] ==> MMG419x.svg ---
+Css: #tcolobox-2 .tcolorbox-title{color: #FFFFFF; background-color: #205F78;}
+Css: #tcolobox-2 .tcolorbox-content{color: #000000; background-color: #F4FAF9; border: 1px solid #205F78;}
+Css: #tcolobox-2 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
+--- needs --- MMG.idv[590] ==> MMG420x.svg ---
+--- needs --- MMG.idv[592] ==> MMG421x.svg ---
+--- needs --- MMG.idv[593] ==> MMG422x.svg ---
+--- needs --- MMG.idv[594] ==> MMG423x.svg ---
+--- needs --- MMG.idv[595] ==> MMG424x.svg ---
+--- needs --- MMG.idv[597] ==> MMG425x.svg ---
+--- needs --- MMG.idv[599] ==> MMG426x.svg ---
+--- needs --- MMG.idv[601] ==> MMG427x.svg ---
+--- needs --- MMG.idv[603] ==> MMG428x.svg ---
+--- needs --- MMG.idv[605] ==> MMG429x.svg ---
+--- needs --- MMG.idv[607] ==> MMG430x.svg ---
+--- needs --- MMG.idv[609] ==> MMG431x.svg ---
+--- needs --- MMG.idv[611] ==> MMG432x.svg ---
+--- needs --- MMG.idv[612] ==> MMG433x.svg ---
+--- needs --- MMG.idv[614] ==> MMG434x.svg ---
+--- needs --- MMG.idv[615] ==> MMG435x.svg ---
+--- needs --- MMG.idv[616] ==> MMG436x.svg ---
+--- needs --- MMG.idv[617] ==> MMG437x.svg ---
+--- needs --- MMG.idv[618] ==> MMG438x.svg ---
+--- needs --- MMG.idv[619] ==> MMG439x.svg ---
+--- needs --- MMG.idv[620] ==> MMG440x.svg ---
+--- needs --- MMG.idv[621] ==> MMG441x.svg ---
+--- needs --- MMG.idv[622] ==> MMG442x.svg ---
+--- needs --- MMG.idv[623] ==> MMG443x.svg ---
+--- needs --- MMG.idv[624] ==> MMG444x.svg ---
+--- needs --- MMG.idv[625] ==> MMG445x.svg ---
+--- needs --- MMG.idv[626] ==> MMG446x.svg ---
+--- needs --- MMG.idv[627] ==> MMG447x.svg ---
+--- needs --- MMG.idv[628] ==> MMG448x.svg ---
+--- needs --- MMG.idv[630] ==> MMG449x.svg ---
+--- needs --- MMG.idv[632] ==> MMG450x.svg ---
+--- needs --- MMG.idv[634] ==> MMG451x.svg ---
+--- needs --- MMG.idv[636] ==> MMG452x.svg ---
+--- needs --- MMG.idv[638] ==> MMG453x.svg ---
+--- needs --- MMG.idv[639] ==> MMG454x.svg ---
+--- needs --- MMG.idv[640] ==> MMG455x.svg ---
+--- needs --- MMG.idv[641] ==> MMG456x.svg ---
+--- needs --- MMG.idv[642] ==> MMG457x.svg ---
+--- needs --- MMG.idv[643] ==> MMG458x.svg ---
+--- needs --- MMG.idv[644] ==> MMG459x.svg ---
+--- needs --- MMG.idv[645] ==> MMG460x.svg ---
+--- needs --- MMG.idv[647] ==> MMG461x.svg ---
+--- needs --- MMG.idv[648] ==> MMG462x.svg ---
+--- needs --- MMG.idv[650] ==> MMG463x.svg ---
+--- needs --- MMG.idv[652] ==> MMG464x.svg ---
+--- needs --- MMG.idv[653] ==> MMG465x.svg ---
+--- needs --- MMG.idv[654] ==> MMG466x.svg ---
+--- needs --- MMG.idv[655] ==> MMG467x.svg ---
+--- needs --- MMG.idv[656] ==> MMG468x.svg ---
+--- needs --- MMG.idv[657] ==> MMG469x.svg ---
+--- needs --- MMG.idv[658] ==> MMG470x.svg ---
+--- needs --- MMG.idv[659] ==> MMG471x.svg ---
+--- needs --- MMG.idv[661] ==> MMG472x.svg ---
+--- needs --- MMG.idv[662] ==> MMG473x.svg ---
+--- needs --- MMG.idv[663] ==> MMG474x.svg ---
+--- needs --- MMG.idv[664] ==> MMG475x.svg ---
+--- needs --- MMG.idv[665] ==> MMG476x.svg ---
+--- needs --- MMG.idv[666] ==> MMG477x.svg ---
+--- needs --- MMG.idv[667] ==> MMG478x.svg ---
+--- needs --- MMG.idv[669] ==> MMG479x.svg ---
+--- needs --- MMG.idv[670] ==> MMG480x.svg ---
+--- needs --- MMG.idv[671] ==> MMG481x.svg ---
+--- needs --- MMG.idv[672] ==> MMG482x.svg ---
+--- needs --- MMG.idv[673] ==> MMG483x.svg ---
+--- needs --- MMG.idv[674] ==> MMG484x.svg ---
+--- needs --- MMG.idv[675] ==> MMG485x.svg ---
+--- needs --- MMG.idv[677] ==> MMG486x.svg ---
+--- needs --- MMG.idv[679] ==> MMG487x.svg ---
+--- needs --- MMG.idv[680] ==> MMG488x.svg ---
+--- needs --- MMG.idv[682] ==> MMG489x.svg ---
+--- needs --- MMG.idv[684] ==> MMG490x.svg ---
+--- needs --- MMG.idv[686] ==> MMG491x.svg ---
+--- needs --- MMG.idv[688] ==> MMG492x.svg ---
+--- needs --- MMG.idv[690] ==> MMG493x.svg ---
+--- needs --- MMG.idv[692] ==> MMG494x.svg ---
+--- needs --- MMG.idv[694] ==> MMG495x.svg ---
+--- needs --- MMG.idv[696] ==> MMG496x.svg ---
+--- needs --- MMG.idv[698] ==> MMG497x.svg ---
+--- needs --- MMG.idv[699] ==> MMG498x.svg ---
+--- needs --- MMG.idv[700] ==> MMG499x.svg ---
+--- needs --- MMG.idv[701] ==> MMG500x.svg ---
+--- needs --- MMG.idv[703] ==> MMG501x.svg ---
+--- needs --- MMG.idv[705] ==> MMG502x.svg ---
+--- needs --- MMG.idv[707] ==> MMG503x.svg ---
+Css: #tcolobox-3 .tcolorbox-title{color: #FFFFFF; background-color: #205F78;}
+Css: #tcolobox-3 .tcolorbox-content{color: #000000; background-color: #F4FAF9; border: 1px solid #205F78;}
+Css: #tcolobox-3 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
+--- needs --- MMG.idv[709] ==> MMG504x.svg ---
+--- needs --- MMG.idv[711] ==> MMG505x.svg ---
+--- needs --- MMG.idv[713] ==> MMG506x.svg ---
+--- needs --- MMG.idv[714] ==> MMG507x.svg ---
+--- needs --- MMG.idv[716] ==> MMG508x.svg ---
+--- needs --- MMG.idv[717] ==> MMG509x.svg ---
+--- needs --- MMG.idv[719] ==> MMG510x.svg ---
+--- needs --- MMG.idv[721] ==> MMG511x.svg ---
+--- needs --- MMG.idv[723] ==> MMG512x.svg ---
+--- needs --- MMG.idv[725] ==> MMG513x.svg ---
+--- needs --- MMG.idv[726] ==> MMG514x.svg ---
+--- needs --- MMG.idv[728] ==> MMG515x.svg ---
+--- needs --- MMG.idv[730] ==> MMG516x.svg ---
+--- needs --- MMG.idv[732] ==> MMG517x.svg ---
+--- needs --- MMG.idv[733] ==> MMG518x.svg ---
+--- needs --- MMG.idv[735] ==> MMG519x.svg ---
+--- needs --- MMG.idv[737] ==> MMG520x.svg ---
+--- needs --- MMG.idv[739] ==> MMG521x.svg ---
+--- needs --- MMG.idv[740] ==> MMG522x.svg ---
+--- needs --- MMG.idv[741] ==> MMG523x.svg ---
+--- needs --- MMG.idv[742] ==> MMG524x.svg ---
+--- needs --- MMG.idv[743] ==> MMG525x.svg ---
+--- needs --- MMG.idv[744] ==> MMG526x.svg ---
+--- needs --- MMG.idv[745] ==> MMG527x.svg ---
+--- needs --- MMG.idv[746] ==> MMG528x.svg ---
+--- needs --- MMG.idv[747] ==> MMG529x.svg ---
+--- needs --- MMG.idv[748] ==> MMG530x.svg ---
+--- needs --- MMG.idv[749] ==> MMG531x.svg ---
+--- needs --- MMG.idv[750] ==> MMG532x.svg ---
+--- needs --- MMG.idv[752] ==> MMG533x.svg ---
+--- needs --- MMG.idv[754] ==> MMG534x.svg ---
+--- needs --- MMG.idv[756] ==> MMG535x.svg ---
+--- needs --- MMG.idv[758] ==> MMG536x.svg ---
+--- needs --- MMG.idv[760] ==> MMG537x.svg ---
+--- needs --- MMG.idv[762] ==> MMG538x.svg ---
+--- needs --- MMG.idv[764] ==> MMG539x.svg ---
+--- needs --- MMG.idv[766] ==> MMG540x.svg ---
+--- needs --- MMG.idv[767] ==> MMG541x.svg ---
+--- needs --- MMG.idv[769] ==> MMG542x.svg ---
+--- needs --- MMG.idv[771] ==> MMG543x.svg ---
+--- needs --- MMG.idv[773] ==> MMG544x.svg ---
+--- needs --- MMG.idv[775] ==> MMG545x.svg ---
+--- needs --- MMG.idv[777] ==> MMG546x.svg ---
+--- needs --- MMG.idv[778] ==> MMG547x.svg ---
+--- empty picture --- MMG.idv[778] ---
+--- needs --- MMG.idv[780] ==> MMG548x.svg ---
+--- needs --- MMG.idv[782] ==> MMG549x.svg ---
+--- needs --- MMG.idv[784] ==> MMG550x.svg ---
+--- needs --- MMG.idv[786] ==> MMG551x.svg ---
+--- needs --- MMG.idv[788] ==> MMG552x.svg ---
+--- needs --- MMG.idv[789] ==> MMG553x.svg ---
+--- needs --- MMG.idv[791] ==> MMG554x.svg ---
+--- needs --- MMG.idv[793] ==> MMG555x.svg ---
+--- needs --- MMG.idv[794] ==> MMG556x.svg ---
+--- needs --- MMG.idv[795] ==> MMG557x.svg ---
+--- needs --- MMG.idv[796] ==> MMG558x.svg ---
+--- needs --- MMG.idv[798] ==> MMG559x.svg ---
+--- needs --- MMG.idv[800] ==> MMG560x.svg ---
+--- needs --- MMG.idv[801] ==> MMG561x.svg ---
+--- needs --- MMG.idv[803] ==> MMG562x.svg ---
+--- needs --- MMG.idv[805] ==> MMG563x.svg ---
+File: Figuras/Periocidad-.png
+--- needs --- MMG.idv[807] ==> MMG564x.svg ---
+--- needs --- MMG.idv[809] ==> MMG565x.svg ---
+Css: #tcolobox-4 .tcolorbox-title{color: #FFFFFF; background-color: #205F78;}
+Css: #tcolobox-4 .tcolorbox-content{color: #000000; background-color: #F4FAF9; border: 1px solid #205F78;}
+Css: #tcolobox-4 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
+--- needs --- MMG.idv[811] ==> MMG566x.svg ---
+--- needs --- MMG.idv[813] ==> MMG567x.svg ---
+File: Figuras/Paridad-.png
+--- needs --- MMG.idv[815] ==> MMG568x.svg ---
+--- needs --- MMG.idv[817] ==> MMG569x.svg ---
+--- needs --- MMG.idv[819] ==> MMG570x.svg ---
+--- needs --- MMG.idv[821] ==> MMG571x.svg ---
+--- needs --- MMG.idv[822] ==> MMG572x.svg ---
+--- needs --- MMG.idv[823] ==> MMG573x.svg ---
+--- needs --- MMG.idv[824] ==> MMG574x.svg ---
+--- needs --- MMG.idv[825] ==> MMG575x.svg ---
+--- needs --- MMG.idv[827] ==> MMG576x.svg ---
+--- needs --- MMG.idv[828] ==> MMG577x.svg ---
+--- needs --- MMG.idv[829] ==> MMG578x.svg ---
+--- needs --- MMG.idv[830] ==> MMG579x.svg ---
+--- needs --- MMG.idv[831] ==> MMG580x.svg ---
+--- needs --- MMG.idv[832] ==> MMG581x.svg ---
+--- needs --- MMG.idv[833] ==> MMG582x.svg ---
+--- needs --- MMG.idv[834] ==> MMG583x.svg ---
+--- needs --- MMG.idv[835] ==> MMG584x.svg ---
+--- needs --- MMG.idv[836] ==> MMG585x.svg ---
+--- needs --- MMG.idv[837] ==> MMG586x.svg ---
+--- needs --- MMG.idv[838] ==> MMG587x.svg ---
+File: Figuras/EjemploFourier1-.png
+--- needs --- MMG.idv[840] ==> MMG588x.svg ---
+--- needs --- MMG.idv[841] ==> MMG589x.svg ---
+--- needs --- MMG.idv[842] ==> MMG590x.svg ---
+--- needs --- MMG.idv[843] ==> MMG591x.svg ---
+--- needs --- MMG.idv[844] ==> MMG592x.svg ---
+--- needs --- MMG.idv[845] ==> MMG593x.svg ---
+--- needs --- MMG.idv[846] ==> MMG594x.svg ---
+--- needs --- MMG.idv[847] ==> MMG595x.svg ---
+--- needs --- MMG.idv[848] ==> MMG596x.svg ---
+--- needs --- MMG.idv[849] ==> MMG597x.svg ---
+--- needs --- MMG.idv[850] ==> MMG598x.svg ---
+--- needs --- MMG.idv[851] ==> MMG599x.svg ---
+--- needs --- MMG.idv[852] ==> MMG600x.svg ---
+--- needs --- MMG.idv[853] ==> MMG601x.svg ---
+--- needs --- MMG.idv[854] ==> MMG602x.svg ---
+--- needs --- MMG.idv[856] ==> MMG603x.svg ---
+--- needs --- MMG.idv[857] ==> MMG604x.svg ---
+--- needs --- MMG.idv[858] ==> MMG605x.svg ---
+--- needs --- MMG.idv[860] ==> MMG606x.svg ---
+--- needs --- MMG.idv[861] ==> MMG607x.svg ---
+--- needs --- MMG.idv[862] ==> MMG608x.svg ---
+--- needs --- MMG.idv[863] ==> MMG609x.svg ---
+--- needs --- MMG.idv[864] ==> MMG610x.svg ---
+--- needs --- MMG.idv[865] ==> MMG611x.svg ---
+--- needs --- MMG.idv[866] ==> MMG612x.svg ---
+--- needs --- MMG.idv[868] ==> MMG613x.svg ---
+--- needs --- MMG.idv[869] ==> MMG614x.svg ---
+--- needs --- MMG.idv[870] ==> MMG615x.svg ---
+--- needs --- MMG.idv[872] ==> MMG616x.svg ---
+--- needs --- MMG.idv[873] ==> MMG617x.svg ---
+--- needs --- MMG.idv[874] ==> MMG618x.svg ---
+--- needs --- MMG.idv[875] ==> MMG619x.svg ---
+--- needs --- MMG.idv[876] ==> MMG620x.svg ---
+--- needs --- MMG.idv[877] ==> MMG621x.svg ---
+--- needs --- MMG.idv[878] ==> MMG622x.svg ---
+--- needs --- MMG.idv[879] ==> MMG623x.svg ---
+--- needs --- MMG.idv[880] ==> MMG624x.svg ---
+--- needs --- MMG.idv[882] ==> MMG625x.svg ---
+File: Figuras/EjemploFourier2-.png
+--- needs --- MMG.idv[884] ==> MMG626x.svg ---
+--- needs --- MMG.idv[886] ==> MMG627x.svg ---
+--- needs --- MMG.idv[887] ==> MMG628x.svg ---
+--- needs --- MMG.idv[889] ==> MMG629x.svg ---
+--- needs --- MMG.idv[891] ==> MMG630x.svg ---
+--- needs --- MMG.idv[893] ==> MMG631x.svg ---
+--- needs --- MMG.idv[894] ==> MMG632x.svg ---
+--- needs --- MMG.idv[895] ==> MMG633x.svg ---
+--- needs --- MMG.idv[896] ==> MMG634x.svg ---
+--- needs --- MMG.idv[897] ==> MMG635x.svg ---
+--- needs --- MMG.idv[898] ==> MMG636x.svg ---
+--- needs --- MMG.idv[899] ==> MMG637x.svg ---
+--- needs --- MMG.idv[900] ==> MMG638x.svg ---
+--- needs --- MMG.idv[901] ==> MMG639x.svg ---
+--- needs --- MMG.idv[902] ==> MMG640x.svg ---
+--- needs --- MMG.idv[904] ==> MMG641x.svg ---
+--- needs --- MMG.idv[905] ==> MMG642x.svg ---
+--- needs --- MMG.idv[907] ==> MMG643x.svg ---
+--- needs --- MMG.idv[909] ==> MMG644x.svg ---
+--- needs --- MMG.idv[911] ==> MMG645x.svg ---
+--- needs --- MMG.idv[912] ==> MMG646x.svg ---
+--- needs --- MMG.idv[914] ==> MMG647x.svg ---
+File: Figuras/Espectro1-.png
+--- needs --- MMG.idv[916] ==> MMG648x.svg ---
+--- needs --- MMG.idv[917] ==> MMG649x.svg ---
+File: Figuras/Espectro2-.png
+--- needs --- MMG.idv[919] ==> MMG650x.svg ---
+--- needs --- MMG.idv[921] ==> MMG651x.svg ---
+--- needs --- MMG.idv[922] ==> MMG652x.svg ---
+--- needs --- MMG.idv[923] ==> MMG653x.svg ---
+--- needs --- MMG.idv[924] ==> MMG654x.svg ---
+--- needs --- MMG.idv[925] ==> MMG655x.svg ---
+--- needs --- MMG.idv[926] ==> MMG656x.svg ---
+--- needs --- MMG.idv[927] ==> MMG657x.svg ---
+--- needs --- MMG.idv[928] ==> MMG658x.svg ---
+--- needs --- MMG.idv[929] ==> MMG659x.svg ---
+--- needs --- MMG.idv[931] ==> MMG660x.svg ---
+--- needs --- MMG.idv[933] ==> MMG661x.svg ---
+Css: #tcolobox-5 .tcolorbox-title{color: #FFFFFF; background-color: #205F78;}
+Css: #tcolobox-5 .tcolorbox-content{color: #000000; background-color: #F4FAF9; border: 1px solid #205F78;}
+Css: #tcolobox-5 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
+--- needs --- MMG.idv[935] ==> MMG662x.svg ---
+--- needs --- MMG.idv[936] ==> MMG663x.svg ---
+--- needs --- MMG.idv[937] ==> MMG664x.svg ---
+--- needs --- MMG.idv[938] ==> MMG665x.svg ---
+--- needs --- MMG.idv[940] ==> MMG666x.svg ---
+--- needs --- MMG.idv[941] ==> MMG667x.svg ---
+--- needs --- MMG.idv[942] ==> MMG668x.svg ---
+--- needs --- MMG.idv[943] ==> MMG669x.svg ---
+--- needs --- MMG.idv[944] ==> MMG670x.svg ---
+--- needs --- MMG.idv[945] ==> MMG671x.svg ---
+--- needs --- MMG.idv[946] ==> MMG672x.svg ---
+--- needs --- MMG.idv[947] ==> MMG673x.svg ---
+--- needs --- MMG.idv[948] ==> MMG674x.svg ---
+--- needs --- MMG.idv[949] ==> MMG675x.svg ---
+--- needs --- MMG.idv[950] ==> MMG676x.svg ---
+--- needs --- MMG.idv[951] ==> MMG677x.svg ---
+--- needs --- MMG.idv[952] ==> MMG678x.svg ---
+--- needs --- MMG.idv[953] ==> MMG679x.svg ---
+--- needs --- MMG.idv[954] ==> MMG680x.svg ---
+--- needs --- MMG.idv[955] ==> MMG681x.svg ---
+--- needs --- MMG.idv[956] ==> MMG682x.svg ---
+--- needs --- MMG.idv[957] ==> MMG683x.svg ---
+--- needs --- MMG.idv[958] ==> MMG684x.svg ---
+--- needs --- MMG.idv[959] ==> MMG685x.svg ---
+--- needs --- MMG.idv[960] ==> MMG686x.svg ---
+--- needs --- MMG.idv[961] ==> MMG687x.svg ---
+--- needs --- MMG.idv[962] ==> MMG688x.svg ---
+--- needs --- MMG.idv[963] ==> MMG689x.svg ---
+--- needs --- MMG.idv[964] ==> MMG690x.svg ---
+--- needs --- MMG.idv[965] ==> MMG691x.svg ---
+--- needs --- MMG.idv[966] ==> MMG692x.svg ---
+--- needs --- MMG.idv[968] ==> MMG693x.svg ---
+--- needs --- MMG.idv[969] ==> MMG694x.svg ---
+--- needs --- MMG.idv[970] ==> MMG695x.svg ---
+--- needs --- MMG.idv[971] ==> MMG696x.svg ---
+--- needs --- MMG.idv[973] ==> MMG697x.svg ---
+--- needs --- MMG.idv[974] ==> MMG698x.svg ---
+--- needs --- MMG.idv[976] ==> MMG699x.svg ---
+--- needs --- MMG.idv[977] ==> MMG700x.svg ---
+Css: #tcolobox-6 .tcolorbox-title{color: #FFFFFF; background-color: #205F78;}
+Css: #tcolobox-6 .tcolorbox-content{color: #000000; background-color: #F4FAF9; border: 1px solid #205F78;}
+Css: #tcolobox-6 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
+--- needs --- MMG.idv[979] ==> MMG701x.svg ---
+--- needs --- MMG.idv[981] ==> MMG702x.svg ---
+--- needs --- MMG.idv[982] ==> MMG703x.svg ---
+--- needs --- MMG.idv[983] ==> MMG704x.svg ---
+--- needs --- MMG.idv[984] ==> MMG705x.svg ---
+--- needs --- MMG.idv[985] ==> MMG706x.svg ---
+--- needs --- MMG.idv[986] ==> MMG707x.svg ---
+--- needs --- MMG.idv[987] ==> MMG708x.svg ---
+--- needs --- MMG.idv[988] ==> MMG709x.svg ---
+--- needs --- MMG.idv[989] ==> MMG710x.svg ---
+File: Figuras/EjemploTransformada1-.png
+--- needs --- MMG.idv[991] ==> MMG711x.svg ---
+--- needs --- MMG.idv[992] ==> MMG712x.svg ---
+--- needs --- MMG.idv[994] ==> MMG713x.svg ---
+--- needs --- MMG.idv[995] ==> MMG714x.svg ---
+--- needs --- MMG.idv[996] ==> MMG715x.svg ---
+--- needs --- MMG.idv[997] ==> MMG716x.svg ---
+--- needs --- MMG.idv[998] ==> MMG717x.svg ---
+--- needs --- MMG.idv[999] ==> MMG718x.svg ---
+--- needs --- MMG.idv[1000] ==> MMG719x.svg ---
+--- needs --- MMG.idv[1002] ==> MMG720x.svg ---
+--- needs --- MMG.idv[1003] ==> MMG721x.svg ---
+--- needs --- MMG.idv[1005] ==> MMG722x.svg ---
+File: Figuras/EjemploTransformada2-.png
+File: Figuras/EjemploTransformada3-.png
+--- needs --- MMG.idv[1007] ==> MMG723x.svg ---
+--- needs --- MMG.idv[1009] ==> MMG724x.svg ---
+--- needs --- MMG.idv[1010] ==> MMG725x.svg ---
+--- needs --- MMG.idv[1011] ==> MMG726x.svg ---
+--- needs --- MMG.idv[1013] ==> MMG727x.svg ---
+--- needs --- MMG.idv[1014] ==> MMG728x.svg ---
+--- needs --- MMG.idv[1015] ==> MMG729x.svg ---
+--- needs --- MMG.idv[1016] ==> MMG730x.svg ---
+--- needs --- MMG.idv[1017] ==> MMG731x.svg ---
+--- needs --- MMG.idv[1019] ==> MMG732x.svg ---
+--- needs --- MMG.idv[1020] ==> MMG733x.svg ---
+--- needs --- MMG.idv[1021] ==> MMG734x.svg ---
+--- needs --- MMG.idv[1022] ==> MMG735x.svg ---
+--- needs --- MMG.idv[1023] ==> MMG736x.svg ---
+--- needs --- MMG.idv[1024] ==> MMG737x.svg ---
+--- needs --- MMG.idv[1026] ==> MMG738x.svg ---
+--- needs --- MMG.idv[1027] ==> MMG739x.svg ---
+--- needs --- MMG.idv[1028] ==> MMG740x.svg ---
+--- needs --- MMG.idv[1029] ==> MMG741x.svg ---
+--- needs --- MMG.idv[1030] ==> MMG742x.svg ---
+--- needs --- MMG.idv[1032] ==> MMG743x.svg ---
+--- needs --- MMG.idv[1033] ==> MMG744x.svg ---
+--- needs --- MMG.idv[1035] ==> MMG745x.svg ---
+--- needs --- MMG.idv[1036] ==> MMG746x.svg ---
+--- needs --- MMG.idv[1037] ==> MMG747x.svg ---
+--- needs --- MMG.idv[1038] ==> MMG748x.svg ---
+--- needs --- MMG.idv[1039] ==> MMG749x.svg ---
+--- needs --- MMG.idv[1040] ==> MMG750x.svg ---
+--- needs --- MMG.idv[1041] ==> MMG751x.svg ---
+--- needs --- MMG.idv[1042] ==> MMG752x.svg ---
+--- needs --- MMG.idv[1044] ==> MMG753x.svg ---
+--- needs --- MMG.idv[1045] ==> MMG754x.svg ---
+--- needs --- MMG.idv[1046] ==> MMG755x.svg ---
+--- needs --- MMG.idv[1047] ==> MMG756x.svg ---
+--- needs --- MMG.idv[1048] ==> MMG757x.svg ---
+--- needs --- MMG.idv[1049] ==> MMG758x.svg ---
+--- needs --- MMG.idv[1051] ==> MMG759x.svg ---
+--- needs --- MMG.idv[1053] ==> MMG760x.svg ---
+--- needs --- MMG.idv[1054] ==> MMG761x.svg ---
+--- needs --- MMG.idv[1055] ==> MMG762x.svg ---
+--- needs --- MMG.idv[1056] ==> MMG763x.svg ---
+--- needs --- MMG.idv[1057] ==> MMG764x.svg ---
+--- needs --- MMG.idv[1058] ==> MMG765x.svg ---
+--- needs --- MMG.idv[1059] ==> MMG766x.svg ---
+--- needs --- MMG.idv[1060] ==> MMG767x.svg ---
+--- needs --- MMG.idv[1061] ==> MMG768x.svg ---
+--- needs --- MMG.idv[1063] ==> MMG769x.svg ---
+--- needs --- MMG.idv[1064] ==> MMG770x.svg ---
+--- needs --- MMG.idv[1065] ==> MMG771x.svg ---
+--- needs --- MMG.idv[1066] ==> MMG772x.svg ---
+--- needs --- MMG.idv[1068] ==> MMG773x.svg ---
+--- needs --- MMG.idv[1069] ==> MMG774x.svg ---
+--- needs --- MMG.idv[1070] ==> MMG775x.svg ---
+--- needs --- MMG.idv[1071] ==> MMG776x.svg ---
+--- needs --- MMG.idv[1073] ==> MMG777x.svg ---
+--- needs --- MMG.idv[1074] ==> MMG778x.svg ---
+--- needs --- MMG.idv[1075] ==> MMG779x.svg ---
+--- needs --- MMG.idv[1077] ==> MMG780x.svg ---
+--- needs --- MMG.idv[1078] ==> MMG781x.svg ---
+--- needs --- MMG.idv[1080] ==> MMG782x.svg ---
+--- needs --- MMG.idv[1081] ==> MMG783x.svg ---
+--- needs --- MMG.idv[1082] ==> MMG784x.svg ---
+--- needs --- MMG.idv[1083] ==> MMG785x.svg ---
+--- needs --- MMG.idv[1085] ==> MMG786x.svg ---
+--- needs --- MMG.idv[1086] ==> MMG787x.svg ---
+--- needs --- MMG.idv[1087] ==> MMG788x.svg ---
+--- needs --- MMG.idv[1088] ==> MMG789x.svg ---
+--- needs --- MMG.idv[1089] ==> MMG790x.svg ---
+--- needs --- MMG.idv[1090] ==> MMG791x.svg ---
+--- needs --- MMG.idv[1091] ==> MMG792x.svg ---
+--- needs --- MMG.idv[1092] ==> MMG793x.svg ---
+--- needs --- MMG.idv[1093] ==> MMG794x.svg ---
+--- needs --- MMG.idv[1094] ==> MMG795x.svg ---
+--- needs --- MMG.idv[1095] ==> MMG796x.svg ---
+--- needs --- MMG.idv[1096] ==> MMG797x.svg ---
+--- needs --- MMG.idv[1098] ==> MMG798x.svg ---
+--- needs --- MMG.idv[1100] ==> MMG799x.svg ---
+--- needs --- MMG.idv[1102] ==> MMG800x.svg ---
+--- needs --- MMG.idv[1103] ==> MMG801x.svg ---
+--- needs --- MMG.idv[1104] ==> MMG802x.svg ---
+--- needs --- MMG.idv[1105] ==> MMG803x.svg ---
+--- needs --- MMG.idv[1106] ==> MMG804x.svg ---
+--- needs --- MMG.idv[1107] ==> MMG805x.svg ---
+--- needs --- MMG.idv[1108] ==> MMG806x.svg ---
+--- needs --- MMG.idv[1109] ==> MMG807x.svg ---
+--- needs --- MMG.idv[1110] ==> MMG808x.svg ---
+--- needs --- MMG.idv[1111] ==> MMG809x.svg ---
+--- needs --- MMG.idv[1112] ==> MMG810x.svg ---
+--- needs --- MMG.idv[1114] ==> MMG811x.svg ---
+--- needs --- MMG.idv[1115] ==> MMG812x.svg ---
+--- needs --- MMG.idv[1117] ==> MMG813x.svg ---
+--- needs --- MMG.idv[1119] ==> MMG814x.svg ---
+--- needs --- MMG.idv[1120] ==> MMG815x.svg ---
+--- needs --- MMG.idv[1121] ==> MMG816x.svg ---
+--- needs --- MMG.idv[1123] ==> MMG817x.svg ---
+--- needs --- MMG.idv[1125] ==> MMG818x.svg ---
+--- needs --- MMG.idv[1127] ==> MMG819x.svg ---
+--- needs --- MMG.idv[1129] ==> MMG820x.svg ---
+--- needs --- MMG.idv[1131] ==> MMG821x.svg ---
+--- needs --- MMG.idv[1133] ==> MMG822x.svg ---
+--- needs --- MMG.idv[1135] ==> MMG823x.svg ---
+--- needs --- MMG.idv[1137] ==> MMG824x.svg ---
+--- needs --- MMG.idv[1139] ==> MMG825x.svg ---
+--- needs --- MMG.idv[1141] ==> MMG826x.svg ---
+--- needs --- MMG.idv[1143] ==> MMG827x.svg ---
+--- needs --- MMG.idv[1145] ==> MMG828x.svg ---
+--- needs --- MMG.idv[1147] ==> MMG829x.svg ---
+--- needs --- MMG.idv[1149] ==> MMG830x.svg ---
+--- needs --- MMG.idv[1151] ==> MMG831x.svg ---
+--- needs --- MMG.idv[1152] ==> MMG832x.svg ---
+--- needs --- MMG.idv[1153] ==> MMG833x.svg ---
+--- needs --- MMG.idv[1154] ==> MMG834x.svg ---
+--- needs --- MMG.idv[1155] ==> MMG835x.svg ---
+--- needs --- MMG.idv[1156] ==> MMG836x.svg ---
+--- needs --- MMG.idv[1157] ==> MMG837x.svg ---
+--- needs --- MMG.idv[1159] ==> MMG838x.svg ---
+--- needs --- MMG.idv[1161] ==> MMG839x.svg ---
+--- needs --- MMG.idv[1162] ==> MMG840x.svg ---
+--- needs --- MMG.idv[1163] ==> MMG841x.svg ---
+--- needs --- MMG.idv[1164] ==> MMG842x.svg ---
+--- needs --- MMG.idv[1165] ==> MMG843x.svg ---
+--- needs --- MMG.idv[1166] ==> MMG844x.svg ---
+--- needs --- MMG.idv[1167] ==> MMG845x.svg ---
+--- needs --- MMG.idv[1169] ==> MMG846x.svg ---
+--- needs --- MMG.idv[1171] ==> MMG847x.svg ---
+--- needs --- MMG.idv[1173] ==> MMG848x.svg ---
+--- needs --- MMG.idv[1174] ==> MMG849x.svg ---
+--- needs --- MMG.idv[1175] ==> MMG850x.svg ---
+--- needs --- MMG.idv[1176] ==> MMG851x.svg ---
+--- needs --- MMG.idv[1178] ==> MMG852x.svg ---
+--- needs --- MMG.idv[1180] ==> MMG853x.svg ---
+--- needs --- MMG.idv[1182] ==> MMG854x.svg ---
+--- needs --- MMG.idv[1184] ==> MMG855x.svg ---
+--- needs --- MMG.idv[1186] ==> MMG856x.svg ---
+--- needs --- MMG.idv[1187] ==> MMG857x.svg ---
+--- needs --- MMG.idv[1188] ==> MMG858x.svg ---
+--- needs --- MMG.idv[1189] ==> MMG859x.svg ---
+--- needs --- MMG.idv[1191] ==> MMG860x.svg ---
+--- needs --- MMG.idv[1193] ==> MMG861x.svg ---
+--- needs --- MMG.idv[1195] ==> MMG862x.svg ---
+--- needs --- MMG.idv[1196] ==> MMG863x.svg ---
+--- needs --- MMG.idv[1198] ==> MMG864x.svg ---
+--- needs --- MMG.idv[1199] ==> MMG865x.svg ---
+--- needs --- MMG.idv[1200] ==> MMG866x.svg ---
+--- needs --- MMG.idv[1201] ==> MMG867x.svg ---
+--- needs --- MMG.idv[1202] ==> MMG868x.svg ---
+--- needs --- MMG.idv[1203] ==> MMG869x.svg ---
+--- needs --- MMG.idv[1205] ==> MMG870x.svg ---
+--- needs --- MMG.idv[1206] ==> MMG871x.svg ---
+--- needs --- MMG.idv[1207] ==> MMG872x.svg ---
+--- needs --- MMG.idv[1208] ==> MMG873x.svg ---
+--- needs --- MMG.idv[1210] ==> MMG874x.svg ---
+--- needs --- MMG.idv[1211] ==> MMG875x.svg ---
+--- needs --- MMG.idv[1212] ==> MMG876x.svg ---
+--- needs --- MMG.idv[1213] ==> MMG877x.svg ---
+--- needs --- MMG.idv[1215] ==> MMG878x.svg ---
+--- needs --- MMG.idv[1216] ==> MMG879x.svg ---
+--- needs --- MMG.idv[1217] ==> MMG880x.svg ---
+--- needs --- MMG.idv[1219] ==> MMG881x.svg ---
+--- needs --- MMG.idv[1220] ==> MMG882x.svg ---
+--- needs --- MMG.idv[1221] ==> MMG883x.svg ---
+--- needs --- MMG.idv[1222] ==> MMG884x.svg ---
+--- needs --- MMG.idv[1224] ==> MMG885x.svg ---
+--- needs --- MMG.idv[1226] ==> MMG886x.svg ---
+--- needs --- MMG.idv[1227] ==> MMG887x.svg ---
+--- needs --- MMG.idv[1229] ==> MMG888x.svg ---
+--- needs --- MMG.idv[1231] ==> MMG889x.svg ---
+--- needs --- MMG.idv[1232] ==> MMG890x.svg ---
+File: Figuras/Distribucion-Cargas-.png
+--- needs --- MMG.idv[1234] ==> MMG892x.svg ---
+File: Figuras/Idea-Convolucion-.png
+--- needs --- MMG.idv[1236] ==> MMG893x.svg ---
+--- needs --- MMG.idv[1237] ==> MMG894x.svg ---
+--- needs --- MMG.idv[1239] ==> MMG895x.svg ---
+--- needs --- MMG.idv[1241] ==> MMG896x.svg ---
+--- needs --- MMG.idv[1242] ==> MMG897x.svg ---
+--- needs --- MMG.idv[1243] ==> MMG898x.svg ---
+--- needs --- MMG.idv[1244] ==> MMG899x.svg ---
+--- needs --- MMG.idv[1245] ==> MMG900x.svg ---
+--- needs --- MMG.idv[1246] ==> MMG901x.svg ---
+--- needs --- MMG.idv[1247] ==> MMG902x.svg ---
+--- needs --- MMG.idv[1249] ==> MMG903x.svg ---
+--- needs --- MMG.idv[1251] ==> MMG904x.svg ---
+--- needs --- MMG.idv[1252] ==> MMG905x.svg ---
+--- needs --- MMG.idv[1253] ==> MMG906x.svg ---
+--- needs --- MMG.idv[1254] ==> MMG907x.svg ---
+--- needs --- MMG.idv[1255] ==> MMG908x.svg ---
+--- needs --- MMG.idv[1256] ==> MMG909x.svg ---
+--- needs --- MMG.idv[1257] ==> MMG910x.svg ---
+--- needs --- MMG.idv[1258] ==> MMG911x.svg ---
+--- needs --- MMG.idv[1259] ==> MMG912x.svg ---
+--- needs --- MMG.idv[1260] ==> MMG913x.svg ---
+--- needs --- MMG.idv[1261] ==> MMG914x.svg ---
+--- needs --- MMG.idv[1262] ==> MMG915x.svg ---
+--- needs --- MMG.idv[1264] ==> MMG916x.svg ---
+--- needs --- MMG.idv[1265] ==> MMG917x.svg ---
+--- needs --- MMG.idv[1266] ==> MMG918x.svg ---
+--- needs --- MMG.idv[1267] ==> MMG919x.svg ---
+--- needs --- MMG.idv[1268] ==> MMG920x.svg ---
+--- needs --- MMG.idv[1269] ==> MMG921x.svg ---
+--- needs --- MMG.idv[1270] ==> MMG922x.svg ---
+--- needs --- MMG.idv[1272] ==> MMG923x.svg ---
+--- needs --- MMG.idv[1273] ==> MMG924x.svg ---
+--- needs --- MMG.idv[1274] ==> MMG925x.svg ---
+--- needs --- MMG.idv[1275] ==> MMG926x.svg ---
+--- needs --- MMG.idv[1276] ==> MMG927x.svg ---
+--- needs --- MMG.idv[1277] ==> MMG928x.svg ---
+--- needs --- MMG.idv[1278] ==> MMG929x.svg ---
+--- needs --- MMG.idv[1279] ==> MMG930x.svg ---
+--- needs --- MMG.idv[1280] ==> MMG931x.svg ---
+--- needs --- MMG.idv[1281] ==> MMG932x.svg ---
+--- needs --- MMG.idv[1282] ==> MMG933x.svg ---
+--- needs --- MMG.idv[1283] ==> MMG934x.svg ---
+--- needs --- MMG.idv[1284] ==> MMG935x.svg ---
+--- needs --- MMG.idv[1285] ==> MMG936x.svg ---
+--- needs --- MMG.idv[1287] ==> MMG937x.svg ---
+--- needs --- MMG.idv[1288] ==> MMG938x.svg ---
+--- needs --- MMG.idv[1290] ==> MMG939x.svg ---
+--- needs --- MMG.idv[1292] ==> MMG940x.svg ---
+--- needs --- MMG.idv[1293] ==> MMG941x.svg ---
+--- needs --- MMG.idv[1294] ==> MMG942x.svg ---
+--- needs --- MMG.idv[1295] ==> MMG943x.svg ---
+--- needs --- MMG.idv[1296] ==> MMG944x.svg ---
+--- needs --- MMG.idv[1298] ==> MMG945x.svg ---
+--- needs --- MMG.idv[1299] ==> MMG946x.svg ---
+--- needs --- MMG.idv[1300] ==> MMG947x.svg ---
+--- needs --- MMG.idv[1301] ==> MMG948x.svg ---
+--- needs --- MMG.idv[1302] ==> MMG949x.svg ---
+--- needs --- MMG.idv[1303] ==> MMG950x.svg ---
+--- needs --- MMG.idv[1304] ==> MMG951x.svg ---
+--- needs --- MMG.idv[1305] ==> MMG952x.svg ---
+--- needs --- MMG.idv[1306] ==> MMG953x.svg ---
+--- needs --- MMG.idv[1307] ==> MMG954x.svg ---
+--- needs --- MMG.idv[1308] ==> MMG955x.svg ---
+--- needs --- MMG.idv[1309] ==> MMG956x.svg ---
+--- needs --- MMG.idv[1310] ==> MMG957x.svg ---
+--- needs --- MMG.idv[1311] ==> MMG958x.svg ---
+--- needs --- MMG.idv[1312] ==> MMG959x.svg ---
+--- needs --- MMG.idv[1313] ==> MMG960x.svg ---
+--- needs --- MMG.idv[1315] ==> MMG961x.svg ---
+--- needs --- MMG.idv[1316] ==> MMG962x.svg ---
+--- needs --- MMG.idv[1317] ==> MMG963x.svg ---
+--- needs --- MMG.idv[1318] ==> MMG964x.svg ---
+--- needs --- MMG.idv[1319] ==> MMG965x.svg ---
+--- needs --- MMG.idv[1320] ==> MMG966x.svg ---
+--- needs --- MMG.idv[1321] ==> MMG967x.svg ---
+--- needs --- MMG.idv[1322] ==> MMG968x.svg ---
+--- needs --- MMG.idv[1324] ==> MMG969x.svg ---
+--- needs --- MMG.idv[1326] ==> MMG970x.svg ---
+--- needs --- MMG.idv[1327] ==> MMG971x.svg ---
+--- needs --- MMG.idv[1329] ==> MMG972x.svg ---
+--- needs --- MMG.idv[1330] ==> MMG973x.svg ---
+--- needs --- MMG.idv[1331] ==> MMG974x.svg ---
+--- needs --- MMG.idv[1333] ==> MMG975x.svg ---
+--- needs --- MMG.idv[1334] ==> MMG976x.svg ---
+--- needs --- MMG.idv[1335] ==> MMG977x.svg ---
+--- needs --- MMG.idv[1337] ==> MMG978x.svg ---
+--- needs --- MMG.idv[1338] ==> MMG979x.svg ---
+--- needs --- MMG.idv[1340] ==> MMG980x.svg ---
+--- needs --- MMG.idv[1342] ==> MMG981x.svg ---
+--- needs --- MMG.idv[1344] ==> MMG982x.svg ---
+--- needs --- MMG.idv[1345] ==> MMG983x.svg ---
+--- needs --- MMG.idv[1346] ==> MMG984x.svg ---
+--- needs --- MMG.idv[1348] ==> MMG985x.svg ---
+--- needs --- MMG.idv[1349] ==> MMG986x.svg ---
+--- needs --- MMG.idv[1350] ==> MMG987x.svg ---
+--- needs --- MMG.idv[1352] ==> MMG988x.svg ---
+--- needs --- MMG.idv[1353] ==> MMG989x.svg ---
+--- needs --- MMG.idv[1354] ==> MMG990x.svg ---
+--- needs --- MMG.idv[1356] ==> MMG991x.svg ---
+--- needs --- MMG.idv[1358] ==> MMG992x.svg ---
+--- needs --- MMG.idv[1359] ==> MMG993x.svg ---
+--- needs --- MMG.idv[1361] ==> MMG994x.svg ---
+--- needs --- MMG.idv[1362] ==> MMG995x.svg ---
+--- needs --- MMG.idv[1364] ==> MMG996x.svg ---
+--- needs --- MMG.idv[1365] ==> MMG997x.svg ---
+--- needs --- MMG.idv[1366] ==> MMG998x.svg ---
+--- needs --- MMG.idv[1368] ==> MMG999x.svg ---
+--- needs --- MMG.idv[1370] ==> MMG1000x.svg ---
+--- needs --- MMG.idv[1371] ==> MMG1001x.svg ---
+--- needs --- MMG.idv[1373] ==> MMG1002x.svg ---
+--- needs --- MMG.idv[1374] ==> MMG1003x.svg ---
+--- needs --- MMG.idv[1376] ==> MMG1004x.svg ---
+--- needs --- MMG.idv[1377] ==> MMG1005x.svg ---
+--- needs --- MMG.idv[1379] ==> MMG1006x.svg ---
+--- needs --- MMG.idv[1380] ==> MMG1007x.svg ---
+--- needs --- MMG.idv[1382] ==> MMG1008x.svg ---
+--- needs --- MMG.idv[1383] ==> MMG1009x.svg ---
+--- needs --- MMG.idv[1384] ==> MMG1010x.svg ---
+--- needs --- MMG.idv[1385] ==> MMG1011x.svg ---
+--- needs --- MMG.idv[1386] ==> MMG1012x.svg ---
+--- needs --- MMG.idv[1387] ==> MMG1013x.svg ---
+--- needs --- MMG.idv[1388] ==> MMG1014x.svg ---
+--- needs --- MMG.idv[1389] ==> MMG1015x.svg ---
+--- needs --- MMG.idv[1390] ==> MMG1016x.svg ---
+--- needs --- MMG.idv[1391] ==> MMG1017x.svg ---
+--- needs --- MMG.idv[1392] ==> MMG1018x.svg ---
+--- needs --- MMG.idv[1393] ==> MMG1019x.svg ---
+--- needs --- MMG.idv[1394] ==> MMG1020x.svg ---
+--- needs --- MMG.idv[1395] ==> MMG1021x.svg ---
+--- needs --- MMG.idv[1396] ==> MMG1022x.svg ---
+--- needs --- MMG.idv[1397] ==> MMG1023x.svg ---
+--- needs --- MMG.idv[1398] ==> MMG1024x.svg ---
+--- needs --- MMG.idv[1399] ==> MMG1025x.svg ---
+--- needs --- MMG.idv[1400] ==> MMG1026x.svg ---
+--- needs --- MMG.idv[1401] ==> MMG1027x.svg ---
+--- needs --- MMG.idv[1402] ==> MMG1028x.svg ---
+--- needs --- MMG.idv[1403] ==> MMG1029x.svg ---
+--- needs --- MMG.idv[1404] ==> MMG1030x.svg ---
+--- needs --- MMG.idv[1405] ==> MMG1031x.svg ---
+--- needs --- MMG.idv[1406] ==> MMG1032x.svg ---
+--- needs --- MMG.idv[1407] ==> MMG1033x.svg ---
+--- needs --- MMG.idv[1408] ==> MMG1034x.svg ---
+--- needs --- MMG.idv[1410] ==> MMG1035x.svg ---
+--- needs --- MMG.idv[1411] ==> MMG1036x.svg ---
+--- needs --- MMG.idv[1413] ==> MMG1037x.svg ---
+--- needs --- MMG.idv[1414] ==> MMG1038x.svg ---
+--- needs --- MMG.idv[1416] ==> MMG1039x.svg ---
+--- needs --- MMG.idv[1417] ==> MMG1040x.svg ---
+--- needs --- MMG.idv[1418] ==> MMG1041x.svg ---
+--- needs --- MMG.idv[1420] ==> MMG1042x.svg ---
+--- needs --- MMG.idv[1422] ==> MMG1043x.svg ---
+--- needs --- MMG.idv[1423] ==> MMG1044x.svg ---
+--- needs --- MMG.idv[1424] ==> MMG1045x.svg ---
+--- needs --- MMG.idv[1425] ==> MMG1046x.svg ---
+--- needs --- MMG.idv[1427] ==> MMG1047x.svg ---
+--- needs --- MMG.idv[1428] ==> MMG1048x.svg ---
+--- needs --- MMG.idv[1430] ==> MMG1049x.svg ---
+--- needs --- MMG.idv[1432] ==> MMG1050x.svg ---
+--- needs --- MMG.idv[1433] ==> MMG1051x.svg ---
+--- needs --- MMG.idv[1435] ==> MMG1052x.svg ---
+--- needs --- MMG.idv[1436] ==> MMG1053x.svg ---
+--- needs --- MMG.idv[1437] ==> MMG1054x.svg ---
+--- needs --- MMG.idv[1438] ==> MMG1055x.svg ---
+--- needs --- MMG.idv[1439] ==> MMG1056x.svg ---
+--- needs --- MMG.idv[1440] ==> MMG1057x.svg ---
+--- needs --- MMG.idv[1442] ==> MMG1058x.svg ---
+--- needs --- MMG.idv[1444] ==> MMG1059x.svg ---
+--- needs --- MMG.idv[1445] ==> MMG1060x.svg ---
+--- needs --- MMG.idv[1447] ==> MMG1061x.svg ---
+--- needs --- MMG.idv[1448] ==> MMG1062x.svg ---
+l. 2021 --- needs --- "rungs -q -dNOPAUSE -dBATCH -dusecropbox -sDEVICE=pngalpha -r300  -sOutputFile="Figuras/Laplace-Convolucion-2-.png" "Figuras/Laplace-Convolucion-2.pdf" " ---
+File: Figuras/Laplace-Convolucion-2-.png
+--- needs --- MMG.idv[1450] ==> MMG1063x.svg ---
+--- needs --- MMG.idv[1451] ==> MMG1064x.svg ---
+--- needs --- MMG.idv[1452] ==> MMG1065x.svg ---
+--- needs --- MMG.idv[1454] ==> MMG1066x.svg ---
+--- needs --- MMG.idv[1455] ==> MMG1067x.svg ---
+--- needs --- MMG.idv[1457] ==> MMG1068x.svg ---
+--- needs --- MMG.idv[1458] ==> MMG1069x.svg ---
+--- needs --- MMG.idv[1459] ==> MMG1070x.svg ---
+--- needs --- MMG.idv[1460] ==> MMG1071x.svg ---
+--- needs --- MMG.idv[1461] ==> MMG1072x.svg ---
+--- needs --- MMG.idv[1462] ==> MMG1073x.svg ---
+--- needs --- MMG.idv[1463] ==> MMG1074x.svg ---
+--- needs --- MMG.idv[1464] ==> MMG1075x.svg ---
+--- needs --- MMG.idv[1466] ==> MMG1076x.svg ---
+--- needs --- MMG.idv[1468] ==> MMG1077x.svg ---
+--- needs --- MMG.idv[1469] ==> MMG1078x.svg ---
+--- needs --- MMG.idv[1471] ==> MMG1079x.svg ---
+--- needs --- MMG.idv[1472] ==> MMG1080x.svg ---
+--- needs --- MMG.idv[1473] ==> MMG1081x.svg ---
+--- needs --- MMG.idv[1474] ==> MMG1082x.svg ---
+--- needs --- MMG.idv[1475] ==> MMG1083x.svg ---
+--- needs --- MMG.idv[1476] ==> MMG1084x.svg ---
+--- needs --- MMG.idv[1477] ==> MMG1085x.svg ---
+--- needs --- MMG.idv[1478] ==> MMG1086x.svg ---
+l. 2208 --- needs --- "rungs -q -dNOPAUSE -dBATCH -dusecropbox -sDEVICE=pngalpha -r300  -sOutputFile="Figuras/Circuito-.png" "Figuras/Circuito.pdf" " ---
+File: Figuras/Circuito-.png
+--- needs --- MMG.idv[1480] ==> MMG1087x.svg ---
+--- needs --- MMG.idv[1481] ==> MMG1088x.svg ---
+--- needs --- MMG.idv[1482] ==> MMG1089x.svg ---
+--- needs --- MMG.idv[1483] ==> MMG1090x.svg ---
+--- needs --- MMG.idv[1484] ==> MMG1091x.svg ---
+--- needs --- MMG.idv[1485] ==> MMG1092x.svg ---
+--- needs --- MMG.idv[1487] ==> MMG1093x.svg ---
+--- needs --- MMG.idv[1488] ==> MMG1094x.svg ---
+--- needs --- MMG.idv[1489] ==> MMG1095x.svg ---
+--- needs --- MMG.idv[1490] ==> MMG1096x.svg ---
+--- needs --- MMG.idv[1491] ==> MMG1097x.svg ---
+--- needs --- MMG.idv[1492] ==> MMG1098x.svg ---
+--- needs --- MMG.idv[1493] ==> MMG1099x.svg ---
+--- needs --- MMG.idv[1494] ==> MMG1100x.svg ---
+--- needs --- MMG.idv[1495] ==> MMG1101x.svg ---
+--- needs --- MMG.idv[1496] ==> MMG1102x.svg ---
+--- needs --- MMG.idv[1497] ==> MMG1103x.svg ---
+--- needs --- MMG.idv[1499] ==> MMG1104x.svg ---
+--- needs --- MMG.idv[1500] ==> MMG1105x.svg ---
+--- needs --- MMG.idv[1501] ==> MMG1106x.svg ---
+--- needs --- MMG.idv[1502] ==> MMG1107x.svg ---
+--- needs --- MMG.idv[1503] ==> MMG1108x.svg ---
+--- needs --- MMG.idv[1504] ==> MMG1109x.svg ---
+--- needs --- MMG.idv[1505] ==> MMG1110x.svg ---
+--- needs --- MMG.idv[1507] ==> MMG1111x.svg ---
+--- needs --- MMG.idv[1508] ==> MMG1112x.svg ---
+--- needs --- MMG.idv[1509] ==> MMG1113x.svg ---
+--- needs --- MMG.idv[1510] ==> MMG1114x.svg ---
+--- needs --- MMG.idv[1511] ==> MMG1115x.svg ---
+--- needs --- MMG.idv[1512] ==> MMG1116x.svg ---
+--- needs --- MMG.idv[1513] ==> MMG1117x.svg ---
+--- needs --- MMG.idv[1515] ==> MMG1118x.svg ---
+--- needs --- MMG.idv[1516] ==> MMG1119x.svg ---
+--- needs --- MMG.idv[1517] ==> MMG1120x.svg ---
+--- needs --- MMG.idv[1518] ==> MMG1121x.svg ---
+--- needs --- MMG.idv[1519] ==> MMG1122x.svg ---
+--- needs --- MMG.idv[1520] ==> MMG1123x.svg ---
+--- needs --- MMG.idv[1521] ==> MMG1124x.svg ---
+--- needs --- MMG.idv[1522] ==> MMG1125x.svg ---
+--- needs --- MMG.idv[1523] ==> MMG1126x.svg ---
+--- needs --- MMG.idv[1524] ==> MMG1127x.svg ---
+--- needs --- MMG.idv[1525] ==> MMG1128x.svg ---
+--- needs --- MMG.idv[1526] ==> MMG1129x.svg ---
+--- needs --- MMG.idv[1528] ==> MMG1130x.svg ---
+--- needs --- MMG.idv[1530] ==> MMG1131x.svg ---
+--- needs --- MMG.idv[1532] ==> MMG1132x.svg ---
+--- needs --- MMG.idv[1534] ==> MMG1133x.svg ---
+--- needs --- MMG.idv[1535] ==> MMG1134x.svg ---
+--- needs --- MMG.idv[1537] ==> MMG1135x.svg ---
+--- needs --- MMG.idv[1539] ==> MMG1136x.svg ---
+--- needs --- MMG.idv[1540] ==> MMG1137x.svg ---
+--- needs --- MMG.idv[1541] ==> MMG1138x.svg ---
+--- needs --- MMG.idv[1542] ==> MMG1139x.svg ---
+--- needs --- MMG.idv[1543] ==> MMG1140x.svg ---
+--- needs --- MMG.idv[1544] ==> MMG1141x.svg ---
+--- needs --- MMG.idv[1545] ==> MMG1142x.svg ---
+--- needs --- MMG.idv[1547] ==> MMG1143x.svg ---
+--- needs --- MMG.idv[1548] ==> MMG1144x.svg ---
+--- needs --- MMG.idv[1549] ==> MMG1145x.svg ---
+--- needs --- MMG.idv[1550] ==> MMG1146x.svg ---
+--- needs --- MMG.idv[1551] ==> MMG1147x.svg ---
+--- needs --- MMG.idv[1552] ==> MMG1148x.svg ---
+--- needs --- MMG.idv[1553] ==> MMG1149x.svg ---
+--- needs --- MMG.idv[1554] ==> MMG1150x.svg ---
+--- needs --- MMG.idv[1555] ==> MMG1151x.svg ---
+--- needs --- MMG.idv[1556] ==> MMG1152x.svg ---
+--- needs --- MMG.idv[1557] ==> MMG1153x.svg ---
+--- needs --- MMG.idv[1558] ==> MMG1154x.svg ---
+--- needs --- MMG.idv[1559] ==> MMG1155x.svg ---
+--- needs --- MMG.idv[1561] ==> MMG1156x.svg ---
+--- needs --- MMG.idv[1562] ==> MMG1157x.svg ---
+--- needs --- MMG.idv[1564] ==> MMG1158x.svg ---
+--- needs --- MMG.idv[1565] ==> MMG1159x.svg ---
+--- needs --- MMG.idv[1567] ==> MMG1160x.svg ---
+--- needs --- MMG.idv[1569] ==> MMG1161x.svg ---
+--- needs --- MMG.idv[1571] ==> MMG1162x.svg ---
+--- needs --- MMG.idv[1572] ==> MMG1163x.svg ---
+--- needs --- MMG.idv[1573] ==> MMG1164x.svg ---
+--- needs --- MMG.idv[1574] ==> MMG1165x.svg ---
+File: ./Figuras/Legendre-Polynomials-.png
+--- needs --- MMG.idv[1576] ==> MMG1166x.svg ---
+--- needs --- MMG.idv[1578] ==> MMG1167x.svg ---
+--- needs --- MMG.idv[1580] ==> MMG1168x.svg ---
+--- needs --- MMG.idv[1582] ==> MMG1169x.svg ---
+--- needs --- MMG.idv[1583] ==> MMG1170x.svg ---
+--- needs --- MMG.idv[1584] ==> MMG1171x.svg ---
+--- needs --- MMG.idv[1585] ==> MMG1172x.svg ---
+--- needs --- MMG.idv[1586] ==> MMG1173x.svg ---
+--- needs --- MMG.idv[1588] ==> MMG1174x.svg ---
+--- needs --- MMG.idv[1589] ==> MMG1175x.svg ---
+--- needs --- MMG.idv[1591] ==> MMG1176x.svg ---
+--- needs --- MMG.idv[1593] ==> MMG1177x.svg ---
+--- needs --- MMG.idv[1595] ==> MMG1178x.svg ---
+--- needs --- MMG.idv[1597] ==> MMG1179x.svg ---
+--- needs --- MMG.idv[1599] ==> MMG1180x.svg ---
+--- needs --- MMG.idv[1601] ==> MMG1181x.svg ---
+--- needs --- MMG.idv[1603] ==> MMG1182x.svg ---
+--- needs --- MMG.idv[1605] ==> MMG1183x.svg ---
+File: Figuras/Ejemplo-esfera-conductora-2.png
+--- needs --- MMG.idv[1607] ==> MMG1184x.svg ---
+--- needs --- MMG.idv[1609] ==> MMG1185x.svg ---
+--- needs --- MMG.idv[1610] ==> MMG1186x.svg ---
+--- needs --- MMG.idv[1612] ==> MMG1187x.svg ---
+--- needs --- MMG.idv[1613] ==> MMG1188x.svg ---
+--- needs --- MMG.idv[1615] ==> MMG1189x.svg ---
+--- needs --- MMG.idv[1617] ==> MMG1190x.svg ---
+--- needs --- MMG.idv[1618] ==> MMG1191x.svg ---
+--- needs --- MMG.idv[1619] ==> MMG1192x.svg ---
+--- empty picture --- MMG.idv[1619] ---
+--- needs --- MMG.idv[1621] ==> MMG1193x.svg ---
+--- needs --- MMG.idv[1622] ==> MMG1194x.svg ---
+--- needs --- MMG.idv[1623] ==> MMG1195x.svg ---
+--- needs --- MMG.idv[1624] ==> MMG1196x.svg ---
+--- needs --- MMG.idv[1625] ==> MMG1197x.svg ---
+--- needs --- MMG.idv[1626] ==> MMG1198x.svg ---
+--- needs --- MMG.idv[1627] ==> MMG1199x.svg ---
+--- needs --- MMG.idv[1628] ==> MMG1200x.svg ---
+--- needs --- MMG.idv[1629] ==> MMG1201x.svg ---
+--- needs --- MMG.idv[1630] ==> MMG1202x.svg ---
+--- needs --- MMG.idv[1631] ==> MMG1203x.svg ---
+File: Figuras/Legendre-second-kind-.png
+--- needs --- MMG.idv[1633] ==> MMG1204x.svg ---
+--- needs --- MMG.idv[1635] ==> MMG1205x.svg ---
+--- needs --- MMG.idv[1637] ==> MMG1206x.svg ---
+--- needs --- MMG.idv[1639] ==> MMG1207x.svg ---
+Css: #tcolobox-7 .tcolorbox-title{color: #FFFFFF; background-color: #205F78;}
+Css: #tcolobox-7 .tcolorbox-content{color: #000000; background-color: #F4FAF9; border: 1px solid #205F78;}
+Css: #tcolobox-7 div{ padding-top:8.5358px; padding-bottom:8.5358px; padding-left:14.22635px; padding-right:14.22635px; }
+--- needs --- MMG.idv[1641] ==> MMG1208x.svg ---
+--- needs --- MMG.idv[1643] ==> MMG1209x.svg ---
+--- needs --- MMG.idv[1644] ==> MMG1210x.svg ---
+--- needs --- MMG.idv[1646] ==> MMG1211x.svg ---
+--- needs --- MMG.idv[1647] ==> MMG1212x.svg ---
+--- needs --- MMG.idv[1648] ==> MMG1213x.svg ---
+--- needs --- MMG.idv[1649] ==> MMG1214x.svg ---
+--- needs --- MMG.idv[1650] ==> MMG1215x.svg ---
+--- needs --- MMG.idv[1651] ==> MMG1216x.svg ---
+--- needs --- MMG.idv[1653] ==> MMG1217x.svg ---
+--- needs --- MMG.idv[1655] ==> MMG1218x.svg ---
+--- needs --- MMG.idv[1657] ==> MMG1219x.svg ---
+--- needs --- MMG.idv[1659] ==> MMG1220x.svg ---
+--- needs --- MMG.idv[1661] ==> MMG1221x.svg ---
+--- needs --- MMG.idv[1662] ==> MMG1222x.svg ---
+--- needs --- MMG.idv[1663] ==> MMG1223x.svg ---
+--- needs --- MMG.idv[1664] ==> MMG1224x.svg ---
+--- needs --- MMG.idv[1665] ==> MMG1225x.svg ---
+--- needs --- MMG.idv[1666] ==> MMG1226x.svg ---
+--- needs --- MMG.idv[1667] ==> MMG1227x.svg ---
+--- needs --- MMG.idv[1668] ==> MMG1228x.svg ---
+--- needs --- MMG.idv[1669] ==> MMG1229x.svg ---
+--- needs --- MMG.idv[1670] ==> MMG1230x.svg ---
+--- needs --- MMG.idv[1671] ==> MMG1231x.svg ---
+--- needs --- MMG.idv[1672] ==> MMG1232x.svg ---
+--- needs --- MMG.idv[1673] ==> MMG1233x.svg ---
+--- needs --- MMG.idv[1674] ==> MMG1234x.svg ---
+--- needs --- MMG.idv[1675] ==> MMG1235x.svg ---
+--- needs --- MMG.idv[1676] ==> MMG1236x.svg ---
+--- needs --- MMG.idv[1677] ==> MMG1237x.svg ---
+--- needs --- MMG.idv[1678] ==> MMG1238x.svg ---
+--- needs --- MMG.idv[1679] ==> MMG1239x.svg ---
+--- needs --- MMG.idv[1680] ==> MMG1240x.svg ---
+--- needs --- MMG.idv[1681] ==> MMG1241x.svg ---
+--- needs --- MMG.idv[1682] ==> MMG1242x.svg ---
+--- needs --- MMG.idv[1683] ==> MMG1243x.svg ---
+--- needs --- MMG.idv[1684] ==> MMG1244x.svg ---
+--- needs --- MMG.idv[1685] ==> MMG1245x.svg ---
+--- needs --- MMG.idv[1686] ==> MMG1246x.svg ---
+--- needs --- MMG.idv[1687] ==> MMG1247x.svg ---
+--- needs --- MMG.idv[1688] ==> MMG1248x.svg ---
+--- needs --- MMG.idv[1689] ==> MMG1249x.svg ---
+--- needs --- MMG.idv[1690] ==> MMG1250x.svg ---
+--- needs --- MMG.idv[1691] ==> MMG1251x.svg ---
+--- needs --- MMG.idv[1692] ==> MMG1252x.svg ---
+--- needs --- MMG.idv[1693] ==> MMG1253x.svg ---
+--- needs --- MMG.idv[1695] ==> MMG1254x.svg ---
+--- needs --- MMG.idv[1697] ==> MMG1255x.svg ---
+--- needs --- MMG.idv[1699] ==> MMG1256x.svg ---
+--- needs --- MMG.idv[1701] ==> MMG1257x.svg ---
+--- needs --- MMG.idv[1703] ==> MMG1258x.svg ---
+--- needs --- MMG.idv[1705] ==> MMG1259x.svg ---
+--- needs --- MMG.idv[1707] ==> MMG1260x.svg ---
+--- needs --- MMG.idv[1709] ==> MMG1261x.svg ---
+--- needs --- MMG.idv[1711] ==> MMG1262x.svg ---
+--- needs --- MMG.idv[1713] ==> MMG1263x.svg ---
+--- needs --- MMG.idv[1715] ==> MMG1264x.svg ---
+--- needs --- MMG.idv[1717] ==> MMG1265x.svg ---
+--- needs --- MMG.idv[1718] ==> MMG1266x.svg ---
+--- needs --- MMG.idv[1720] ==> MMG1267x.svg ---
+--- needs --- MMG.idv[1721] ==> MMG1268x.svg ---
+--- needs --- MMG.idv[1722] ==> MMG1269x.svg ---
+--- needs --- MMG.idv[1723] ==> MMG1270x.svg ---
+--- needs --- MMG.idv[1724] ==> MMG1271x.svg ---
+--- needs --- MMG.idv[1725] ==> MMG1272x.svg ---
+--- needs --- MMG.idv[1727] ==> MMG1273x.svg ---
+--- needs --- MMG.idv[1729] ==> MMG1274x.svg ---
+--- needs --- MMG.idv[1731] ==> MMG1275x.svg ---
+--- needs --- MMG.idv[1733] ==> MMG1276x.svg ---
+--- needs --- MMG.idv[1735] ==> MMG1277x.svg ---
+--- needs --- MMG.idv[1737] ==> MMG1278x.svg ---
+--- needs --- MMG.idv[1739] ==> MMG1279x.svg ---
+--- needs --- MMG.idv[1741] ==> MMG1280x.svg ---
+--- needs --- MMG.idv[1743] ==> MMG1281x.svg ---
+--- needs --- MMG.idv[1745] ==> MMG1282x.svg ---
+--- needs --- MMG.idv[1747] ==> MMG1283x.svg ---
+--- needs --- MMG.idv[1748] ==> MMG1284x.svg ---
+--- needs --- MMG.idv[1750] ==> MMG1285x.svg ---
+--- needs --- MMG.idv[1752] ==> MMG1286x.svg ---
+--- needs --- MMG.idv[1753] ==> MMG1287x.svg ---
+--- needs --- MMG.idv[1755] ==> MMG1288x.svg ---
+--- needs --- MMG.idv[1757] ==> MMG1289x.svg ---
+File: Figuras/Addition_Theorem.png
+--- needs --- MMG.idv[1759] ==> MMG1290x.svg ---
+--- needs --- MMG.idv[1761] ==> MMG1291x.svg ---
+--- needs --- MMG.idv[1762] ==> MMG1292x.svg ---
+--- needs --- MMG.idv[1764] ==> MMG1293x.svg ---
+--- needs --- MMG.idv[1765] ==> MMG1294x.svg ---
+--- needs --- MMG.idv[1766] ==> MMG1295x.svg ---
+--- needs --- MMG.idv[1767] ==> MMG1296x.svg ---
+--- needs --- MMG.idv[1769] ==> MMG1297x.svg ---
+--- needs --- MMG.idv[1770] ==> MMG1298x.svg ---
+--- needs --- MMG.idv[1771] ==> MMG1299x.svg ---
+--- needs --- MMG.idv[1773] ==> MMG1300x.svg ---
+--- needs --- MMG.idv[1774] ==> MMG1301x.svg ---
+--- needs --- MMG.idv[1776] ==> MMG1302x.svg ---
+--- needs --- MMG.idv[1778] ==> MMG1303x.svg ---
+--- needs --- MMG.idv[1780] ==> MMG1304x.svg ---
+--- needs --- MMG.idv[1782] ==> MMG1305x.svg ---
+--- needs --- MMG.idv[1784] ==> MMG1306x.svg ---
+--- needs --- MMG.idv[1786] ==> MMG1307x.svg ---
+--- needs --- MMG.idv[1788] ==> MMG1308x.svg ---
+--- needs --- MMG.idv[1790] ==> MMG1309x.svg ---
+--- needs --- MMG.idv[1792] ==> MMG1310x.svg ---
+--- needs --- MMG.idv[1793] ==> MMG1311x.svg ---
+--- needs --- MMG.idv[1794] ==> MMG1312x.svg ---
+--- needs --- MMG.idv[1795] ==> MMG1313x.svg ---
+--- needs --- MMG.idv[1796] ==> MMG1314x.svg ---
+--- needs --- MMG.idv[1797] ==> MMG1315x.svg ---
+--- needs --- MMG.idv[1798] ==> MMG1316x.svg ---
+--- needs --- MMG.idv[1799] ==> MMG1317x.svg ---
+--- needs --- MMG.idv[1800] ==> MMG1318x.svg ---
+--- needs --- MMG.idv[1802] ==> MMG1319x.svg ---
+--- needs --- MMG.idv[1804] ==> MMG1320x.svg ---
+--- needs --- MMG.idv[1806] ==> MMG1321x.svg ---
+--- needs --- MMG.idv[1808] ==> MMG1322x.svg ---
+--- needs --- MMG.idv[1810] ==> MMG1323x.svg ---
+--- needs --- MMG.idv[1812] ==> MMG1324x.svg ---
+--- needs --- MMG.idv[1814] ==> MMG1325x.svg ---
+--- needs --- MMG.idv[1816] ==> MMG1326x.svg ---
+--- needs --- MMG.idv[1818] ==> MMG1327x.svg ---
+--- needs --- MMG.idv[1819] ==> MMG1328x.svg ---
+--- needs --- MMG.idv[1820] ==> MMG1329x.svg ---
+--- needs --- MMG.idv[1821] ==> MMG1330x.svg ---
+--- needs --- MMG.idv[1822] ==> MMG1331x.svg ---
+--- needs --- MMG.idv[1823] ==> MMG1332x.svg ---
+--- needs --- MMG.idv[1824] ==> MMG1333x.svg ---
+--- needs --- MMG.idv[1825] ==> MMG1334x.svg ---
+--- needs --- MMG.idv[1827] ==> MMG1335x.svg ---
+--- needs --- MMG.idv[1828] ==> MMG1336x.svg ---
+--- needs --- MMG.idv[1829] ==> MMG1337x.svg ---
+--- needs --- MMG.idv[1830] ==> MMG1338x.svg ---
+--- needs --- MMG.idv[1831] ==> MMG1339x.svg ---
+--- needs --- MMG.idv[1832] ==> MMG1340x.svg ---
+--- needs --- MMG.idv[1834] ==> MMG1341x.svg ---
+--- needs --- MMG.idv[1836] ==> MMG1342x.svg ---
+--- needs --- MMG.idv[1838] ==> MMG1343x.svg ---
+--- needs --- MMG.idv[1840] ==> MMG1344x.svg ---
+--- needs --- MMG.idv[1842] ==> MMG1345x.svg ---
+--- needs --- MMG.idv[1844] ==> MMG1346x.svg ---
+--- needs --- MMG.idv[1846] ==> MMG1347x.svg ---
+--- needs --- MMG.idv[1848] ==> MMG1348x.svg ---
+--- needs --- MMG.idv[1850] ==> MMG1349x.svg ---
+--- needs --- MMG.idv[1852] ==> MMG1350x.svg ---
+--- needs --- MMG.idv[1853] ==> MMG1351x.svg ---
+--- needs --- MMG.idv[1854] ==> MMG1352x.svg ---
+--- needs --- MMG.idv[1855] ==> MMG1353x.svg ---
+--- needs --- MMG.idv[1857] ==> MMG1354x.svg ---
+--- needs --- MMG.idv[1858] ==> MMG1355x.svg ---
+--- needs --- MMG.idv[1859] ==> MMG1356x.svg ---
+--- needs --- MMG.idv[1860] ==> MMG1357x.svg ---
+--- needs --- MMG.idv[1861] ==> MMG1358x.svg ---
+--- needs --- MMG.idv[1862] ==> MMG1359x.svg ---
+--- needs --- MMG.idv[1863] ==> MMG1360x.svg ---
+--- needs --- MMG.idv[1865] ==> MMG1361x.svg ---
+--- needs --- MMG.idv[1867] ==> MMG1362x.svg ---
+--- needs --- MMG.idv[1869] ==> MMG1363x.svg ---
+--- needs --- MMG.idv[1871] ==> MMG1364x.svg ---
+--- needs --- MMG.idv[1873] ==> MMG1365x.svg ---
+--- needs --- MMG.idv[1875] ==> MMG1366x.svg ---
+--- needs --- MMG.idv[1877] ==> MMG1367x.svg ---
+--- needs --- MMG.idv[1879] ==> MMG1368x.svg ---
+--- needs --- MMG.idv[1881] ==> MMG1369x.svg ---
+--- needs --- MMG.idv[1883] ==> MMG1370x.svg ---
+--- needs --- MMG.idv[1885] ==> MMG1371x.svg ---
+--- needs --- MMG.idv[1887] ==> MMG1372x.svg ---
+--- needs --- MMG.idv[1889] ==> MMG1373x.svg ---
+--- needs --- MMG.idv[1891] ==> MMG1374x.svg ---
+--- needs --- MMG.idv[1893] ==> MMG1375x.svg ---
+--- needs --- MMG.idv[1894] ==> MMG1376x.svg ---
+--- needs --- MMG.idv[1895] ==> MMG1377x.svg ---
+--- needs --- MMG.idv[1896] ==> MMG1378x.svg ---
+--- needs --- MMG.idv[1897] ==> MMG1379x.svg ---
+--- needs --- MMG.idv[1898] ==> MMG1380x.svg ---
+--- needs --- MMG.idv[1899] ==> MMG1381x.svg ---
+--- needs --- MMG.idv[1900] ==> MMG1382x.svg ---
+--- needs --- MMG.idv[1901] ==> MMG1383x.svg ---
+--- needs --- MMG.idv[1902] ==> MMG1384x.svg ---
+--- needs --- MMG.idv[1904] ==> MMG1385x.svg ---
+--- needs --- MMG.idv[1905] ==> MMG1386x.svg ---
+--- needs --- MMG.idv[1906] ==> MMG1387x.svg ---
+--- needs --- MMG.idv[1907] ==> MMG1388x.svg ---
+--- needs --- MMG.idv[1909] ==> MMG1389x.svg ---
+--- needs --- MMG.idv[1911] ==> MMG1390x.svg ---
+--- needs --- MMG.idv[1913] ==> MMG1391x.svg ---
+--- needs --- MMG.idv[1915] ==> MMG1392x.svg ---
+--- needs --- MMG.idv[1916] ==> MMG1393x.svg ---
+--- needs --- MMG.idv[1917] ==> MMG1394x.svg ---
+--- needs --- MMG.idv[1918] ==> MMG1395x.svg ---
+--- needs --- MMG.idv[1919] ==> MMG1396x.svg ---
+--- needs --- MMG.idv[1920] ==> MMG1397x.svg ---
+--- needs --- MMG.idv[1921] ==> MMG1398x.svg ---
+--- needs --- MMG.idv[1922] ==> MMG1399x.svg ---
+--- needs --- MMG.idv[1923] ==> MMG1400x.svg ---
+--- needs --- MMG.idv[1924] ==> MMG1401x.svg ---
+--- needs --- MMG.idv[1925] ==> MMG1402x.svg ---
+--- needs --- MMG.idv[1926] ==> MMG1403x.svg ---
+--- needs --- MMG.idv[1927] ==> MMG1404x.svg ---
+--- needs --- MMG.idv[1929] ==> MMG1405x.svg ---
+--- needs --- MMG.idv[1931] ==> MMG1406x.svg ---
+--- needs --- MMG.idv[1933] ==> MMG1407x.svg ---
+--- needs --- MMG.idv[1935] ==> MMG1408x.svg ---
+--- needs --- MMG.idv[1937] ==> MMG1409x.svg ---
+--- needs --- MMG.idv[1939] ==> MMG1410x.svg ---
+--- needs --- MMG.idv[1940] ==> MMG1411x.svg ---
+--- needs --- MMG.idv[1942] ==> MMG1412x.svg ---
+--- needs --- MMG.idv[1943] ==> MMG1413x.svg ---
+--- needs --- MMG.idv[1945] ==> MMG1414x.svg ---
+tex4ht.c error: 21
+--- characters ---
+Font("line","10","10","100")
+Font("SourceSansPro-Regular-tlf-t1","","10","120")
+Font("SourceSansPro-Bold-tlf-t1","","10","250")
+Font("SourceSansPro-It-tlf-t1","","10","207")
+Font("SourceSansPro-Regular-tlf-t1","","10","150")
+Font("SourceSansPro-Regular-tlf-sc-t1","","10","120")
+Font("Montserrat-Bold-lf-sc-t","1","10","248")
+Font("SourceSansPro-Regular-tlf-t1","","10","172")
+Font("SourceSansPro-Regular-tlf-t1","","10","144")
+Font("SourceSansPro-Regular-tlf-ts","1","10","120")
+Font("SourceSansPro-Bold-tlf-t1","","10","120")
+Font("ectt","1200","12","100")
+Font("SourceSansPro-It-tlf-t1","","10","120")
+Font("libertinust1-mathrm","","10","120")
+Font("libertinust1-mathrm","","10","80")
+Font("libertinust1-mathrm","","10","60")
+Font("libertinust1-mathit","","10","120")
+Font("libertinust1-mathit","","10","80")
+Font("libertinust1-mathit","","10","60")
+Font("libertinust1-mathsym","","10","120")
+Font("libertinust1-mathsym","","10","80")
+Font("libertinust1-mathex","","10","120")
+Font("libertinust1-mathex","","10","80")
+Font("rsfs","10","10","120")
+Font("libertinust1-mathbb","","10","120")
+Font("libertinust1-mathbb","","10","80")
+Font("libertinust1-mathrm-bold","","10","120")
+Font("SourceSansPro-Regular-tlf-t1","","10","109")
+Font("libertinust1-mathrm","","10","109")
+Font("libertinust1-mathit","","10","109")
+Font("libertinust1-mathsym","","10","109")
+Font("SourceSansPro-It-tlf-t1","","10","109")
+Font("SourceSansPro-Regular-tlf-t1","","10","100")
+Font("SourceSansPro-Regular-tlf-t1","","10","80")
+Font("stix-mathcal","","10","120")
+Font("stix-mathcal","","10","80")
+Font("SourceSansPro-It-tlf-t1","","10","100")
+Font("libertinust1-mathrm","","10","100")
+Font("libertinust1-mathrm","","10","70")
+Font("libertinust1-mathit","","10","100")
+Font("libertinust1-mathit","","10","70")
+Font("libertinust1-mathex","","10","100")
