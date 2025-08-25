@@ -294,6 +294,183 @@ Dicho rápido y sencillo, hemos visto que los tensores de rango 1 y rango 2 se c
     De forma análoga, un tensor \textbf{completamente antisimétrico} de rango $r$ es aquel que es antisimétrico respecto a la permutación de cada par de índices. Este tendrá $\frac{n!}{(n-r)! r!}$ componentes linealmente independientes. En particular, un tensor de rango $r=n$, tendrá \emph{una única componente linealmente independiente}.
 \end{itemize}
 
+
+\section{Diagonalización de tensores de rango 2}
+
+Una transformación ortogonal de especial interés es aquella que convierte a un tensor a una base en la que este es \emph{diagonal}, es decir, donde todos los elementos fuera de la diagonal principal son nulos, $T_{ij} = 0$, si $i \neq j$. En este caso, las componentes del tensor transforman de la siguiente forma:
+\begin{equation}
+    T'_{ij} = \sum_k \lambda_k \delta_{ik} \delta_{jk} \ ,
+\end{equation}
+donde $\lambda_k$ es una constante. En este caso, llamaremos a $\lambda_k$ un \textbf{valor propio}, o \textbf{autovalor} del tensor $\check{T} = T_{ij} \hat{e}_i \hat{e}_j$, asociado a un \textbf{vector propio} o \textbf{autovector} $\hat{e}'_k$, tal que se satisface la ecuación
+\begin{equation}
+    \check{T} \cdot \hat{e}'_k = \lambda_k \hat{e}'_k \ ,
+\end{equation}
+también escrita como 
+\begin{equation}
+    (T_{ij} - \lambda_k \delta_{ij}) \hat{e}_i (\hat{e}_j \cdot \hat{e}'_k) = (T_{ij} - \lambda_k \delta_{ij}) \hat{e}_i a_{jk} = 0
+\end{equation}
+o matricialmente,
+\begin{equation} \label{eq:descomposicion}
+    \begin{pmatrix}
+        T_{11} - \lambda_k & T_{12} & \cdots \\
+        T_{21} & T_{22} - \lambda_k & \cdots \\
+        \vdots & \vdots & \ddots
+    \end{pmatrix} 
+    \begin{pmatrix}
+        a_{ik} \\ a_{2k} \\ \vdots
+    \end{pmatrix}
+     = 
+    \begin{pmatrix}
+        0 \\ 0 \\ \vdots
+    \end{pmatrix} \ .
+\end{equation}
+
+Para que la solución a esta ecuación sea no trivial, necesitamos que se satisfaga la \textbf{ecuación característica}
+\begin{equation}
+    \det(\check{T} - \lambda_k I) = 0 \ ,
+\end{equation}
+ecuación que corresponderá a un polinomio de grado $n$ el $\lambda_k$ si trabajamos en un espacio $n$-dimensional.
+
+Reemplazando cada una de las raíces de este polinomio \emph{característico} en la ecuación \eqref{eq:descomposicion}, podemos hallar cada una de las componentes de la matriz de transformación $a_{jk}$, de modo que se satisfaga que la base ortonormal en que el tensor es diagonal se relacione con la base usual según la regla
+\begin{equation}
+    \hat{e}_k = a_{kj} \hat{e}_j \ .
+\end{equation}
+
+Llamaremos a la base diagonal como la \textbf{base de los ejes principales} del tensor, donde cada $\hat{e}'_k$ es uno de dichos ejes principales. Esta base es, por definición, ortogonal.
+
+Una condición suficiente para que un tensor de rango 2 sea diagonalizable es que este sea \textbf{simétrico}.
+
+\begin{ejemplo}
+    \textbf{(Riley, sección 26.12)} La conductividad eléctrica en un cristal, $\check{sigma}$, es medida por un observador, quien determina que posee componentes
+    \begin{equation*}
+        [\sigma_{ij}] = \begin{pmatrix}
+            1 & \sqrt{2} & 0 \\
+            \sqrt{2} & 3 & 1 \\
+            0 & 1 & 1
+        \end{pmatrix} \ .
+    \end{equation*}
+
+    Si la densidad de corriente de un cristal viene dada por $\vec{J} = \check{\sigma} \vec{E}$, muestre que hay una dirección en el cristal a lo largo de la cual no puede fluir corriente. Además, determine si  la corriente puede fluir con la misma facilidad a lo largo de las otras dos direcciones perpendiculares.
+
+    \textbf{Solución.} 
+
+    La existencia de tres ejes principales para el cristal viene dada del hecho de que su conductividad es simétrica. De este modo, existe una base en la cual la conductividad es diagonal, y sus elementos no nulos corresponden a la conductividad en la dirección de cada uno de sus ejes principales. Entonces, podemos diagonalizarlo mediante el proceso antes descrito.
+
+    Los autovalores pueden encontrarse a partir de la ecuación característica, de modo que 
+    \begin{equation*} \left|
+        \begin{array}{ccc}
+            1 - \lambda & \sqrt{2} & 0 \\
+            \sqrt{2} & 3 - \lambda & 1 \\
+            0 & 1 & 1 - \lambda
+        \end{array} \right| = 0 \ ,
+    \end{equation*}
+    a partir de la cual identificamos el polinomio característico
+    \begin{equation*}
+        (1-\lambda)[(3 - \lambda)(1-\lambda) - 1] - 2(1-\lambda) = (1-\lambda)[(3-\lambda)(1-\lambda) - 3] = (1-\lambda)(\lambda-4)\lambda = 0 \ ,
+    \end{equation*}
+    de modo que los autovalores de $\check{\sigma}$ asociados a sus ejes principales $\hat{e}'_1$, $\hat{e}'_2$ y $\hat{e}'_3$ son 4, 1 y 0, respectivamente. Entonces, podemos escribir
+    \begin{equation*}
+        [\sigma'_{ij}] = \begin{pmatrix}
+            4 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 0 
+        \end{pmatrix} \ ,
+    \end{equation*}
+    lo que, gracias a la ecuación $J_i' = \sigma'_{ij} E'_j$, muestra que en uno de los ejes principales (en el orden escogido, para $\hat{e}'_3$) no fluirá corriente, mientras que en los otros dos ejes principales, la corriente puede fluir con diferentes intensidades. 
+\end{ejemplo}
+
+También podría darse el caso de que nuestro proceso de diagonalización nos entregue autovalores \emph{degenerados}, es decir, asociados a más de un autovector. En estos casos, los autovectores no pueden determinarse de forma única, lo que implica que cualquier vector que se encuentre en el plano formado por los autovectores asociados a dicho autovalor es también un eje principal del tensor, asegurándonos siempre de que sean ortogonales entre sí.
+
+\begin{ejemplo}
+    Considere ahora un tensor de conductividad
+    \begin{equation*}
+        [\sigma_{ij}] = \begin{pmatrix}
+            11 & -1 & 0 \\
+            -1 & 11 & 0 \\
+            0 & 0 & 10
+        \end{pmatrix} \ .
+    \end{equation*}
+    Determine sus ejes principales.
+
+    \textbf{Solución.}
+
+    Dado que el tensor es simétrico, podemos asegurar la existencia de tres ejes principales perpendiculares entre sí.
+
+    El polinomio característico de este tensor será dado por 
+    \begin{equation*}
+        (10 - \lambda)^2(\lambda - 12) = 0 \ ,
+    \end{equation*}
+    de modo que las raíces serán $\lambda_1 = 12$ y $\lambda_2 = \lambda_3 = 10$. Para la primera raíz, observamos que tenemos el sistema 
+    \begin{equation*}
+        \begin{pmatrix}
+            -1 & -1 & 0 \\
+            -1 & -1 & 0 \\
+            0 & 0 & 2 \\
+        \end{pmatrix}
+        \begin{pmatrix}
+            a_{11} \\ a_{12} \\ a_{13}
+        \end{pmatrix}
+        = \begin{pmatrix}
+            0 \\ 0 \\ 0
+        \end{pmatrix} \ .
+    \end{equation*}
+
+    Resolviendo el sistema, hallamos que 
+    \begin{equation*}
+        \begin{pmatrix}
+            a_{11} \\ a_{12} \\ a_{13}
+        \end{pmatrix}
+        = \frac{1}{\sqrt{2}} \begin{pmatrix}
+            1 \\ -1 \\ 0
+        \end{pmatrix} \ ,
+    \end{equation*}
+    de modo que el primer eje principal, $\hat{e}'_1$, viene dado por
+    \begin{equation*}
+        \hat{e}'_1 = \frac{1}{\sqrt{2}}\hat{e}_1 - \frac{1}{\sqrt{2}}\hat{e}_2 \ .
+    \end{equation*}
+
+    Por otra parte, para los autovalores degenerados, tenemos los sistemas 
+    \begin{equation*}
+        \begin{pmatrix}
+            1 & -1 & 0 \\
+            -1 & 1 & 0 \\
+            0 & 0 & 0 \\
+        \end{pmatrix}
+        \begin{pmatrix}
+            a_{21} \\ a_{22} \\ a_{23}
+        \end{pmatrix}
+        = \begin{pmatrix}
+            0 \\ 0 \\ 0
+        \end{pmatrix} \ ,
+    \end{equation*}
+    y
+    \begin{equation*}
+        \begin{pmatrix}
+            1 & -1 & 0 \\
+            -1 & 1 & 0 \\
+            0 & 0 & 0 \\
+        \end{pmatrix}
+        \begin{pmatrix}
+            a_{31} \\ a_{32} \\ a_{33}
+        \end{pmatrix}
+        = \begin{pmatrix}
+            0 \\ 0 \\ 0
+        \end{pmatrix} \ ,
+    \end{equation*}
+    los que observamos que son idénticos.
+
+    Resolviendo el sistema para $\lambda_2$, observamos que este nos impone la condición $a_{21} = a_{22}$, dejando libre el valor de $a_{23}$. Por conveniencia, podemos fijarlo a cero. Como este autovector debe ser ortonormal a $\hat{e}'_1$, tenemos que será de la forma
+    \begin{equation*}
+        \hat{e}'_2 = \frac{1}{\sqrt{2}} \hat{e}_1 + \frac{1}{\sqrt{2}} \hat{e}_2 \ .
+    \end{equation*}
+
+    Por último, $\hat{e}'_3$ también posee la condición $a_{31} = a_{32}$, con $a_{33}$ arbitrario. En este caso, para que sea ortonormal a $\hat{e}'_1$ y $\hat{e}'_2$, imponemos que $a_{31} = a_{32} = 0$, y que $a_{33} = 1$. De esta forma, $\hat{e}'_3 = \hat{e}_3$, y los ejes principales de este material serán 
+    \begin{equation*}
+        {\hat{e}'_1, \hat{e}'_2, \hat{e}'_3} = \left\{ \frac{1}{\sqrt{2}}(\hat{e}_1 - \hat{e}_2), \frac{1}{\sqrt{2}}(\hat{e}_1 + \hat{e}_2), \hat{e}_3 \right\} \ .
+    \end{equation*}
+\end{ejemplo}
+
+
 \section{Pseudovectores y pseudotensores}
 
 Hasta ahora, de manera implícita, hemos utilizado transformaciones ortogonales \emph{propias}, es decir, que solo rotan el sistema, pero no modeifican la orientación de los tensores. Sin embargo, al considerar transformaciones \emph{impropias}, que no solo rotan el sistema sino que realizan una inversión de coordenadas o \emph{reflexión} ($x_i \to -x_i$). Cuando también incluimos este tipo de transformaciones, los vectores siguen cumpliendo la regla de transformación \eqref{eq:transformacion-vector}. Sin embargo, existen ciertas cantidades físicas que comúnmente supondríamos como vectores, que \textbf{no transforman de igual manera} bajo una reflexión, como es el caso de aquellas relacionadas a cantidades \emph{angulares}, como la velociadad angular, el torque o el momento angular.
@@ -467,7 +644,7 @@ de modo que
     & = a_{i_1 j_1} \dots a_{i_r j_r}  a_{jk} \frac{\partial T_{j_1 \dots j_r}(x')}{\partial x_k} \\
     & = a_{i_1 j_1} \dots a_{i_r j_r}  a_{jk} (\partial_k T_{j_1 \dots j_r}) \ ,
 \end{align}
-comprobando así que transforma como un tensor de orden $r+1$.
+comprobando así que transforma como un tensor de orden $r+1$. Esta idea es muchas veces entendida como el \emph{gradiente del tensor} $T$, $\nabla T$.
 
 También podemos calcular la derivada de un tensor de rango $r$ respecto de un parámetro $t$ \emph{independiente de las coordenadas}. En este caso, el resultado es también un tensor de orden $r$,
 \begin{equation}
@@ -481,6 +658,13 @@ De una manera similar, podemos operar sobre este nuevo tensor \emph{derivada} co
     (\nabla \times \vec{A})_i & = \varepsilon_{ijk} \partial_j A_k \ , \\
     \nabla^2 \phi & = \partial_i \partial_i \phi \ .
 \end{align}
+
+Por último, mencionaremos que también se encuentra definida la \emph{divergencia de un tensor}, $\nabla \cdot T$, que reduce el rango del tensor en 1. Es decir, si $T$ es un tensor de rango $r$, entonces $\nabla \cdot T$ es un tensor de rango $r-1$, debido a la presencia de una \emph{contracción} en alguno de los índices. En efecto, tenemos que
+\begin{equation*}
+    (\nabla \cdot T)_{i_1 i_2 \cdot i_{r-1}} = \partial_k T_{k i_1 i_2 i_{r-1}} \ .
+\end{equation*}
+Típicamente, se habla de \emph{divergencia} cuando la derivación ocurre sobre el primer índice del tensor.
+
 
 \subsection{Integración}
 
@@ -547,7 +731,7 @@ donde $C_{[A,B]}$ es una curva que une los puntos $A$ y $B$.
 
 El \textbf{teorema de Gauss} en 3 dimensiones puede escribirse como
 \begin{equation}
-    \int_V \partial_j T_{i_1 \dots k \dots i_r}(x) dV = \oint_{\partial V} T_{i_1 \dots k \dots i_r} (x) dS_j \ ,
+    \int_V \partial_k T_{i_1 \dots k \dots i_r}(x) dV = \oint_{\partial V} T_{i_1 \dots k \dots i_r} (x) dS_k \ ,
 \end{equation}
 y puede generalizarse al caso en el que no necesariamente exista una contracción de índices (no necesariamente hay una divergencia) como
 \begin{equation}
@@ -562,6 +746,24 @@ y el caso en que no necesariamente exista una contracción,
 \begin{equation}
     \int_S \varepsilon_{ijk} \partial_j T_{i_1 \dots i_r} dS_i = \oint_{\partial S} T_{i_1 \dots i_r} dx_k \ .
 \end{equation}
+
+\begin{ejemplo}
+    \textbf{(Riley, sección 26.13)} Un campo vectorial $\vec{a}$ satisface $\nabla \cdot \vec{a} = 0$ en el interior de una región de volumen $V$, y $\vec{a} \cdot \hat{n} = 0$ en la superficie $S$ que encierra dicha región. Considerando el teorema de la divergencia, aplicado al tensor $T_{ij} = x_i a_j$, muestre que $\int_V \vec{a} dV = 0$.
+
+    \textbf{Solución.}
+
+    Aplicamos el teorema de la divergencia a este tensor, tenemos que
+    \begin{equation*}
+        \int_V \frac{\partial T_{ij}}{\partial x_j} dV = \int_V \frac{\partial(x_i a_j)}{\partial x_j} dV = \oint x_i a_j dS_j = \oint_S x_i a_j \hat{n}_j dS = 0 \ ,
+    \end{equation*}
+    donde hemos usado la condición de que $a_j \hat{n}_j = 0$. Por otra parte, utilizando la regla del producto en la integral de volumen, tenemos que
+    \begin{equation*}
+        \int_V \frac{\partial(x_i a_j)}{\partial x_j} \, dV = \int_V \frac{\partial x_i}{\partial x_j} a_j \, dV + \int_V x_i \frac{\partial a_j}{\partial x_j} \, dV = \int_V \delta_{ij} a_j dV = \int_V a_i \, dV = 0 \ ,
+    \end{equation*}
+    donde ahora usamos el hecho que $\dfrac{\partial x_i}{\partial x_j} = \delta_{ij}$, y que $\dfrac{\partial a_j}{\partial x_j} = 0$.
+\end{ejemplo}
+
+
 
 
 \section{Covarianza y contravarianza}
