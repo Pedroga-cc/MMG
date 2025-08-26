@@ -232,7 +232,7 @@ En este contexto, vale la pena mencionar con algo más de detalle a dos propieda
 Dicho rápido y sencillo, hemos visto que los tensores de rango 1 y rango 2 se comportan como vectores columna y como matrices, respectivamente. Por ello, esperaríamos que sea posible definir operaciones tensoriales similares a las definidas para estos elementos, incluyendo la posibilidad de construir tensores a partir de otros.
 
 \begin{itemize}
-    \item \textbf{Adición y sustracción.} Se define la adición (o suma) y sustracción (o resta) de dos tensores \emph{del mismo orden} componente a componente, es decir,
+    \item \textbf{Adición y sustracción.} Se define la adición (o suma) y sustracción (o resta) de dos tensores \emph{del mismo rango} componente a componente, es decir,
     \begin{align}
         S_{ij \dots k} & = V_{ij \dots k} + W_{ij \dots k} \ , \\
         D_{ij \dots k} & = V_{ij \dots k} - W_{ij \dots k} \ .
@@ -253,7 +253,7 @@ Dicho rápido y sencillo, hemos visto que los tensores de rango 1 y rango 2 se c
 
     Esta operación incluye, por supuesto, el producto entre un tensor de rango 0 (un escalar) y un tensor de rango $r$, definiendo el \emph{prodcuto por un escalar}.
 
-    \item \textbf{Contracción de índices.} El producto escalar entre dos vectores nos entrega un escalar en lugar de un tensor de orden 2, como consecuencia de la repetición de índices en el producto. De manera similar, la repetición de dos índices dentro de un tensor de orden $r$ (digamos, el $s$-ésimo y el $t$-ésimo índice), es equivalente a un tensor de orden $r-2$,
+    \item \textbf{Contracción de índices.} El producto escalar entre dos vectores nos entrega un escalar en lugar de un tensor de rango 2, como consecuencia de la repetición de índices en el producto. De manera similar, la repetición de dos índices dentro de un tensor de rango $r$ (digamos, el $s$-ésimo y el $t$-ésimo índice), es equivalente a un tensor de rango $r-2$,
     \begin{equation}
         B_{i_1 i_2 \dots i_{r-2}} = A_{i_1 i_2 \dots j \dots j \dots i_{r-2}} \ ,
     \end{equation}
@@ -266,7 +266,7 @@ Dicho rápido y sencillo, hemos visto que los tensores de rango 1 y rango 2 se c
     \begin{equation}\label{eq:ley-cociente}
         A_{pq \dots k \dots m} B_{ij \dots k \dots n} = C_{pq \dots m ij \dots n} \ ,
     \end{equation}
-    donde sabemos que $B$ y $C$ son tensores de rango $r$ y $s$, respectivamente, pero desconocemos si $A$ es un tensor. La ley del cociente establece que \emph{si la relación \eqref{eq:ley-cociente} es válida en cualquier sistema de coordenadas, entonces} $A$ es un tensor de orden $s-r+2$. La demostración (para el caso $r=s=2$) puede ser hallada en el capítulo 26, sección 7 de Riley \cite{Riley}.
+    donde sabemos que $B$ y $C$ son tensores de rango $r$ y $s$, respectivamente, pero desconocemos si $A$ es un tensor. La ley del cociente establece que \emph{si la relación \eqref{eq:ley-cociente} es válida en cualquier sistema de coordenadas, entonces} $A$ es un tensor de rango $s-r+2$. La demostración (para el caso $r=s=2$) puede ser hallada en el capítulo 26, sección 7 de Riley \cite{Riley}.
     
     \item \textbf{Simetría.} Cuando un tensor no cambia bajo la permutación de dos de sus índices, 
     \begin{equation}
@@ -644,9 +644,9 @@ de modo que
     & = a_{i_1 j_1} \dots a_{i_r j_r}  a_{jk} \frac{\partial T_{j_1 \dots j_r}(x')}{\partial x_k} \\
     & = a_{i_1 j_1} \dots a_{i_r j_r}  a_{jk} (\partial_k T_{j_1 \dots j_r}) \ ,
 \end{align}
-comprobando así que transforma como un tensor de orden $r+1$. Esta idea es muchas veces entendida como el \emph{gradiente del tensor} $T$, $\nabla T$.
+comprobando así que transforma como un tensor de rango $r+1$. Esta idea es muchas veces entendida como el \emph{gradiente del tensor} $T$, $\nabla T$.
 
-También podemos calcular la derivada de un tensor de rango $r$ respecto de un parámetro $t$ \emph{independiente de las coordenadas}. En este caso, el resultado es también un tensor de orden $r$,
+También podemos calcular la derivada de un tensor de rango $r$ respecto de un parámetro $t$ \emph{independiente de las coordenadas}. En este caso, el resultado es también un tensor de rango $r$,
 \begin{equation}
     \frac{d T'_{i_1 \dots i_r}}{dt} = a_{i_1 j_1} \dots a_{i_r j_r} \frac{dA_{j_1 \dots j_r}}{dt} \ . 
 \end{equation}
