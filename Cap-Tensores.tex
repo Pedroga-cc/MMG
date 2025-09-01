@@ -473,7 +473,7 @@ También podría darse el caso de que nuestro proceso de diagonalización nos en
 
 \section{Pseudovectores y pseudotensores}
 
-Hasta ahora, de manera implícita, hemos utilizado transformaciones ortogonales \emph{propias}, es decir, que solo rotan el sistema, pero no modeifican la orientación de los tensores. Sin embargo, al considerar transformaciones \emph{impropias}, que no solo rotan el sistema sino que realizan una inversión de coordenadas o \emph{reflexión} ($x_i \to -x_i$). Cuando también incluimos este tipo de transformaciones, los vectores siguen cumpliendo la regla de transformación \eqref{eq:transformacion-vector}. Sin embargo, existen ciertas cantidades físicas que comúnmente supondríamos como vectores, que \textbf{no transforman de igual manera} bajo una reflexión, como es el caso de aquellas relacionadas a cantidades \emph{angulares}, como la velociadad angular, el torque o el momento angular.
+Hasta ahora, de manera implícita, hemos utilizado transformaciones ortogonales \emph{propias}, es decir, que solo rotan el sistema, pero no modifican la orientación de los tensores. Sin embargo, al considerar transformaciones \emph{impropias}, que no solo rotan el sistema sino que realizan una inversión de coordenadas o \emph{reflexión} ($x_i \to -x_i$). Cuando también incluimos este tipo de transformaciones, los vectores siguen cumpliendo la regla de transformación \eqref{eq:transformacion-vector}. En cambio, existen ciertas cantidades físicas que comúnmente supondríamos como vectores, que \textbf{no transforman de igual manera} bajo una reflexión, por ejemplo, aquellas relacionadas a cantidades \emph{angulares}, como la velociadad angular, el torque o el momento angular.
 
 \begin{defi} \marginnote{Pseudovector}
     Las cantidades que transforman según la regla
@@ -488,7 +488,7 @@ De forma análoga, es posible extender esta noción a tensores y \emph{pseudoten
 \begin{defi} \marginnote{Pseudotensor}
     Los elementos que transforman según la regla
     \begin{equation}
-        T'_{i_1 i_2 \dots i_r} = \det(A) a_{i_1 j_1} a_{i_2 j_2} \dots a_{i_n j_n} T_{j_1 j_2 \dots j_r} 
+        T'_{i_1 i_2 \dots i_r} = \det(A) \, a_{i_1 j_1} a_{i_2 j_2} \dots a_{i_n j_n} T_{j_1 j_2 \dots j_r} 
     \end{equation}
     se denominan \textbf{pseudotensores}.
 \end{defi}
@@ -614,7 +614,7 @@ En Física, el uso de tensores y sus duales nos permite tener cantidades diferen
 
 \section{Análisis tensorial}
 
-En el curso de Física Matemática I, ya estudiaron la noción de \emph{análisis vectorial}, que correspondía al uso del operador nabla en diferentes sistemas coordenados. En este, hicieron uso de las nociones de \emph{campo escalar} y \emph{campo vectorial}. Estas nociones pueden también extenderse a elementos de mayor rango mediante los campos tensoriales.
+En el capítulo anterior, estudiamos la noción de \emph{análisis vectorial}, que correspondía al uso del operador nabla en diferentes sistemas coordenados. En este, hicimos uso de las nociones de \emph{campo escalar} y \emph{campo vectorial}. Estas nociones pueden también extenderse a elementos de mayor rango mediante los campos tensoriales.
 \begin{defi} \marginnote{Campo tensorial}
     Se define un \textbf{campo tensorial} como la función que asocia a cada punto del espacio con un tensor $T_{i_1 i_2 \dots i_r}$, es decir,
     \begin{equation}
@@ -644,7 +644,7 @@ de modo que
     & = a_{i_1 j_1} \dots a_{i_r j_r}  a_{jk} \frac{\partial T_{j_1 \dots j_r}(x')}{\partial x_k} \\
     & = a_{i_1 j_1} \dots a_{i_r j_r}  a_{jk} (\partial_k T_{j_1 \dots j_r}) \ ,
 \end{align}
-comprobando así que transforma como un tensor de rango $r+1$. Esta idea es muchas veces entendida como el \emph{gradiente del tensor} $T$, $\nabla T$.
+comprobando así que transforma como un tensor de rango $r+1$. Esta idea es muchas veces entendida como el \emph{gradiente del tensor} $T$, $\nabla T$. Además, hemos usado que $\dfrac{\partial x_k}{\partial x_j'} = a_{jk}$, lo que revisaremos brevemente en la siguiente sección.
 
 También podemos calcular la derivada de un tensor de rango $r$ respecto de un parámetro $t$ \emph{independiente de las coordenadas}. En este caso, el resultado es también un tensor de rango $r$,
 \begin{equation}
@@ -663,7 +663,7 @@ Por último, mencionaremos que también se encuentra definida la \emph{divergenc
 \begin{equation*}
     (\nabla \cdot T)_{i_1 i_2 \cdot i_{r-1}} = \partial_k T_{k i_1 i_2 i_{r-1}} \ .
 \end{equation*}
-Típicamente, se habla de \emph{divergencia} cuando la derivación ocurre sobre el primer índice del tensor.
+Típicamente, se habla de \emph{divergencia} cuando la derivación ocurre sobre el primer índice del tensor, pero es válido definirla para cualquier otro índice, teniendo el cuidado de ser explícitos sobre cuál índice realizaremos la contracción.
 
 
 \subsection{Integración}
