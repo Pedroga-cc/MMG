@@ -13,3 +13,5 @@ v1.5 (24/08/25) Corregido un typo en la definición del teorema de la divergenci
 v1.6 (26/08/25) Corregidas instancias donde digo "orden" en lugar de "rango" en sección 2.3.
 
 v1.7 (01/09/25) Mejoras de redacción en la sección 2.5 (Pseudotensores) y 2.6 (Análisis Tensorial)
+
+v1.8 (07/09/25) Mejoras estéticas y typos menores en el capítulo 3 (Series Numéricas y Funcionales)

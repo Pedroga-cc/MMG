@@ -4,7 +4,7 @@ El concepto de \textbf{serie} hace referencia a sumas de \emph{infinitos términ
 
 \section{Series numéricas}
 
-\begin{defi}
+\begin{defi} \marginnote{Suma parcial y Serie}
     Sea $\{ a_n \}_{n=1}^\infty$ una sucesión de números reales. Se define la sucesión de \textbf{sumas parciales} $\{s_n\}_{n=1}^\infty$ por 
     \begin{align*}
         s_1 & = a_1 \\
@@ -17,7 +17,7 @@ El concepto de \textbf{serie} hace referencia a sumas de \emph{infinitos términ
     Cuando la suma $s_n$ es realizada sobre infinitos términos, nos referimos a la \textbf{serie} $\sum\limits_{n=1}^\infty a_n$, con \textbf{término general} $a_n$.
 \end{defi}
 
-\begin{defi}
+\begin{defi} \marginnote{Serie convergente}
     Decimos que una serie es \textbf{convergente} al valor $S$ cuando
     \begin{equation}
         \lim_{n \to \infty} s_n = S \ ,
@@ -53,7 +53,7 @@ El concepto de \textbf{serie} hace referencia a sumas de \emph{infinitos términ
 
     La $n-$ésima suma parcial de una serie aritmética, $s_n$, puede obtenerse como 
     \begin{equation}
-        s_n = \sum_{k=1}^\infty a_1 r^{k-1} = a_1 \frac{1-r^n}{1-r} \ .
+        s_n = \sum_{k=1}^n a_1 r^{k-1} = a_1 \frac{1-r^n}{1-r} \ .
     \end{equation}
 
     Observamos que, si tomamos el límite cuando $n \to \infty$, se presentan dos casos:
@@ -85,10 +85,10 @@ El concepto de \textbf{serie} hace referencia a sumas de \emph{infinitos términ
 
 \subsection{Convergencia absoluta y condicional}
 
-\begin{defi}
+\begin{defi} \marginnote{Convergencia absoluta}
     Una serie $\sum\limits_n a_n$ se denomina \textbf{absolutamente convergente} si la serie
     \begin{equation}
-        \sum_n |a_n| 
+        S = \sum_n |a_n| 
     \end{equation}
     es convergente.
 \end{defi}
@@ -100,20 +100,35 @@ El concepto de \textbf{serie} hace referencia a sumas de \emph{infinitos términ
     \end{equation}
 \end{teorema}
 
-\begin{defi}
+\begin{defi} \marginnote{Convergencia condicional}
     Una serie $\sum\limits_n a_n$ se denomina \textbf{condicionalmente convergente} si la serie $\sum\limits_n |a_n|$ es divergente, pero $\sum\limits_n a_n$ es convergente.
 \end{defi}
 
 A diferencia de lo que ocurre al considerar sumas finitas, un reordenamiento de términos en una serie condicionalmente convergente puede inducir a que ella converja a diferentes valores reales.
 
-\begin{teorema}
+\begin{teorema}{\textbf{(de Riemmann para series).}}
     Toda serie condicionalmente convergente se puede hacer converger a cualquier número real $s$ tras una reordenación adecuada.
 \end{teorema}
+
+\begin{ejemplo}
+    Consideremos la serie armónica oscilante
+    \begin{equation*}
+        S = \sum_{n=1}^\infty (-1)^{n+1} \frac{1}{n} = 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \frac{1}{5} - \frac{1}{6} + \dots \ ,
+    \end{equation*}
+    Puede mostrarse que esta suma, siguiendo este orden, es igual a $\ln(2)$. Pero también podemos reorganizarlas dfe la siguiente forma:
+    \begin{align*}
+        S & = \left(1 - \frac{1}{2} \right) - \frac{1}{4} + \left(\frac{1}{3} - \frac{1}{6} \right) - \frac{1}{8} + \left(\frac{1}{5} - \frac{1}{10} \right) - \frac{1}{12} + \dots \\
+        & = \frac{1}{2} - \frac{1}{4} + \frac{1}{6} - \frac{1}{8} + \frac{1}{10} - \frac{1}{12} + \dots \\
+        & = \frac{1}{2} \left( 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \frac{1}{5} - \frac{1}{6} + \dots \right) \\
+        & = \frac{1}{2} \ln(2) \ ,
+    \end{align*}
+    de donde podemos ver que la serie puede converger tanto a $S = \ln(2)$ como a $S = \ln(2)/2$, cambio que se produce al solo reordenar los términos de la serie.
+\end{ejemplo}
 
 Esta propiedad desaparece si la serie es absolutamente convergente, pues su suma siempre será la misma.
 
 \begin{teorema}
-    Sea $\sum\limits_n a_n$ una serie absolutamente convergente, con suma $S$. Entonces, todo reordenamiento de la suma $\sum\limits_n a_n$ es también absolutamente convergente, con suma $S$.
+    Sea $\sum\limits_n a_n$ una serie absolutamente convergente, con suma $S$. Entonces, todo reordenamiento de la suma $\sum\limits_n a_n$ es también absolutamente convergente, con la misma suma $S$.
 \end{teorema}
 
 \subsection{Criterios de convergencia comunes}
@@ -208,10 +223,10 @@ Un resultado interesante de este criterio, es que permite evaluar fácilmente el
     
     Utilizando el criterio de la integral, podemos evaluar el valor de $\alpha$ para el cual la serie converge. En efecto, si integramos el argumento de la serie, tenemos que 
     \begin{equation*}
-        \int_1^n \frac{1}{x^\alpha} \, dx = \left\{ \begin{dcases}
+        \int_1^n \frac{1}{x^\alpha} \, dx = \begin{dcases}
             \dfrac{n^{1-\alpha}-1}{1-\alpha} \ , \quad \text{si } \alpha \neq 1 \ , \\
             \ln n \ , \quad \text{si } \alpha = 1 \ .
-        \end{dcases} \right.
+        \end{dcases}
     \end{equation*}
 
     Podemos observar que, al tomar el límite cuando $n\to\infty$, el resultado de la integral converge solo si $\alpha > 1$, de modo que las series armónicas solo convergen para $\alpha > 1$.
@@ -273,7 +288,7 @@ Sea $S$ el conjunto de todos los puntos $x_0$ para los que dicha sucesión conve
     f(x) = \lim_{n \to \infty} f_n(x) \ .
 \end{equation}
 
-\begin{defi}
+\begin{defi} \marginnote{Convergencia puntual}
     Puesto que el límite \eqref{eq:funcion-limite} ha sido obtenido punto a punto y se ha almacenado en la función $f$, diremos que la sucesión $\{ f_n(x) \}_{n=1}^\infty$ \textbf{converge puntualmente} a $f(x)$.
 \end{defi}
 
@@ -282,14 +297,12 @@ Una consideración importante es que esta función \emph{no necesariamente hered
 \begin{ejemplo}{\textbf{Pérdida de continuidad.}}
     Consideremos las funciones $f_n(x) = x^n$, con $x \in [0,1]$. Si tomamos el límite cuando $n \to \infty$, podemos observar que
     \begin{equation*}
-        f(x) = \lim_{n \to \infty} f_n(x) = \left\{
+        f(x) = \lim_{n \to \infty} f_n(x) =
             \begin{dcases}
                 0 \ , \quad \text{si } 0 \leq x < 1 \ , \\
                 1 \ , \quad \text{si } x=1 \ .
             \end{dcases}
-         \right.
     \end{equation*}
-
     De esta forma, observamos que pese a que las funciones $f_n(x)$ son continuas en $[0,1]$, su función límite es discontinua en $x=1$, pues su límite por la izquierda no corresponde con su valor en dicho punto:
     \begin{equation*}
         \lim_{x\to 1^-} f(x) = 0 \neq f(1) = 1 \ .
@@ -317,7 +330,7 @@ Una consideración importante es que esta función \emph{no necesariamente hered
     \end{equation*}
 \end{ejemplo}
 
-\begin{defi}
+\begin{defi} \marginnote{Convergencia uniforme}
     Sea $\{ f_n(x) \}_{n=1}^\infty$ una sucesión que converge puntualmente hacia $f(x)$ en $S$. Diremos que ella \textbf{converge uniformemente} a $f$ en el conjunto $S$ si 
     \begin{equation}
         \lim_{n \to \infty} \sup_{x \in S} |f_n(x) - f(x)| = 0 \ ,
@@ -414,17 +427,17 @@ Una forma conveniente de determinar la convergencia uniforme de una serie funcio
 
 \subsection{Series de potencias}
 
-\begin{defi}
+\begin{defi} \marginnote{Serie de potencias}
     Se denomina \textbf{serie de potencias} a toda serie funcional de la forma 
     \begin{equation}
         \sum_{n=1}^\infty a_n (x-x_0)^n \ .
     \end{equation}
 \end{defi}
 
-\begin{defi}
+\begin{defi} \marginnote{Radio de convergencia}
     Se denomina \textbf{radio de convergencia} de una serie de potencias a la cantidad 
     \begin{equation}
-        R = \lim_{n \to \infty} \left| \frac{a_n}{a_{n+1}} \right| = \sqrt[n]{\frac{1}{|a_n|}} \ ,
+        R = \lim_{n \to \infty} \left| \frac{a_n}{a_{n+1}} \right| = \frac{1}{\sqrt[n]{|a_n|}} \ ,
     \end{equation}
     que determina el intervalo donde la serie converge puntualmente. Consideramos tres casos:
     \begin{itemize}
