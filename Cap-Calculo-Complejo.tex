@@ -49,9 +49,9 @@ Denotaremos a los ``vectores unitarios'' de cada uno de estos ejes como $1 = (1,
     \end{enumerate}
 \end{teorema}
 
-\begin{demo}
-    Sean tres números complejos $z_1 = (x_1, y_1)$, $z_2 = (x_2, y_2)$ y $z_3 = (x_3, y_3)$ cualesquiera.
-\end{demo}
+% \begin{demo}
+%     Sean tres números complejos $z_1 = (x_1, y_1)$, $z_2 = (x_2, y_2)$ y $z_3 = (x_3, y_3)$ cualesquiera.
+% \end{demo}
 
 Gracias a su representación gráfica, podemos ver que podemos definir un número complejo en términos de unas \emph{coordenadas polares}. Para ello, primero debemos definir la operación de \textbf{conjugación}.
 
@@ -71,32 +71,133 @@ Gracias a su representación gráfica, podemos ver que podemos definir un númer
     \begin{equation}
         r \equiv |z| = \sqrt{z \cdot z^\ast} = \sqrt{x^2 + y^2} \ ,
     \end{equation}
-    y $\theta \in (-\infty, \infty)$ corresponde al \textbf{argumento} de un número complejo,
+    y $\theta \in (-\infty, \infty)$ corresponde al \textbf{argumento} de un número complejo, cantidad periódica de periodo $2\pi$,
     \begin{equation}
-        \theta \equiv \arg{(z)} = \arctan\left( \frac{y}{x} \right) \ . 
+        \theta \equiv \arg{(z)} = \arctan\left( \frac{y}{x} \right) + 2k\pi \ , \quad k \in \mathbb{Z} \ . 
+    \end{equation}
+    % El argumento de un número complejo es una cantidad periódica de periodo $2\pi$, de modo que 
+
+    Llamaremos \textbf{argumento principal} de $z$, $\operatorname{Arg}{(z)}$, a aquel que se encuentra en el intervalo $[-\pi, \pi]$.
+\end{defi}
+
+Al trabajar con la forma polar de un número complejo, podemos encontrar potencias de este mediante la fórmula de de Moivre,
+\begin{teorema}{\textbf{(Fórmula de De Moivre).}}
+    Dado un número complejo $z = re^{i\theta}$, podemos hallar su $n-$ésima potencia como 
+    \begin{equation}
+        z^n = \left( re^{i\theta} \right)^n = r^n e^{in \theta} = r^n (\cos{n\theta} + i \sin{n\theta}) \ .
+    \end{equation}
+\end{teorema}
+
+Una utilidad de la fórmula de De Moivre es poder escribir funciones trigonométricas de la forma $\cos{n\theta}$ y $\sin{n\theta}$ en términos de $\sin{\theta}$ y $\cos{\theta}$.
+
+\begin{ejemplo}
+    Exprese las funciones $\sin{3\theta}$ y $\cos{3\theta}$ en términos de potencias de $\sin{\theta}$ y $\cos{\theta}$.
+
+    \noindent \textbf{Solución.}
+
+    Usando el teorema de De Moivre, tenemos que 
+    \begin{align*}
+        \cos{3\theta} + i \sin{3\theta} & = (\cos{\theta} + i \sin{\theta})^3 \\
+        & = (\cos^3{\theta} - 3\cos{\theta}\sin^2{\theta}) + i (3\sin{\theta} \cos^2{\theta} - \sin^3{\theta}) \\
+        & = (4\cos^3{\theta} - 3\cos{\theta}) + i(3\sin{\theta} - 4\sin^3{\theta}) \ ,
+    \end{align*}
+    de modo que, igualando las partes reales e imaginarias por separado, se cumple que 
+    \begin{align*}
+        \cos{3\theta} & = 4\cos^3{\theta} - 3\cos{\theta} \ , \\
+        \sin{3\theta} & = 3\sin{\theta} - 4\sin^3{\theta} \ .
+    \end{align*}
+\end{ejemplo}
+
+También podemos trabajar con polinomios de números complejos, los que a diferencia de los polinomios reales, siempre poseerán $n$ raíces, si es que ellos son de orden $n$.
+
+\begin{teorema}{\textbf{(Fundamental del Álgebra).}}
+    Cualquier polinomio 
+    \begin{equation}
+        P(z) = a_0 +  a_1 z + a_2 z^2 + \dots + a_n z^n \ , \quad a_n \neq 0 , \quad n \geq 1 \ ,
+    \end{equation}
+    posee $n$ raíces complejas, es decir, existen $n$ valores $z_0 \in \mathbb{C}$ tales que $P(z_0) = 0$.
+\end{teorema}
+
+Gracias a este teorema, junto a la fórmula de De Moivre, podemos también encontrar las raíces de la unidad.
+
+\begin{defi}
+    La ecuación $z^n = 1$ posee $n$ raíces complejas distintas, las que corresponden a las \textbf{raíces de la unidad de orden n}, y pueden ser halladas como 
+    \begin{equation}
+        \omega_k = \exp\left( i\frac{2k\pi}{n} \right) \ , \quad k = 0, 1, 2, \dots, n-1 \ .
     \end{equation}
 \end{defi}
 
+\begin{obs}{Observación}
+    Las raíces de la unidad poseen módulo 1, y al dibujarlas en el plano complejo, corresponden a los vértices de un polígono regular de $n$ lados, inscrito en la circunferencia unitaria.
+
+    \vspace{0.5cm}
+
+    \begin{minipage}{\linewidth}
+        \centering
+        \includegraphics[width = \textwidth]{Figuras/Raices_unidad.pdf}
+    \end{minipage}
+\end{obs}
+
 \subsection{Nociones de topología en $\mathbb{C}$}
+
+\begin{defi} \marginnote{Vecindad}
+    Dado un número complejo $z_0$, se define una \textbf{vecindad} de centro $z_0$ y radio $\varepsilon$ a la región delimitada por
+    \begin{equation}
+        |z-z_0| \leq \varepsilon \ .
+    \end{equation}
+\end{defi}
+
+\begin{defi}\marginnote{Puntos interiores, exteriores y de frontera}
+    Dada una región $S \subset \mathbb{C}$, y dado un punto $z_0 \in \mathbb{C}$, diremos que 
+    \begin{itemize}
+        \item $z_0$ es un \textbf{punto interior} de $S$ si su vecindad se encuentra contenida en $S$.
+        \item $z_0$ es un \textbf{punto exterior} de $S$ si existe una vecindad de $z_0$ que \emph{no} pertenezca a $S$.
+        \item $z_0$ es un \textbf{punto de frontera} de $S$ si su vecindad posee puntos dentro y fuera de $S$.
+    \end{itemize} 
+\end{defi}
+
+\begin{defi}\marginnote{Dominios abiertos, cerrados y conexos}
+    Dada una región $S \subset \mathbb{C}$, diremos que ella
+    \begin{itemize}
+        \item es un \textbf{dominio  abierto} si todos sus puntos son puntos interiores de $S$, o bien, si no contiene a ninguno de sus puntos de frontera. Por ejemplo, $|z| < a$.
+        \item es un \textbf{dominio cerrado} si contiene tanto a sus puntos interiores como a todos sus puntos de frontera. Por ejemplo, $|z| \leq a$.
+        \item es un \textbf{dominio conexo} si dos puntos $z_1, z_2 \in S$ pueden unirse mediante un camino poligonal.
+    \end{itemize}
+\end{defi}
+
+Cabe mencionar que pueden existir conjuntos que no son ni abiertos ni cerrados, por ejemplo, el anillo $1 < |z| \leq 2$.
+
+
 
 
 \section{Funciones de variable compleja}
 
 \begin{defi}
-    Sea $S$ un subconjunto de $\mathbb{C}$. Diremos que una función $f$ es \textbf{de variable compleja} si su codominio corresponde a $\mathbb{C}$, es decir, si $f: S \to \mathbb{C}$.
+    Dado un dominio $S \subseteq \mathbb{R}$, diremos que una función $f$ es \textbf{compleja} si su codominio corresponde a $\mathbb{C}$, es decir, si $f: S \to \mathbb{C}$.
 \end{defi}
 
-En general, y a menos que se establezca lo contrario, consideraremos que el dominio de una función es el conjunto $S \subset \mathbb{C}$ más grande posible para el cual $f$ está bien definida. 
+\begin{defi}
+    Dado un dominio $S \subseteq \mathbb{C}$, diremos que una función $f$ es \textbf{de variable compleja}, pues su dominio es un subconjunto de $\mathbb{C}$.
+\end{defi}
+
+En general, y a menos que se establezca lo contrario, consideraremos que el \textbf{dominio conexo} de una función es el conjunto $S \subseteq \mathbb{C}$ más grande posible para el cual $f$ está bien definida. 
 
 \begin{ejemplo}
-    Considere la función compleja $f(z) = 1/z$. Determine su dominio en $\mathbb{C}$, es decir, el subconjunto más grande de $\mathbb{C}$ para el cual $f$ esté definida.
+    Considere la función compleja $f(z) = 1/z$. Determine su \textbf{dominio conexo} en $\mathbb{C}$, es decir, el subconjunto más grande de $\mathbb{C}$ para el cual $f$ esté definida.
 
     \noindent \textbf{Solución.}
 
-    \noindent Podemos observar que el único punto en el que $z$ no se encuentra definido es para $z = 0$, de modo que el dominio de la función será el conjunto $\operatorname{Dom}(f) = \mathbb{C} - \{ 0 \} $.
+    \noindent Podemos observar que el único punto en el que $z$ no se encuentra definido es para $z = 0$, de modo que el \textbf{dominio conexo} de la función será el conjunto $\operatorname{Dom}(f) = \mathbb{C} - \{ 0 \} $.
 \end{ejemplo}
 
-La gráfica de una función compleja corresponderá a una región en $\mathbb{R}^4$, de modo que no podemos graficarlas de forma directa. Una alternativa a esto, es hacer uso de dos planos complejos, donde en el primero identificamos (un subconjunto de) el dominio de $f$, mientras que en el segundo identificamos (un subconjunto de) la imagen de $f$, como se observa en la figura X.
+La gráfica de una función compleja corresponderá a una región en $\mathbb{R}^4$, de modo que no podemos graficarlas de forma directa. Una alternativa a esto, es hacer uso de dos planos complejos, donde en el primero identificamos (un subconjunto de) el \textbf{dominio conexo} de $f$, mientras que en el segundo identificamos (un subconjunto de) la imagen de $f$, como se observa en la figura \ref{fig:grafica-funcion-compleja}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=8cm]{Figuras/grafica-funcion.pdf}
+    \caption{Representación gráfica de una función compleja. Típicamente, se dibujan dos regiones en dos planos complejos, uno de ellos correspondiente al dominio de la función (en morado), y el otro al recorrido de esta (en naranjo).}
+    \label{fig:grafica-funcion-compleja}
+\end{figure}
 
 Al evaluar una función compleja, obtendremos un número complejo, con parte real e imaginaria. Por este motivo, podemos considerar que dado un número complejo $z = x+iy$, podemos escribir una función compleja $f(z)$ como
 \begin{equation*}
@@ -140,13 +241,15 @@ Como consecuencia, podemos extender los conocimientos de límites y continuidad 
 
 \begin{corolario}
     Si $f$ y $g$ son continuas en $z_0 \in \mathbb{C}$ y si $\alpha \in \mathbb{C}$, entonces son funciones continuas en $z_0$:
-    \begin{itemize}
-        \item $f(z) + g(z)$.
-        \item $\alpha f(z)$.
-        \item $f(z) \cdot g(z)$.
-        \item $f(z) / g(z)$.
-        \item $|f(z)|$.
-    \end{itemize} 
+    \begin{multicols}{2}
+        \begin{itemize}
+            \item $f(z) + g(z)$.
+            \item $\alpha f(z)$.
+            \item $f(z) \cdot g(z)$.
+            \item $f(z) / g(z)$.
+            \item $|f(z)|$.
+        \end{itemize} 
+    \end{multicols}
 \end{corolario}
 
 \begin{ejemplo}
@@ -182,29 +285,40 @@ Como consecuencia, podemos extender los conocimientos de límites y continuidad 
 \end{ejemplo}
 
 En general, podemos extender las reglas de derivación conocidas para las funciones reales, como 
-\begin{itemize}
-    \item $\displaystyle \frac{d}{dz}[z^n] = n z^{n-1}$.
-    \item $\displaystyle \frac{d}{dz}[c f(z)] = c f'(z)$.
-\end{itemize}
+\begin{equation*}
+    \frac{d}{dz}[z^n] = n z^{n-1} \ , \quad\quad  \frac{d}{dz}[c f(z)] = c f'(z) \ ,
+\end{equation*}
+% \begin{itemize}
+%     \item $\displaystyle $.
+%     \item $\displaystyle $.
+% \end{itemize}
 al igual que el álgebra de derivadas,
-\begin{itemize}
-    \item $\displaystyle \frac{d}{dz}[f(z) + g(z)] = f'(z) + g'(z)$,
-    \item $\displaystyle \frac{d}{dz}[f(z) g(z)] = f'(z) g(z) + f(z) g'(z)$,
-    \item $\displaystyle \frac{d}{dz} \left[ \frac{f(z)}{g(z)} \right] = \frac{f'(z)g(z) - f(z)g'(z)}{[g(z)]^2}$,
-\end{itemize}
+\begin{gather*}
+    \frac{d}{dz}[f(z) + g(z)] = f'(z) + g'(z) \ , \\
+    \frac{d}{dz}[f(z) g(z)] = f'(z) g(z) + f(z) g'(z) \ , \\
+    \frac{d}{dz} \left[ \frac{f(z)}{g(z)} \right] = \frac{f'(z)g(z) - f(z)g'(z)}{[g(z)]^2} \ ,
+\end{gather*}
+% \begin{itemize}
+%     \item $\displaystyle $,
+%     \item $\displaystyle $,
+%     \item $\displaystyle $,
+% \end{itemize}
 y la regla de la cadena,
-\begin{itemize}
-    \item $\displaystyle \frac{d}{dz}[f(g(z))] = f'(g(z)) g'(z)$.
-\end{itemize}
+\begin{equation*}
+    \frac{d}{dz}[f(g(z))] = f'(g(z)) g'(z) \ .
+\end{equation*}
+% \begin{itemize}
+%     \item $\displaystyle 
+% \end{itemize}
 
 \begin{teorema}
     Si la derivada de una función existe en un punto $z_0$, entonces la función es continua en ese punto.
 \end{teorema}
 
 \begin{demo}
-    \textbf{Demostración.} En efecto, notamos que
+    En efecto, notamos que
     \begin{equation*}
-        \lim_{z \to z_0}[f(z) - f(z_0)] = \underbrace{\lim_{z \to z_0} \frac{f(z) - f(z_0)}{z-z_0}}_{= f'(z_0), \text{ por definición de derivada}} \lim_{z \to z_0} (z-z_0) = 0 \ ,
+        \lim_{z \to z_0}[f(z) - f(z_0)] = \underbrace{\lim_{z \to z_0} \frac{f(z) - f(z_0)}{z-z_0}}_{\text{definición de derivada}} \lim_{z \to z_0} (z-z_0) = f'(z_0) \lim_{z \to z_0} (z-z_0) = 0 \ ,
     \end{equation*}
     de donde se deduce entonces que
     \begin{equation*}
@@ -226,7 +340,7 @@ Suponiendo que $f$ es derivable en $z_0 = x_0 + iy_0$, es decir, que
 \end{align*}
 existe, donde $\Delta z = \Delta x + i \Delta y$.
 
-Por los teoremas conocidos sobre límites, tenemos que
+Por el álgebra de límites, tenemos que
 \begin{align*}
     \operatorname{Re}[f'(z_0)] & = \lim_{\Delta z \to 0} \operatorname{Re} \left[ \frac{f(z_0 + \Delta z) - f(z_0)}{\Delta z} \right] \ , \\
     \operatorname{Im}[f'(z_0)] & = \lim_{\Delta z \to 0} \operatorname{Im} \left[ \frac{f(z_0 + \Delta z) - f(z_0)}{\Delta z} \right] \ .
@@ -253,12 +367,17 @@ de modo que la derivada de la función sería
 \end{equation}
 
 Para que la derivada esté definida, ambas funciones deben coincidir. De esta forma, igualando las ecuaciones \eqref{eq:derivada_eje_real} y \eqref{eq:derivada_eje_imaginario}, obtenemos las llamadas \textbf{ecuaciones de Cauchy-Riemann},
-\begin{equation} \label{eq:cauchy-riemann}
-    \begin{array}{ccc}
-        \dfrac{\partial u}{\partial x}(x_0, y_0) & = & \dfrac{\partial v}{\partial y}(x_0, y_0) \ , \\
-        \dfrac{\partial u}{\partial y}(x_0, y_0) & = & - \dfrac{\partial v}{\partial x}(x_0, y_0) \ ,
-    \end{array}
+\begingroup
+\renewcommand*{\arraystretch}{2}
+\begin{equation} \label{eq:cauchy-riemann} \marginnote{Ecuaciones de Cauchy-Riemann}
+    \boxed{
+        \begin{array}{ccc}
+            \dfrac{\partial u}{\partial x}(x_0, y_0) & = & \dfrac{\partial v}{\partial y}(x_0, y_0) \ , \\
+            \dfrac{\partial u}{\partial y}(x_0, y_0) & = & - \dfrac{\partial v}{\partial x}(x_0, y_0) \ ,
+        \end{array}
+    }
 \end{equation}
+\endgroup
 las que son \emph{condiciones necesarias para asegurar la derivabilidad de una función} $f$, al igual que es necesario que las derivadas parciales de $u$ y $v$ sean continuas en el punto $z_0$.
 
 Podemos formalizar lo mencionado anteriormente en el siguiente teorema:
@@ -267,7 +386,30 @@ Podemos formalizar lo mencionado anteriormente en el siguiente teorema:
 \end{teorema}
 
 \begin{ejemplo}
-    $z^2$ y $|z|^2$.
+    Verifique si las funciones $f(z) = z^2$ y $g(z) = |z|^2$ son derivables.
+
+    \noindent \textbf{Solución.}
+
+    Notemos que $f(z) = z^2 = (x^2-y^2) + i(2xy)$. Calculando las derivadas parciales de $u$ y $v$, tenemos que
+    \begin{align*}
+        \frac{\partial u}{\partial x} & = \frac{\partial}{\partial x}(x^2-y^2) = 2x \ , \\
+        \frac{\partial u}{\partial y} & = \frac{\partial}{\partial y}(x^2-y^2) = -2y \ , \\
+        \frac{\partial v}{\partial x} & = \frac{\partial}{\partial x}(2xy) = 2y = - \frac{\partial u}{\partial y} \ , \\
+        \frac{\partial v}{\partial y} & = \frac{\partial}{\partial y}(2xy) = 2x = \frac{\partial u}{\partial x} \ ,
+    \end{align*}
+    de modo que $f(z) = z^2$ satisfacce las ecuaciones de Cauchy-Riemann, y su derivada existe, donde 
+    \begin{equation*}
+        f'(z) = \frac{\partial u}{\partial x} + i \frac{\partial u}{\partial x} = 2(x + iy) = 2z \ .
+    \end{equation*}
+
+    Por otra parte, tenemos que $g(z) = |z|^2 = x^2 + y^2$, y sus derivadas parciales son
+    \begin{align*}
+        \frac{\partial u}{\partial x} & = \frac{\partial}{\partial x}(x^2+y^2) = 2x \ , \\
+        \frac{\partial u}{\partial y} & = \frac{\partial}{\partial y}(x^2+y^2) = 2y \ , \\
+        \frac{\partial v}{\partial x} & = 0 \ , \\
+        \frac{\partial v}{\partial y} & = 0 \ ,
+    \end{align*}
+    de modo que al satisfacerse las ecuaciones de Cauchy-Riemann solo en $z = 0$, la derivada de $g(z) = |z|^2$ solo existe en $z = 0$.
 \end{ejemplo}
 
 Las ecuaciones de Cauchy-Riemann también pueden ser escritas en su forma polar. Consideremos una función $f(z)$, tal que
@@ -276,12 +418,17 @@ Las ecuaciones de Cauchy-Riemann también pueden ser escritas en su forma polar.
 \end{equation*}
 
 A partir de las ecuaciones de Cauchy-Riemann, podemos derivar su forma polar, obteniendo entonces
-\begin{equation}
-    \begin{array}{ccc}
-        \frac{1}{r} \frac{\partial s}{\partial \theta} & = & - \frac{\partial t}{\partial r} \ , \\
-        \frac{\partial s}{\partial r} & = & \frac{1}{r} \frac{\partial t}{\partial \theta} \ , 
-    \end{array}
+\begingroup
+\renewcommand*{\arraystretch}{2}
+\begin{equation} \marginnote{Ecuaciones de Cauchy-Riemann en forma polar}
+    \boxed{
+        \begin{array}{ccc}
+            \frac{1}{r} \dfrac{\partial s}{\partial \theta} & = & - \dfrac{\partial t}{\partial r} \ , \\
+            \dfrac{\partial s}{\partial r} & = & \dfrac{1}{r} \dfrac{\partial t}{\partial \theta} \ , 
+        \end{array}
+    }
 \end{equation}
+\endgroup
 y en dicho caso, la derivada de $f$ vendrá dada por
 \begin{equation}
     f'(z) = e^{-i\theta} \left[ \frac{\partial s}{\partial r}(r, \theta) + i \frac{\partial t}{\partial r}(r, \theta) \right] = \frac{1}{r} e^{-i\theta} \left[ \frac{\partial t}{\partial \theta}(r, \theta) - i \frac{\partial s}{\partial \theta}(r, \theta) \right] \ .
@@ -292,7 +439,7 @@ y en dicho caso, la derivada de $f$ vendrá dada por
 \begin{defi}\marginnote{Función analítica}
     Una función $f$ se dice \textbf{analítica u holomorfa en} $z_0$ si es derivable en una vecindad alrededor del punto $z_0$. 
 
-    Se dice que esta función es \textbf{analítica} cuando es analítica en cada punto de su dominio, y se dice \textbf{entera} si es analítica en todo el plano complejo.
+    Se dice que esta función es \textbf{analítica} cuando es analítica en cada punto de su \textbf{dominio conexo}, y se dice \textbf{entera} si es analítica en todo el plano complejo.
 \end{defi}
 
 Por ejemplo, las funciones polinomiales y las funciones trigonométricas son funciones enteras, pues sus derivadas existen en todo el plano complejo.
@@ -311,7 +458,7 @@ Un ejemplo típico de punto singular es, para la función $f(z) = 1/z$, el punto
 \end{defi}
 
 \begin{teorema}
-    Si una función compleja $f(z) = u(x,y) + i v(x,y)$ es analítica en su dominio $D$, entonces sus funciones componentes $u$ y $v$ son armónicas en $D$.
+    Si una función compleja $f(z) = u(x,y) + i v(x,y)$ es analítica en su \textbf{dominio conexo} $D$, entonces sus funciones componentes $u$ y $v$ son armónicas en $D$.
 \end{teorema}
 
 \begin{defi}
@@ -321,56 +468,183 @@ Un ejemplo típico de punto singular es, para la función $f(z) = 1/z$, el punto
 En general, a partir de cualquier función real $u(x,y)$, podemos construir una función compleja $f(z)$ que sea analítica, haciendo uso de las ecuaciones de Cauchy-Riemann para definir la función $v$ armónica conjugada.
 
 \begin{ejemplo}
-    Consideremos la función $u(x,y) = y^2 - 3x^2y$. Verifique que ella es armónica, y construya una función compleja $f(z)$ a partir de ella.
+    Consideremos la función $u(x,y) = y^3 - 3x^2y$. Verifique que ella es armónica, y construya una función compleja $f(z)$ a partir de ella.
 
-    \noindent \textbf{Desarrollo.}
+    \noindent \textbf{Solución.}
 
-    \noindent a
+    \noindent Para que la función sea armónica, esta debe satisfacer la ecuación de Laplace, es decir,
+    \begin{equation*}
+        \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0 \ .
+    \end{equation*}
+
+    Comprobemos este resultado:
+    \begin{align*}
+        \frac{\partial^2 u}{\partial x^2} & = \frac{\partial^2}{\partial x^2}(y^3-3x^2y) = \frac{\partial}{\partial x}(-6xy) = -6y \ , \\
+        \frac{\partial^2 u}{\partial y^2} & = \frac{\partial^2}{\partial y^2}(y^3-3x^2y) = \frac{\partial}{\partial y}(3y^2 - 3x^2) = 6y \ , \\
+        \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = -6y + 6y = 0 \ ,
+    \end{align*}
+    de modo que $u(x,y)$ es una función armónica.
+
+    Podemos construir una función compleja a partir de una función armónica gracias a las ecuaciones de Cauchy-Riemann, obteniendo el sistema de ecuaciones 
+    \begin{align*}
+        \frac{\partial u}{\partial x} & = -6xy = \frac{\partial v}{\partial y} \ , \\
+        \frac{\partial u}{\partial y} & = 3y^2 - 3x^2 = - \frac{\partial v}{\partial x} \ .
+    \end{align*}
+
+    Integrando cada una de ellas, obtenemos que 
+    \begin{align*}
+        \int \frac{\partial v}{\partial y} \, dy & = \int -6xy \, dy = -3xy^2 + f(x) \ , \\
+        \int - \frac{\partial v}{\partial x} \, dx & = -\int (3y^2 - 3x^2) \, dx = x^3 - 3xy^2 + g(y) \ ,
+    \end{align*}
+    que igualando ambas expresiones, encontramos que $f(x) = x^3$ y $g(y) = 0$. Luego, una función armónica conjugada será 
+    \begin{equation*}
+        v(x,y) = x^3 - 3xy^2 \ ,
+    \end{equation*}
+    y la función compleja $f(z)$ será 
+     \begin{equation*}
+        f(z) = u(x,y) + iv(x,y) = y^3 - 3x^2y + i(x^3 - 3xy^2) = iz^3 \ .
+     \end{equation*}
 \end{ejemplo}
 
-\subsection{Funciones elementales}
+% \subsection{Funciones elementales}
 
-\subsubsection{Función exponencial}
+% \subsubsection{Función exponencial}
 
-\subsubsection{Funciones trigonométricas}
+% \subsubsection{Funciones trigonométricas}
 
-\subsubsection{Funciones hiperbólicas}
+% \subsubsection{Funciones hiperbólicas}
 
-\subsubsection{Función logaritmo}
+% \subsubsection{Función logaritmo}
 
-\subsubsection{Funciones polinomiales}
+% \subsubsection{Funciones polinomiales}
 
 
 \section{Integración Compleja}
 
-Al trabajar con funciones complejas, dado que nuestro dominio corresponde ahora a una región de un plano en lugar de una sección de una recta, nos interesa trabajar con \emph{integrales de línea}, las que no se integran ``desde $a$ hasta $b$'', sino que se realizan a lo largo de una curva que une dos puntos, es decir,
+Al trabajar con funciones complejas, dado que nuestro \textbf{dominio conexo} corresponde ahora a una región de un plano en lugar de una sección de una recta, nos interesa trabajar con \emph{integrales de línea}, las que no se integran ``desde $a$ hasta $b$'', sino que se realizan a lo largo de una curva que une dos puntos, es decir,
 \begin{equation*}
     I = \int_\mathcal{C} f(z) \, dz \ .
 \end{equation*}
-
 Para poder calcularlas, parametrizaremos la curva como $z = \phi(t)$, donde $t$ será nuestro nuevo parámetro, y la integral se convertirá en 
 \begin{equation*}
     I = \int\limits^{t_f}_{t_i} f(\phi(t)) \phi'(t) \, dt \ .
 \end{equation*}
 
+
 \begin{ejemplo}
     Evalúe la integral compleja de $f(z) = z^{-1}$ a lo largo de los siguientes camninos:
+
+    \begin{minipage}{\linewidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figuras/Caminos-integracion.pdf}
+    \end{minipage}
+
     \begin{enumerate}[label=\alph*)]
         \item La trayectoria $C_1$, correspondiente a la circunferencia $|z| = R$, que comienza y termina en $z = R$.
+        
+        \noindent \textbf{Solución.}
+
+        Este camino puede ser parametrizado como 
+        \begin{equation*}
+            C_1(t) = R \cos t + i R \sin t \ ,
+        \end{equation*}
+        con $t \in [0, 2\pi]$, por lo cual
+        \begin{equation*}
+            dz = -R \sin t + i R \cos t \ ,
+        \end{equation*}         
+        y $f(z)$ se puede escribir como 
+        \begin{equation*}
+            f(z) = \frac{1}{x+iy} = \frac{x-iy}{x^2+y^2} = \frac{R\cos t - i R \sin t}{R^2} = \frac{\cos t}{R} - i \frac{\sin t}{R} \ .
+        \end{equation*}
+        Entonces, la integral vendrá dada por 
+        \begin{align*}
+            \int_{C_1} \frac{1}{z} \, dz & = \int_0^{2\pi} \frac{\cos t}{R} (-R \sin t) \, dt - \int_0^{2\pi} \left( - \frac{\sin t}{R} \right) R \cos t \, dt \\
+            & \quad + i \left[ \int_0^{2\pi} \frac{\cos t}{R} R \cos t + \int_0^{2\pi} \left( - \frac{\sin t}{R} \right) (- R \sin t) \right] \\
+            & = i \int_0^{2\pi} \, dt \\
+            & = 2\pi i \ .
+        \end{align*}
+
         \item La trayectoria $C_2$, que corresponde a la semicircunferencia $|z| = R$ en el semiplano $y \geq 0$.
+        
+        \noindent \textbf{Solución.}
+
+        La parametrización es la misma que en el caso anterior, pero limitando nuestro parámetro al intervalo $t \in [0, \pi]$. Entonces,
+        \begin{align*}
+            \int_{C_2} \frac{1}{z} \, dz & = \int_0^{\pi} \frac{\cos t}{R} (-R \sin t) \, dt - \int_0^{\pi} \left( - \frac{\sin t}{R} \right) R \cos t \, dt \\
+            & \quad + i \left[ \int_0^{\pi} \frac{\cos t}{R} R \cos t + \int_0^{\pi} \left( - \frac{\sin t}{R} \right) (- R \sin t) \right] \\
+            & = \int_0^\pi \, dt \\
+            & = \pi i \ .
+        \end{align*}
+        
         \item La trayectoria $C_3$, que corresponde a las rectas $y = -ix$ e $y = ix$, comenzando en el punto $x = R$ hasta el punto $x = -R$.
+        
+        \noindent \textbf{Solución.}
+
+        Para este caso, dividimos nuestra curva en dos partes, para simplificar la parametrización. Entonces,
+        \begin{equation*}
+            C_3(t, s) = C_{3a}(t) + C_{3b}(s) = [(1-t)R + itR] + [-sR + i(1-s)R] \ ,
+        \end{equation*}
+        donde $t, s \in [0,1]$. Aquí, $C_{3a}$ corresponde al segmento que va desde $R$ hasta $iR$, mientras que $C_{3b}$ corresponde al segmento que va desde $iR$ hasta $-R$. Los diferenciales, en cada una de las secciones, serán dados por 
+        \begin{align*}
+            dz_a & = (-R + iR) dt \ , \\
+            dz_b & = (-R - iR) ds \ ,
+        \end{align*}
+        de modo que la función $f(z)$ se escribirá, en cada sección, como 
+        \begin{align*}
+            f_a(z) & = \frac{1}{R+ t(-R+iR)} \ , \\
+            f_b(z) & = \frac{1}{iR + s(-R-iR)} \ ,
+        \end{align*}
+        y la integral vendrá dada por 
+        \begin{align*}
+            \int_{C_3} \frac{1}{z} \, dz & = \int_{C_{3a}} \frac{1}{z} \, dz + \int_{C_{3b}} \frac{1}{z} \, dz \\
+            & = \int_0^1 \frac{-R + iR}{R + t(-R+iR)} \, dt + \int_0^1 \frac{-R-iR}{iR + s(-R-iR)} \, ds \\
+            & = \int_0^1 \frac{(-1+i)(1-t-it)}{(1-t)^2 + t^2} + \int_0^1 \frac{(1+i)(s+i-is)}{s^2 + (1-s)^2} \, ds \\
+            & = 2\int_0^1 \frac{2t+i-1}{t^2 + (1-t)^2} \, dt \\
+            & = 2 \left[\int_0^1 \frac{2t-1}{2t^2 - 2t + 1} \, dt + i \int_0^1 \frac{1}{t^2 - 2t + 1} \, dt \right] \\
+            & = \left[ \ln(1-2t+2t^2) \right]_0^1 + i \left[2 \arctan\left( \frac{t-\frac{1}{2}}{\frac{1}{2}} \right) \right]_0^1 \\
+            & = 0 + i\left[ \frac{\pi}{2} - \left( - \frac{\pi}{2} \right) \right] \\
+            & = \pi i \ .
+        \end{align*}
     \end{enumerate}
-    
 \end{ejemplo}
 
-Como se puede observar en el ejemplo anterior, el valor de la integral será en general \emph{dependiente de la trayectoria escogida}, y no únicamente de los puntos de inicio y término entre ellas.
+Si bien en el ejemplo anterior observamos que las integrales entre $R$ y $-R$ dan el mismo resultado para ambos caminos, esto no es necesariamente cierto, como puede verse en el siguiente ejemplo.
+
+\begin{ejemplo}
+    Evalúe la integral compleja de $f(z) = \operatorname{Re}(z)$ a lo largo de las trayectorias del ejemplo anterior.
+
+    \noindent \textbf{Solución.}
+
+    A lo largo de la curva $C_1$, tendremos que 
+    \begin{equation*}
+        \int_{C_1} \operatorname{Re}(z) \, dz = \int_0^{2\pi} R \cos t (-R \sin t + iR \cos t) \, dt = i\pi R^2 \ .
+    \end{equation*}
+
+    Por otro lado, a lo largo de $C_2$, la integral resulta en 
+    \begin{equation*}
+        \int_{C_2} \operatorname{Re}(z) \, dz = \int_0^{\pi} R \cos t (-R \sin t + iR \cos t) \, dt = \frac{1}{2} i\pi R^2 \ .
+    \end{equation*}
+
+    Por último, a lo largo de la curva $C_3$, nuevamente hacemos la separación entre las curvas $C_{3a}$ y $C_{3b}$, obteniendo 
+    \begin{align*}
+        \int_{C_3} \operatorname{Re}(z) \, dz & = \int_{C_{3a}} \operatorname{Re}(z) \, dz + \int_{C_{3b}} \operatorname{Re}(z) \, dz \\
+        & = \int_0^1 (1-t) R(-R+iR) \, dt + \int_0^1 (-sR)(-R - iR) \, ds \\
+        & = \frac{1}{2} R^2(-1+i) + \frac{1}{2} R^2 (1+i) \\
+        & = iR^2 \ ,
+    \end{align*}
+    por lo que observamos que, pese a que las integrales a lo largo de $C_2$ y $C_3$ unen los mismos puntos en el plano complejo, el haber escogido caminos diferentes nos da resultados diferentes.
+\end{ejemplo}
+
+En general, el valor de la integral será \emph{dependiente de la trayectoria escogida}, y no únicamente de los puntos de inicio y término entre ellas.
+
+¿Qué condiciones nos permitirán calcular integrales independientes de la trayectoria escogida? Primero, debemos introducir algunas definiciones.
 
 \begin{defi}
     Diremos que una curva $\mathcal{C}: [a,b] \to \mathbb{C}$ es \textbf{de clase} $C^1$, o \textbf{suave a tramos} si esta es continua y derivable en todo su intervalo de definición.
 \end{defi}
 
 \begin{defi}
-    Diremos que una curva $\mathcal{C}$ de clase $C^1$ es un \textbf{arco de Jordan} si esta no se cruza a sí misma en ningún punto de su dominio, también dicho como ``no tiene lazos''.
+    Diremos que una curva $\mathcal{C}$ de clase $C^1$ es un \textbf{arco de Jordan} si esta no se cruza a sí misma en ningún punto de su \textbf{dominio conexo}, también dicho como ``no tiene lazos''.
 \end{defi}
 
 \begin{defi}
@@ -380,22 +654,28 @@ Como se puede observar en el ejemplo anterior, el valor de la integral será en 
     \end{equation}
 \end{defi}
 
-\begin{teorema}
-    Sea $f: A \subset \mathbb{C} \to \mathbb{C}$ una función continua y sea $\mathcal{C}: [a,b] \to \mathbb{C}$ una curva suave a tramos, con $\mathcal{C}([a,b]) \subset A$. Si existe una constante $M > 0$ tal que $|f(z)| \leq M$ para todo punto $z \in \mathcal{C}$, entonces se cumplirá que
-    \begin{equation}
-        \left| \int_\mathcal{C} f(z) \, dz \right| \leq M I(\mathcal{C}) \ .
-    \end{equation}
-\end{teorema}
+% \begin{teorema}
+%     Sea $f: A \subset \mathbb{C} \to \mathbb{C}$ una función continua y sea $\mathcal{C}: [a,b] \to \mathbb{C}$ una curva suave a tramos, con $\mathcal{C}([a,b]) \subset A$. Si existe una constante $M > 0$ tal que $|f(z)| \leq M$ para todo punto $z \in \mathcal{C}$, entonces se cumplirá que
+%     \begin{equation}
+%         \left| \int_\mathcal{C} f(z) \, dz \right| \leq M I(\mathcal{C}) \ .
+%     \end{equation}
+% \end{teorema}
 
-\begin{ejemplo}
-    Sea $\mathcal{C}$ la mitad de la circunferencia unitaria descrita de forma antihoraria. Muestre que 
-    \begin{equation*}
-        \left| \int_\mathcal{C} \frac{e^z}{z} \, dz \right| \leq \pi e \ .
-    \end{equation*}
-\end{ejemplo}
+% \begin{ejemplo}
+%     Sea $\mathcal{C}$ la mitad de la circunferencia unitaria ubicada en el semiplano superior ($\operatorname{Im}(z) > 0$) descrita de forma antihoraria. Muestre que 
+%     \begin{equation*}
+%         \left| \int_\mathcal{C} \frac{e^z}{z} \, dz \right| \leq \pi e \ .
+%     \end{equation*}
 
-\begin{teorema}{\textbf{(Fundamental del Cálculo)}}
-    Sea $f: A \subset \mathbb{C} \to \mathbb{C}$ una función continua y tal que $f = F'$ para alguna función analítica $F: A \to \mathbb{C}$. Sea $\mathcal{C}: [a,b] \to \mathbb{C}$ una curva suave a trozos definida en el conjunto $A$ y que une a los puntos $\mathcal{C}(a) = z_1$ y $\mathcal{C}(b) = z_2$. Entonces,
+%     \textbf{Solución.} Notemos que 
+%     \begin{equation*}
+%         \int_0^\pi |\mathcal{C}'(t)| \, dt = \int_0^\pi |ie^{it}| \, dt = \pi \ ,
+%     \end{equation*}
+%     pues $\mathcal{C}(t) = e^{it}$, con $0 \leq t \leq \pi$, y $\mathcal{C}'(t) = i e^{it}$. Ahora, para cualquier punto en la semi-circunferencia
+% \end{ejemplo}
+
+\begin{teorema}{\textbf{(Fundamental del Cálculo)}} \marginnote{Teorema Fundamental del Cálculo}
+    Sea $f: A \subseteq \mathbb{C} \to \mathbb{C}$ una función continua y tal que $f = F'$ para alguna función analítica $F: A \to \mathbb{C}$. Sea $\mathcal{C}: [a,b] \to \mathbb{C}$ una curva suave a trozos definida en el conjunto $A$ y que une a los puntos $\mathcal{C}(a) = z_1$ y $\mathcal{C}(b) = z_2$. Entonces,
     \begin{equation}
         \int_\mathcal{C} f(z) \, dz = F(z_2) - F(z_1) \ .
     \end{equation}
@@ -411,14 +691,14 @@ Utilizando el teorema de Green (visto en Cálculo III), tenemos que
     \oint_{\mathcal{C}} u \, dx - v \, dy & = - \iint_R \left( \frac{\partial v}{\partial x} + \frac{\partial u}{\partial y} \right) \, dA \ , \\
     \oint_{\mathcal{C}} v \, dx + u \, dy & = \iint_R \left( \frac{\partial u}{\partial x} - \frac{\partial v}{\partial y} \right) \, dA \ ,
 \end{align}
-que por las ecuaciones de Cauchy-Riemmann \eqref{eq:cauchy-riemann}, observamos que \emph{ambas integrales son nulas}, de modo que 
+que por las ecuaciones de Cauchy-Riemann \eqref{eq:cauchy-riemann}, observamos que \emph{ambas integrales son nulas}, de modo que 
 \begin{equation}
     \oint_\mathcal{C} f(z) \, dz = \oint_{\mathcal{C}} (u \, dx - v \, dy) + i \oint_{\mathcal{C}} (v \, dx + u \, dy) = 0 \ .
 \end{equation}
 
 Este resultado es el llamado \emph{teorema de Cauchy-Goursat}.
 
-\begin{teorema}{\textbf{(de Cauchy-Goursat.)}}
+\begin{teorema}{\textbf{(de Cauchy-Goursat.)}} \marginnote{Teorema de Cauchy-Goursat}
     Si $f$ es una función analítica en todos los puntos encerrados por una curva simple y cerrada $\mathcal{C}$. Entonces,
     \begin{equation}
         \oint_\mathcal{C} f(z) \, dz = 0 \ .
@@ -458,7 +738,7 @@ El recíproco de este teorema es verdadero, y suele ser enunciado como
 
 \subsection{Fórmula Integral de Cauchy}
 
-Como vimos anteriormente en el ejemplo 1.6, si calculamos la integral de $1/z$ a lo largo de una circunferencia de radio $R$, el resultado de la integral es $2 \pi i$. Análogamente, podemos escribir 
+Como vimos anteriormente en el ejemplo 4.6, si calculamos la integral de $1/z$ a lo largo de una circunferencia de radio $R$, el resultado de la integral es $2 \pi i$. Análogamente, podemos escribir 
 \begin{equation*}
     1 = \frac{1}{2\pi i} \int_{\mathcal{C}} \frac{1}{z} \, dz \ .
 \end{equation*} 
@@ -489,23 +769,23 @@ Más allá de las circunferencias, podemos mostrar que \emph{para cualquier curv
     n = \frac{1}{2\pi i} \int_{\mathcal{C}_n} \frac{1}{z} \, dz = \frac{1}{2\pi i} \int_{\gamma} \frac{1}{z} \, dz \ .
 \end{equation}
 
-También se puede demostrar que este resultado es generalizable para cualquier curva cerrada que gire alrededor del punto $z_0$, entonces 
+También se puede demostrar que este resultado es generalizable para \emph{cualquier curva cerrada que gire alrededor del punto} $z_0$. Entonces, 
 \begin{equation*}
     n = \frac{1}{2\pi i} \int_{\gamma} \frac{1}{z-z_0} \, dz \ ,
 \end{equation*} 
-y en caso de que $z_0$ se encuentre fuera de la región delimitada por la curva $\gamma$, entonces 
+y en caso de que $z_0$ se encuentre fuera de la región delimitada por la curva $\gamma$, se cumplirá que 
 \begin{equation*}
     0 = \frac{1}{2\pi i} \int_{\gamma} \frac{1}{z-z_0} \, dz \ .
 \end{equation*}
 
-\begin{defi}
+\begin{defi} \marginnote{Índice de una curva}
     Sea $\gamma$ una curva cerrada que envuelve al punto $z_0 \in \mathbb{C}$. Llamaremos \textbf{índice} de $\gamma$ al \emph{número de vueltas} que realiza la curva alrededor de $z_0$. Este satisface la relación 
     \begin{equation}
         I(\gamma, z_0) = \frac{1}{2\pi i} \int_{\gamma} \frac{1}{z-z_0} \ \in \mathbb{Z} \ .
     \end{equation}
 \end{defi}
 
-\begin{teorema}{\textbf{Fórmula Integral de Cauchy.}}
+\begin{teorema}{\textbf{Fórmula Integral de Cauchy.}} \marginnote{Fórmula integral de Cauchy}
     Sea $f$ una función analítica en una región simplemente conexa $D$ y sea $\gamma$ una curva cerrada en $D$. Entonces, para cualquier punto $z_0 \in D$, se cumple que 
     \begin{equation}
         f(z_0) I(\gamma, z_0) = \frac{1}{2\pi i} \int_\gamma \frac{f(z)}{z-z_0} \, dz \ .
@@ -513,7 +793,7 @@ y en caso de que $z_0$ se encuentre fuera de la región delimitada por la curva 
 \end{teorema}
 
 \begin{corolario}
-    Sea $f$ una función analítica en una región simplemente conexa $D$ y sea $\gamma$ una curva simple y cerrada en $D$. Entonces, para cualquier punto $z_0 \in D$, se cumple que 
+    Sea $f$ una función analítica en una región simplemente conexa $D$, y sea $\gamma$ una curva simple y cerrada en $D$. Entonces, para cualquier punto $z_0 \in D$, se cumple que 
     \begin{equation}
         f(z_0) = \frac{1}{2\pi i} \int_\gamma \frac{f(z)}{z-z_0} \, dz \ .
     \end{equation}
@@ -524,10 +804,19 @@ y en caso de que $z_0$ se encuentre fuera de la región delimitada por la curva 
     \begin{equation*}
         I = \int_{|z|=2} \frac{z}{(9+z^2)(z+i)} \, dz \ .
     \end{equation*}
+
+    \noindent \textbf{Solución.}
+
+    Notamos que el integrando es analítico en todo el plano complejo, salvo en tres puntos: $z_1 = -3i$, $z_2 = 3i$, y $z_3 = -i$. De los primeros dos no debemos preocuparnos, pues no se encuentran al interior de la circunferencia $|z| = 2$. Luego, utilizando la fórmula intergal de Cauchy, tendremos que 
+    \begin{equation*}
+        I = 2\pi i f(z_3) = \frac{2\pi i (-i)}{9+(-i)^2} = \frac{2\pi}{8} = \frac{\pi}{4} \ .
+    \end{equation*}
 \end{ejemplo}
 
+Gracias a la fórmula integral de Cauchy, podemos llegar a uno de los resultados más importantes del cálculo complejo, que establece que \emph{si una función es analítica en un punto, entonces admite derivadas de todos los órdenes en dicho punto}, lo que formalizamos en el siguiente teorema.
+
 \begin{teorema}
-    Sea $f$ una función analítica en una región simplemente conexa $D$. Entonces, $f$ \emph{admite derivadas de todos los órdenes} en $D$. Más aún, si $z_0 \in D$ y $\gamma$ es una curva cerrada en $A$ \emph{que no pasa por} $z_0$, entonces 
+    Sea $f$ una función analítica en una región simplemente conexa $D$. Entonces, $f$ \emph{admite derivadas de todos los órdenes} en $D$. Más aún, si $z_0 \in D$ y $\gamma$ es una curva cerrada en $D$ \emph{que no pasa por} $z_0$, entonces 
     \begin{equation}
         f^{(k)}(z_0) I(\gamma, z_0) = \frac{k!}{2\pi i} \int_\gamma \frac{f(z)}{(z-z_0)^{k+1}} \, dz \ .
     \end{equation}
@@ -541,15 +830,14 @@ y en caso de que $z_0$ se encuentre fuera de la región delimitada por la curva 
 
 \subsection{Serie de Taylor}
 
-Recordemos que, en variable real, la \textbf{expansión en Serie de Taylor} de una función, alrededor de un punto $x_0$, viene dada por 
+Anteriormente, revisamos que la \textbf{expansión en Serie de Taylor} de una función, alrededor de un punto $x_0$, viene dada por 
 \begin{equation}
     f(x) \approx \sum_{i=0}^\infty \frac{f^{(n)}(x_0)}{n!} (x-x_0)^n \ .
 \end{equation}
-
-Ahora, para variable compleja, podemos generalizar esta fórmula utilizando los resultados de la fórmuna integral de Cauchy, gracias a los que podemos escribir $f$ y sus derivadas en términos de esta integral.
+Para funciones de variable compleja, podemos generalizar esta fórmula utilizando los resultados de la fórmuna integral de Cauchy, gracias a los que podemos escribir $f$ y sus derivadas en términos de esta integral.
 
 \begin{teorema}{\textbf{(Expansión en serie de Taylor)}}
-    Sea $f$ una función analítica en un dominio $D$ y sea $z_0 \in D$. Entonces, existe $R_0 > 0$ tal que la serie de Taylor en $z_0$ converge para $|z-z_0| < R_0$; y su suma es $f(z)$, es decir,
+    Sea $f$ una función analítica en un \textbf{dominio conexo} $D$ y sea $z_0 \in D$. Entonces, existe $R_0 > 0$ tal que la serie de Taylor en $z_0$ converge para $|z-z_0| < R_0$; y su suma es $f(z)$, es decir,
     \begin{equation}
         f(z) = f(z_0) + \sum_{n=1}^\infty \frac{f^{(n)}(z_0)}{n!} (z-z_0)^n \ .
     \end{equation}
@@ -572,8 +860,8 @@ Sin embargo, esta expansión depende de asumir que $f$ es analítica alrededor d
 
 \subsection{Serie de Laurent}
 
-\begin{teorema}{\textbf{(Expansión en Series de Laurent)}}
-    Si $f$ es una función analítica en un dominio $D$ que contiene a la región encerrada por las circunferencias concéntricas de centro $z_0$, $C_1$ y $C_2$, de radios $R_1$ y $R_2$, respectivamente, con $R_2 < R_1$. Entonces, para cada $z$ en el interior del anillo, $f(z)$ puede representarse, de manera única, por su expansión en \textbf{Serie de Laurent},  
+\begin{teorema}{\textbf{(Expansión en Series de Laurent)}} \marginnote{Series de Laurent}
+    Si $f$ es una función analítica en un \textbf{dominio conexo} $D$ que contiene a la región encerrada por las circunferencias concéntricas de centro $z_0$, $C_1$ y $C_2$, de radios $R_1$ y $R_2$, respectivamente, con $R_2 < R_1$. Entonces, para cada $z$ en el interior del anillo, $f(z)$ puede representarse, de manera única, por su expansión en \textbf{Serie de Laurent},  
     \begin{equation}
         f(z) = \sum_{n=-\infty}^\infty a_n (z-z_0)^n = \sum_{n=0}^\infty a_n (z-z_0)^n + \sum_{n=1}^\infty \frac{b_n}{(z-z_0)^n} \ , 
     \end{equation}
@@ -640,11 +928,11 @@ Sin embargo, esta expansión depende de asumir que $f$ es analítica alrededor d
     Sea $f$ una función analítica en una región $D$ con una singularidad aislada $z_0$. Entonces, las siguientes proposiciones son equivalentes:
     \begin{enumerate}
         \item $f$ posee una singularidad removible en $z = z_0$.
-        \item $\lim\limits_{z \to z_0} f(z) = 0$.
+        \item $\lim\limits_{z \to z_0} (z-z_0) f(z) = 0$.
     \end{enumerate}
 \end{teorema}
 
-\begin{defi}
+\begin{defi} \marginnote{Comportamiento en el infinito}
     El comportamiento de una función $f(z)$ en el \emph{infinito} viene dado por el comportamiento de $f(1/\xi)$ cuando $\xi = 0$, donde $\xi = 1/z$.
 \end{defi}
 
@@ -675,9 +963,18 @@ Sin embargo, esta expansión depende de asumir que $f$ es analítica alrededor d
 \end{teorema}
 
 \begin{defi}
-    Dada una función con un punto aislado $z_0$ en su dominio, llamaremos \textbf{residuo respecto del punto aislado} $z_0$ al coeficiente $b_1 = a_{-1}$ de la serie de Laurent, es decir,
+    Dada una función con un punto aislado $z_0$ en su \textbf{dominio conexo}, llamaremos \textbf{residuo respecto del punto aislado} $z_0$ al coeficiente $b_1 = a_{-1}$ de la serie de Laurent, es decir,
     \begin{equation}
-        \operatorname{Res}(f; z_0) = b_1 = \frac{1}{2\pi i} \int_C f(s) \, ds \ .
+        \operatorname{Res}(f; z_0) = b_1 = \frac{1}{2\pi i} \int_C f(s) \, ds  \ .
+    \end{equation}
+
+    En el caso que dicho punto aislado $z_0$ corresponda a un polo simple, entonces 
+    \begin{equation}
+        \operatorname{Res}(f; z_0) = \lim_{z \to z_0}(z-z_0) f(z) \ ,
+    \end{equation}
+    mientras que si es un polo de orden $m$, entonces
+    \begin{equation}
+        \operatorname{Res}(f; z_0) = \frac{1}{(m-1)!} \lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1}} \left[(z-z_0)^m f(z)\right] \ .
     \end{equation}
 \end{defi}
 
@@ -687,6 +984,43 @@ Sin embargo, esta expansión depende de asumir que $f$ es analítica alrededor d
         f(z) = \frac{1}{z(z-2)^3} 
     \end{equation*}
     alrededor de las singularidades $z=0$ y $z=2$. Verifique que $z=0$ es un polo simple, y que $z=2$ es un polo de orden 3. Encuentre el residuo de $f(z)$ en cada polo.   
+
+    \noindent \textbf{Solución.} 
+
+    Notemos que podemos escribir $f(z)$ como 
+    \begin{equation*}
+        f(z) = -\frac{1}{8z(1 - z/2)^3} = - \frac{1}{8z} \cdot \frac{1}{(1-z/2)^3} \ ,
+    \end{equation*}
+    donde conocemos la expansión en serie de Taylor de $1/(1-x)^m$ a partir del teorema del binomial, de modo que la expansión en serie de Laurent alrededor de $z=0$ será dada por
+    \begin{align*}
+        f(z) & = -\frac{1}{8z} \left[ \sum_{n=0}^\infty \frac{(3+n-1)!}{n!(3-1)!} (-1)^n \left( \frac{z}{2} \right)^n \right] \\
+        & = -\frac{1}{8z} \left[ 1 + (-3) \left(-\frac{z}{2}\right) + \frac{(-3)(-4)}{2!}\left( - \frac{z}{2} \right)^2 + \frac{(-3)(-4)(-5)}{3!}\left(-\frac{z}{2}\right)^3 + \dots \right] \\
+        & = - \frac{1}{8z} - \frac{3}{16} - \frac{3z}{16} - \frac{5z^2}{32} - \dots \ .
+    \end{align*}
+
+    Como la menor potencia de $z$ que obtenemos es $z^{-1}$, entonces el punto $z=0$ es un polo de orden 1, o polo simple. De esta manera, su residuo viene dado por el coeficiente que acompaña a dicho término, es decir, $-1/8$. Podemos corroborar este resultado gracias a la forma alternativa de calcular el residuo de un polo de orden 1:
+    \begin{equation*}
+        \operatorname{Res}(f; z=0) = b_1 = \lim_{z \to 0}z\frac{1}{z(z-2)^3} = \lim_{z \to 0} \frac{1}{(z-2)^3} = - \frac{1}{8} \ .
+    \end{equation*}
+
+    Por otra parte, para expandir alrededor de $z=2$, hacemos el cambio de variable $u = z-2$, de modo que la función resulta en 
+    \begin{equation*}
+        f(u) = \frac{1}{(u+2) u^3} = \frac{1}{2u^3 (1+u/2)} = \frac{1}{2u^3} \cdot \frac{1}{1+u/2} \ ,
+    \end{equation*}
+    de modo que nuevamente podemos utilizar el teorema del binomial, por lo que la seire de Laurent resultará en:
+    \begin{align*}
+        f(z) & = \frac{1}{u^3} \left[ \sum_{n=0}^\infty (-1)^n \left(\frac{u}{2} \right)^n \right] \\
+        & = \frac{1}{2u^3} \left[ 1 - \frac{u}{2} + \left( \frac{u}{2} \right)^2 - \left( \frac{u}{2} \right)^3 + \left( \frac{u}{2} \right)^4 - \dots \right] \\
+        & = \frac{1}{2u^3} - \frac{1}{4u^2} + \frac{1}{8u} - \frac{1}{16} + \frac{u}{32} - \dots \\
+        & = \frac{1}{2(z-2)^3} - \frac{1}{4(z-2)^2} + \frac{1}{8(z-2)} - \frac{1}{16} + \frac{z-2}{32} - \dots \ ,
+    \end{align*}
+    donde en este caso el término de menor orden en $z-2$ es $(z-2)^{-3}$, por lo que $z=2$ es un polo de orden 3. En este caso, el residuo será $1/8$, pues es el coeficiente $b_1$ que acompaña a $1/(z-2)$. En efecto, podemos también comprobar este resultado como 
+    \begin{align*}
+        \operatorname{Res}(f; z=2) & = \frac{1}{(3-1)!}\lim_{z \to 2} \frac{d^2}{dz^2}\left[ (z-2)^3\frac{1}{z(z-2)^3} \right] \\
+        & = \frac{1}{2} \lim_{z \to 2} \frac{d^2}{dz^2} \left[ \frac{1}{z} \right] \\
+        & = \frac{1}{2} \lim_{z \to 2} \left[ \frac{2}{z^3} \right] \\
+        & = \frac{1}{8} \ .
+    \end{align*}
 \end{ejemplo}
 
 El teorema de Cauchy-Goursat nos indicaba que la integral sobre un contorno cerrado $C$ será cero siempre y cuando el integrando sea analítico \emph{dentro} del contorno. ¿Qué ocurre si no se cumple esta hipótesis?
@@ -702,7 +1036,7 @@ Integrando esta función alrededor de una curva cerrada $C$ que encierre únicam
     & = \sum_{n=-m}^\infty a_n \oint_\gamma (z-z_0)^n \, dz \\
     & = \sum_{n=-m}^\infty a_n \int_0^{2\pi} i r^{n+1} e^{i(n+1)\theta} \, d\theta \\
     & =  \sum_{n=-m}^\infty a_n \begin{dcases}
-        [\dfrac{ir^{n+1}\exp(i(n+1)\theta)}{i(n+1)}]^{2\pi}_0 = 0 \ , \quad \text{si } n \neq -1 \\
+        \left[\dfrac{ir^{n+1}\exp(i(n+1)\theta)}{i(n+1)} \right]^{2\pi}_0 = 0 \ , \quad \text{si } n \neq -1 \\
         2\pi i \ , \quad \quad \text{si } n = -1
     \end{dcases} \\
     & = 2\pi i a_{-1} \ .
@@ -727,6 +1061,207 @@ De esta forma, observamos que la integral alrededor de cualquier contorno cerrad
         \int_C \frac{5z-2}{z(z-1)} \ , 
     \end{equation*}
     sobre la circunferencia de radio 2.
+
+    \noindent \textbf{Solución.}
+
+    Esta función tiene puntos aislados en $z_1 = 0$ y en $z_2 = 1$, interiores a la circunferencia $C$. Consideremos las circunferencias $C_1 : |z| = 1/4$, y $C_2: |z-1| = 1/4$. Entonces, por el teorema de los residuos,
+    \begin{equation*}
+        \int_C \frac{5z-2}{z(z-1)} = 2\pi i \left( B_1 + B_2 \right) \ ,
+    \end{equation*}
+    donde 
+    \begin{align*}
+        B_1 & = \lim_{z \to 0} z \frac{5z-2}{z(z-1)} = \lim_{z \to 0} \frac{5z-2}{z-1} = 2 \\
+        B_2 & = \lim_{z \to 1} (z-1) \frac{5z-2}{z(z-1)} = \lim_{z\to 1} \frac{5z-2}{z} = 3 \ ,
+    \end{align*}
+    de modo que
+    \begin{equation*}
+        \int_C \frac{5z-2}{z(z-1)} = 2\pi i (2 + 3) = 10 \pi i \ .
+    \end{equation*}
 \end{ejemplo}
 
 \subsection{Integrales definidas mediante integrales de contorno}
+
+Una de las aplicaciones más importantes del teorema del Residuo es su utilidad para calcular integrales impropias de funciones reales de variable real.
+
+\begin{defi}
+    Para una integral impropia de la forma
+    \begin{equation*}
+        \int_{-\infty}^{+\infty} f(x) \, dx \ ,
+    \end{equation*}
+    se denomina \textbf{valor principal de Cauchy} a la integral
+    \begin{equation}
+        \text{P. V.} \int_{-\infty}^{+\infty} f(x) \, dx \equiv \lim_{R \to \infty} \int_{-R}^{R} f(x) \, dx \ .
+    \end{equation}
+
+    Si la integral posee una singularidad en un punto $x=a$, entonces el valor principal de Cauchy vendrá dado por
+    \begin{equation}
+        \text{P. V.} \int_{-\infty}^{+\infty} f(x) \, dx \equiv \lim_{\varepsilon \to 0^+} \left[ \int_{-\infty}^{a-\varepsilon} f(x) \, dx + \int_{a + \varepsilon}^{+\infty} f(x) \, dx \right] \ .
+    \end{equation}
+\end{defi}
+
+Nuestro objetivo es calcular el valor principal de Cauchy de diferentes integrales impropias. 
+
+\subsubsection{Integrales del tipo $\displaystyle \int_{-\infty}^{+\infty} f(x) \, dx$}
+
+\begin{teorema}
+    Sea $f$ una función analítica con un número finito de puntos aislados, todos ellos ubicados en la región $\operatorname{Im}(z) > 0$. Entonces,
+    \begin{equation}
+        \lim_{R \to \infty} \int_{-R}^R f(x) \, dx = 2\pi i \sum_{j=1}^n B_j \ .
+    \end{equation}
+\end{teorema}
+
+El procedimiento descrito en el teorema se justifica al calcular la integral sobre la curva que describe la semicircunferencia sobre el semiplano superior (véase la figura \ref{fig:camino-integracion-sin-polos}), la que por el teorema del residuo se simplifica al resultado anterior.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width = 8cm]{Figuras/camino-impropia-1-2.pdf}
+    \caption{Camino de integración a seguir para funciones cuyos polos (en rojo) se encuentren dentro de la región encerrada por la semicircunferencia $\gamma$ y el eje real (es decir, para $\operatorname{Im}{z} > 0$).}
+    \label{fig:camino-integracion-sin-polos}
+\end{figure}
+
+\begin{ejemplo}
+    Calcule la integral impropia
+    \begin{equation*}
+        \int_{-\infty}^{+\infty} \frac{2x^2-1}{x^4+5x^2+4} \, dx \ .
+    \end{equation*}
+
+    \noindent \textbf{Solución.}
+
+    Extendemos esta función a todo $\mathbb{C}$, excepto en los puntos donde el denominador posee raíces, es decir,salvo en $z = \pm i$ y en $z = \pm 2i$. Consideremos la curva simple cerrada $\gamma = C_R + S_{-R, R}$ de la figura \ref{fig:camino-integracion-sin-polos}. Por el teorema de los residuos,
+    \begin{equation*}
+        \int_\gamma \frac{2z^2-1}{z^4+5z^2+4} \, dz = 2\pi i (B_1 + B_2) \ , 
+    \end{equation*}
+    donde los residuos son dados por
+    \begin{align*}
+        B_1 & = \lim_{z \to i} (z-i)f(z) = \lim_{z \to i} \frac{2z^2-1}{(z+i)(z-2i)(z+2i)} = \frac{i}{2} \ , \\
+        B_2 & = \lim_{z \to 2i} (z-2i)f(z) = \lim_{z \to 2i} \frac{2z^2-1}{(z+i)(z-i)(z+2i)} = -\frac{3i}{4} \ ,
+    \end{align*}
+    de modo que
+    \begin{equation*}
+        \int_{-\infty}^\infty \frac{2x^2-1}{x^4+5x^2+4} \, dx = 2\pi i\left( \frac{i}{2} - \frac{3i}{4} \right) = 2\pi i \left( -\frac{i}{4} \right) = \frac{\pi}{2} \ .
+    \end{equation*}
+\end{ejemplo}
+
+
+
+\subsubsection{Integrales del tipo $\displaystyle \int_{-\infty}^{+\infty} f(x)\exp(iax) \, dx$}
+
+\begin{teorema}
+    Sea $f$ una función analítica con un número finito de puntos aislados, todos ellos ubicados en la región $\operatorname{Im}(z) > 0$. Entonces,
+    \begin{equation}
+        \lim_{R \to \infty} \int_{-R}^R f(x) e^{iax} \, dx = 2\pi i \sum_{j=1}^n B_j \ , \quad a > 0 \ .
+    \end{equation}
+\end{teorema}
+
+
+\begin{ejemplo}
+    Calcule la integral impropia
+    \begin{equation*}
+        \int_{-\infty}^{+\infty} \frac{\cos x}{1+x^2} \, dx \ .
+    \end{equation*}
+
+    \noindent \textbf{Solución.}
+
+    En este caso, el denominador posee raíces en los puntos $z = \pm i$. Consideremos la integral compleja
+    \begin{equation*}
+        \int_{\gamma} \frac{e^{iz}}{1+z^2} \, dz = 2\pi i B \ ,
+    \end{equation*}
+    donde no hemos definido la función en el punto $z = i$, y $\gamma$ es la misma curva de la figura \ref{fig:camino-integracion-sin-polos}. Nótese que trabajamos con la exponencial compleja, pese a que la función real incluye únicamente un factor cosenoidal.
+
+    Calculamos el residuo para $z_0 = i$, obteniendo
+    \begin{equation*}
+        B = \lim_{z \to i} (z-i) \frac{e^{iz}}{z^2+1} = \lim_{z \to i} \frac{e^{iz}}{1+z} = -\frac{i}{2}e^{-1} \ ,
+    \end{equation*}
+    por lo cual
+    \begin{equation*}
+        \int_{-\infty}^\infty \frac{e^{ix}}{1+x^2} = \int_{-\infty}^\infty \left( \frac{\cos x}{1+x^2} + i \frac{\sin x}{1+x^2} \right) \, dx = 2\pi i \left( -\frac{i}{2}e^{-1} \right) = \frac{\pi}{e} \ .
+    \end{equation*}
+
+    Recordando que $\sin x$ es una función impar, se cumplirá que 
+    \begin{equation*}
+        \int_{-\infty}^\infty \frac{\sin x}{1+x^2} \, dx = 0 \ ,
+    \end{equation*}
+    por lo cual
+    \begin{equation*}
+        \int_{-\infty}^\infty \frac{\cos x}{1+x^2} = \frac{\pi}{e} \ .
+    \end{equation*}
+
+    Alternativamente, podríamos haber calculado la integral compleja 
+    \begin{equation*}
+        \int_{\gamma} \frac{e^{iz} + e^{-iz}}{2 (1+z^2)} \, dz \ ,
+    \end{equation*}
+    pero puede ser más sencillo hacer uso de las propiedades de paridad de las funciones.
+\end{ejemplo}
+
+\subsubsection{Integrales de funciones con singularidades en el eje real}
+
+En estos casos, es posible realizar el cálculo de la integral, siempre y cuando las singularidades sean polos simples. La integral compleja asociada se realizará a lo largo de una curva como la de la figura \ref{fig:camino-integracion-polo}, es decir, una semicircunferencia de radio $R$ en el semiplano superior, con una pequeña semicircunferencia evitando el polo que corresponda.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width = 8cm]{Figuras/camino-impropia-3.pdf}
+    \caption{Camino de integración a seguir si existe un polo (punto rojo) sobre el eje real. En la práctica, este es evitado al recorrer la semicircunferencia $\gamma_c$, contribución que deberá luego ser tenida en cuenta.}
+    \label{fig:camino-integracion-polo}
+\end{figure}
+
+% Para explicar el procedimiento, debemos presentar el lema de Jordan.
+
+% \begin{teorema}\textbf{(Lema de Jordan). }
+%     Para una función de variable compleja $f(z)$, si 
+%     \begin{enumerate}[label = (\roman*)]
+%         \item $f(z)$ es analítica en el semiplano superior, excepto para un número finito de polos en $\operatorname{Im}(z) > 0$,
+%         \item el máximo de $|f(z)|$ tiende a 0 cuando $|z|$ tiende a infinito en el semiplano superior, y
+%         \item $m > 0$,
+%     \end{enumerate}
+%     entonces 
+%     \begin{equation*}
+%         \lim_{R \to \infty} \int_\gamma e^{imz} f(z) \, dz = 0 \ ,
+%     \end{equation*}
+%     donde $\gamma$ es la semicircunferencia de radio $R$ en el semiplano superior.
+% \end{teorema}
+
+\begin{teorema}
+    Sea $f$ una función analítica con un número finito de puntos aislados en la región $\operatorname{Im}(z) \geq 0$, donde al menos uno de ellos see encuentra sobre el eje $\operatorname{Im}(z) = 0$. Entonces,
+    \begin{equation}
+        \text{P. V.} \int_{-\infty}^{+\infty} f(x) \, dx =  2\pi i \sum_{j=1}^n \operatorname{Res}(f; z_j) \ - \pi i \sum_{k=0}^m \operatorname{Res}(f; z_k),
+    \end{equation}
+    donde $z_j$ corresponden a los polos interiores a la curva, y $z_k$ a los polos sobre el eje real.
+\end{teorema}
+
+\begin{ejemplo}
+    Calcule la integral impropia
+    \begin{equation*}
+        \int_{-\infty}^{+\infty} \frac{1}{x(x^2-4x+5)} \, dx \ . 
+    \end{equation*}
+
+    \noindent \textbf{Solución.}
+
+    La extensión compleja de la función posee tres polos simples, $z_1 = 0$, $z_2 = 2+i$, y $z_3 = 2-i$.
+
+    Integraremos sobre una curva como la de la figura \ref{fig:camino-integracion-polo}, de modo que la integral vendrá dada por 
+    \begin{equation*}
+        \int_{\gamma} \frac{1}{z(z^2-4z+5)} \, dz = 2\pi i \operatorname{Res}(f; z_2) \ ,
+    \end{equation*}
+    Entonces, calculando el residuo para $z_2$, tenemos que
+    \begin{equation*}
+        \operatorname{Res}(f; z_2) = \lim_{z \to 2+i} (z - (2+i)) \frac{1}{z(z-(2+i)) (z-(2-i))} = \lim_{z \to 2+i} \frac{1}{z(z+(2+i))} = - \frac{1+2i}{10} \ ,
+    \end{equation*}
+    y entonces,
+    \begin{equation*}
+        \int_{\gamma} \frac{1}{z(z^2-4z+5)} \, dz = 2\pi i \left( - \frac{1+2i}{10} \right) = \frac{2-i}{5} \pi \ .
+    \end{equation*}
+
+    Pero recordando que 
+    \begin{align*}
+        \int_{\gamma} \frac{1}{z(z^2-4z+5)} \, dz & = \int_{-\infty}^{+\infty} \frac{1}{x(x^2-4x+5)} + \int_{\gamma_c} \frac{1}{z(z^2-4z+5)} \, dz \\
+        & = \int_{-\infty}^{+\infty} \frac{1}{x(x^2-4x+5)} \, dx + \pi i \operatorname{Res}(f; z_1 = 0) \ ,
+    \end{align*}
+    de modo que, como 
+    \begin{equation*}
+        \operatorname{Res}(f; z_1 = 0) = \lim_{z \to 0} z \frac{1}{z(z^2-4z+5)} = \lim_{z \to 0} \frac{1}{(z^2-4z+5)} = \frac{1}{5} \ ,
+    \end{equation*}
+    tenemos que
+    \begin{equation*}
+        \int_{-\infty}^{+\infty} \frac{1}{x(x^2-4x+5)} \, dx = \frac{2-i}{5} \pi - \left( - \pi i \frac{1}{5}\right) = \frac{2\pi}{5} \ .
+    \end{equation*}
+\end{ejemplo}

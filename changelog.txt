@@ -15,3 +15,5 @@ v1.6 (26/08/25) Corregidas instancias donde digo "orden" en lugar de "rango" en 
 v1.7 (01/09/25) Mejoras de redacción en la sección 2.5 (Pseudotensores) y 2.6 (Análisis Tensorial)
 
 v1.8 (07/09/25) Mejoras estéticas y typos menores en el capítulo 3 (Series Numéricas y Funcionales)
+
+v1.9 (18/09/25) Ediciones estéticas en el capítulo 4 (Elementos de Cálculo Complejo). Añadida la subsección 4.5.4 (Integrales definidas mediante integrales de contorno). Completados los ejemplos 4.4, 4.5, 4.6, 4.8, 4.11 y 4.12. Añadido nuevo ejemplo 4.7. Eliminados teoremas que pertenecen más a una discusión de análisis complejo. Completada la sección 4.1.1 (Nociones de topología). Se descarta la sección 4.3.3 (Funciones elementales), la que será añadida como apéndice en el futuro. Añadido nuevo ejemplo 4.1. Añadidos el teorema fundamental del álgebra y las raíces de la unidad. Añadida una variedad de figuras al mismo capítulo.
