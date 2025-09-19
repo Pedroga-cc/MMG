@@ -197,7 +197,14 @@ prefoothook     =\vspace*{-1pt}\end{Gdbleftbar}%
 }
 
 %Referencias
-\usepackage[backend=biber]{biblatex}
+\usepackage[backend=biber,%
+style=phys,%
+biblabel=brackets,%
+doi=false,%
+minnames=3,%
+maxnames=3,%
+articletitle=true,%
+sorting=nyt]{biblatex}
 \addbibresource{Referencias.bib}
 
 \newcommand{\x}{\vec{x}}
@@ -293,7 +300,7 @@ prefoothook     =\vspace*{-1pt}\end{Gdbleftbar}%
 {\large Pedro A. Contreras-Corral \par}
 {\large Septiembre 2025 \par}
 \vfill
-{\large Versión 1.9 \par}
+{\large Versión 1.10 \par}
 \end{titlepage}
 
 \mbox{} 

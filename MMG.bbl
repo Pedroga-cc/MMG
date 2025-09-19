@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
+  \datalist[entry]{nyt/global//global/global/global}
     \entry{Abramowitz_Stegun_1972}{book}{}{}
       \name{author}{2}{}{%
         {{hash=b30c3e9da438d36efb5827b2fe852284}{%
@@ -56,7 +56,7 @@
       \field{edition}{Unabridged, unaltered and corr. republ. of the 1964 ed}
       \field{isbn}{978-0-486-61272-0}
       \field{series}{Dover books on advanced mathematics}
-      \field{title}{Handbook of mathematical functions: with formulas, graphs and mathematical tables [conference under the auspices of the National science foundation and the Massachussetts institute of technology]}
+      \field{title}{Handbook of mathematical functions: with formulas, graphs and mathematical tables}
       \field{year}{1972}
       \true{nocite}
     \endentry
@@ -90,6 +90,33 @@
       \field{labeltitlesource}{title}
       \field{title}{Ordinary and Partial Differential Equations: With Special Functions, Fourier Series, and Boundary Value Problems}
       \field{year}{2009}
+      \true{nocite}
+    \endentry
+    \entry{Aguayo}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a526cc40b62f4b087d85753d7659981d}{%
+           family={Aguayo},
+           familyi={A\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Departamento de Matemática, Facultad de Ciencias Físicas y Matemáticas, Universidad de Concepción}%
+      }
+      \strng{namehash}{a526cc40b62f4b087d85753d7659981d}
+      \strng{fullhash}{a526cc40b62f4b087d85753d7659981d}
+      \strng{fullhashraw}{a526cc40b62f4b087d85753d7659981d}
+      \strng{bibnamehash}{a526cc40b62f4b087d85753d7659981d}
+      \strng{authorbibnamehash}{a526cc40b62f4b087d85753d7659981d}
+      \strng{authornamehash}{a526cc40b62f4b087d85753d7659981d}
+      \strng{authorfullhash}{a526cc40b62f4b087d85753d7659981d}
+      \strng{authorfullhashraw}{a526cc40b62f4b087d85753d7659981d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Notas de Clase - Cálculo IV}}
+      \field{year}{2019}
       \true{nocite}
     \endentry
     \entry{Andino}{article}{}{}
@@ -140,7 +167,7 @@
       \verb https://pdfs.semanticscholar.org/648b/67463802aae055392666c8f305a2b23c5977.pdf
       \endverb
     \endentry
-    \entry{Apostol1}{book}{}{}
+    \entry{Apostol2}{book}{}{}
       \name{author}{1}{}{%
         {{hash=2f3c53379375348c5fda1da34ae122f2}{%
            family={Apostol},
@@ -165,11 +192,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2}
-      \field{title}{Análisis matemático}
-      \field{year}{1996}
+      \field{title}{Calculus}
+      \field{volume}{2}
+      \field{year}{1985}
       \true{nocite}
     \endentry
-    \entry{Apostol2}{book}{}{}
+    \entry{Apostol1}{book}{}{}
       \name{author}{1}{}{%
         {{hash=2f3c53379375348c5fda1da34ae122f2}{%
            family={Apostol},
@@ -194,9 +222,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2}
-      \field{title}{Calculus}
-      \field{volume}{2}
-      \field{year}{1985}
+      \field{title}{Análisis matemático}
+      \field{year}{1996}
       \true{nocite}
     \endentry
     \entry{Arfken}{book}{}{}
@@ -477,6 +504,38 @@
       \field{title}{Methods of mathematical physics}
       \field{volume}{1}
       \field{year}{1937}
+      \true{nocite}
+    \endentry
+    \entry{Fuster_Giménez_1995}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=0ddcf9c2631d92115096f6f001a583e0}{%
+           family={Fuster},
+           familyi={F\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8f61588eb37fc41c8a2dd25b0fb78db7}{%
+           family={Giménez},
+           familyi={G\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Reverté}%
+      }
+      \strng{namehash}{bbb169ceb98f0bce99268864bf59228e}
+      \strng{fullhash}{bbb169ceb98f0bce99268864bf59228e}
+      \strng{fullhashraw}{bbb169ceb98f0bce99268864bf59228e}
+      \strng{bibnamehash}{bbb169ceb98f0bce99268864bf59228e}
+      \strng{authorbibnamehash}{bbb169ceb98f0bce99268864bf59228e}
+      \strng{authornamehash}{bbb169ceb98f0bce99268864bf59228e}
+      \strng{authorfullhash}{bbb169ceb98f0bce99268864bf59228e}
+      \strng{authorfullhashraw}{bbb169ceb98f0bce99268864bf59228e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Variable compleja y ecuaciones diferenciales}
+      \field{year}{1995}
       \true{nocite}
     \endentry
     \entry{Hassani}{book}{}{}
@@ -827,6 +886,33 @@
       \field{labeltitlesource}{title}
       \field{title}{Métodos de la física matemática II}
       \field{year}{2009}
+      \true{nocite}
+    \endentry
+    \entry{Navarro}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6b1063928ed35c8b43fa9d7c1009a85d}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Departamento de Física, Facultad de Ciencias Físicas y Matemáticas, Universidad de Concepción}%
+      }
+      \strng{namehash}{6b1063928ed35c8b43fa9d7c1009a85d}
+      \strng{fullhash}{6b1063928ed35c8b43fa9d7c1009a85d}
+      \strng{fullhashraw}{6b1063928ed35c8b43fa9d7c1009a85d}
+      \strng{bibnamehash}{6b1063928ed35c8b43fa9d7c1009a85d}
+      \strng{authorbibnamehash}{6b1063928ed35c8b43fa9d7c1009a85d}
+      \strng{authornamehash}{6b1063928ed35c8b43fa9d7c1009a85d}
+      \strng{authorfullhash}{6b1063928ed35c8b43fa9d7c1009a85d}
+      \strng{authorfullhashraw}{6b1063928ed35c8b43fa9d7c1009a85d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Notas de Clase - Métodos Matemáticos para Geofísica}}
+      \field{year}{2024}
       \true{nocite}
     \endentry
     \entry{Niksirat_2018}{book}{}{}
