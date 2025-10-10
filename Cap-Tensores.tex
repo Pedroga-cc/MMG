@@ -333,7 +333,7 @@ ecuación que corresponderá a un polinomio de grado $n$ el $\lambda_k$ si traba
 
 Reemplazando cada una de las raíces de este polinomio \emph{característico} en la ecuación \eqref{eq:descomposicion}, podemos hallar cada una de las componentes de la matriz de transformación $a_{jk}$, de modo que se satisfaga que la base ortonormal en que el tensor es diagonal se relacione con la base usual según la regla
 \begin{equation}
-    \hat{e}_k = a_{kj} \hat{e}_j \ .
+    \hat{e}'_k = a_{kj} \hat{e}_j \ .
 \end{equation}
 
 Llamaremos a la base diagonal como la \textbf{base de los ejes principales} del tensor, donde cada $\hat{e}'_k$ es uno de dichos ejes principales. Esta base es, por definición, ortogonal.
@@ -341,7 +341,7 @@ Llamaremos a la base diagonal como la \textbf{base de los ejes principales} del 
 Una condición suficiente para que un tensor de rango 2 sea diagonalizable es que este sea \textbf{simétrico}.
 
 \begin{ejemplo}
-    \textbf{(Riley, sección 26.12)} La conductividad eléctrica en un cristal, $\check{sigma}$, es medida por un observador, quien determina que posee componentes
+    \textbf{(Riley, sección 26.12)} La conductividad eléctrica en un cristal, $\check{\sigma}$, es medida por un observador, quien determina que posee componentes
     \begin{equation*}
         [\sigma_{ij}] = \begin{pmatrix}
             1 & \sqrt{2} & 0 \\
@@ -510,7 +510,7 @@ De forma análoga, es posible extender esta noción a tensores y \emph{pseudoten
 
 \subsection{Símbolo de Levi-Civita}
 
-\begin{defi} \textbf{Símbolo de Levi-Civita}
+\begin{defi} \marginnote{Símbolo de Levi-Civita}
     En un espacio $n-$dimensional, se define el \textbf{símbolo de Levi-Civita} como un objeto de $n$ índices \emph{totalmente antisimétrico}, es decir,
     \begin{equation}
         \varepsilon_{ijkl\dots} = -\varepsilon_{jikl\dots} = - \varepsilon_{kjil\dots} = - \varepsilon_{ljki} = \varepsilon_{jilk} = \dots \ ,
@@ -538,7 +538,7 @@ De forma análoga, es posible extender esta noción a tensores y \emph{pseudoten
     \begin{enumerate}
         \item El símbolo de Levi-Civita puede utilizarse para calcular determinantes, mediante la relación
         \begin{equation}
-            det(A) = a_{1 j_1} a_{2 j_2} \dots a_{n j_n} \varepsilon_{j_1 j_2 \dots j_n} \ .
+            det(A) = a_{1 j_1} a_{2 j_2} \dots a_{i_n j_n} \varepsilon_{j_1 j_2 \dots j_n} \ .
         \end{equation}
 
         \item El símbolo de Levi-Civita transforma como un pseudotensor.
@@ -648,7 +648,7 @@ comprobando así que transforma como un tensor de rango $r+1$. Esta idea es much
 
 También podemos calcular la derivada de un tensor de rango $r$ respecto de un parámetro $t$ \emph{independiente de las coordenadas}. En este caso, el resultado es también un tensor de rango $r$,
 \begin{equation}
-    \frac{d T'_{i_1 \dots i_r}}{dt} = a_{i_1 j_1} \dots a_{i_r j_r} \frac{dA_{j_1 \dots j_r}}{dt} \ . 
+    \frac{d T'_{i_1 \dots i_r}}{dt} = a_{i_1 j_1} \dots a_{i_r j_r} \frac{dT_{j_1 \dots j_r}}{dt} \ . 
 \end{equation}
 
 De una manera similar, podemos operar sobre este nuevo tensor \emph{derivada} con todas las operaciones tensoriales disponibles. En particular, podemos definir el operador nabla en un espacio de $n$ dimensiones. En notación indicial, dado un campo escalar $\phi$ y un vector $\vec{A}$, tenemos

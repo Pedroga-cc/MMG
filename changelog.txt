@@ -19,3 +19,5 @@ v1.8 (07/09/25) Mejoras estéticas y typos menores en el capítulo 3 (Series Num
 v1.9 (18/09/25) Ediciones estéticas en el capítulo 4 (Elementos de Cálculo Complejo). Añadida la subsección 4.5.4 (Integrales definidas mediante integrales de contorno). Completados los ejemplos 4.4, 4.5, 4.6, 4.8, 4.11 y 4.12. Añadido nuevo ejemplo 4.7. Eliminados teoremas que pertenecen más a una discusión de análisis complejo. Completada la sección 4.1.1 (Nociones de topología). Se descarta la sección 4.3.3 (Funciones elementales), la que será añadida como apéndice en el futuro. Añadido nuevo ejemplo 4.1. Añadidos el teorema fundamental del álgebra y las raíces de la unidad. Añadida una variedad de figuras al mismo capítulo.
 
 v1.10 (19/09/25) Modificaciones al capítulo 5 (Transformadas integrales) para adaptarlo al nivel del curso, y al estilo del resto del documento. Esta debería ser la última modificación mayor. Cambios al orden de la bibliografía, de modo que ahora esté ordenada alfabéticamente.
+
+v1.11 (10/10/25) Corrección de typos menores.

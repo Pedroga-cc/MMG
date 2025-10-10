@@ -399,7 +399,7 @@ Podemos formalizar lo mencionado anteriormente en el siguiente teorema:
     \end{align*}
     de modo que $f(z) = z^2$ satisfacce las ecuaciones de Cauchy-Riemann, y su derivada existe, donde 
     \begin{equation*}
-        f'(z) = \frac{\partial u}{\partial x} + i \frac{\partial u}{\partial x} = 2(x + iy) = 2z \ .
+        f'(z) = \frac{\partial u}{\partial x} + i \frac{\partial v}{\partial x} = 2(x + iy) = 2z \ .
     \end{equation*}
 
     Por otra parte, tenemos que $g(z) = |z|^2 = x^2 + y^2$, y sus derivadas parciales son
@@ -423,7 +423,7 @@ A partir de las ecuaciones de Cauchy-Riemann, podemos derivar su forma polar, ob
 \begin{equation} \marginnote{Ecuaciones de Cauchy-Riemann en forma polar}
     \boxed{
         \begin{array}{ccc}
-            \frac{1}{r} \dfrac{\partial s}{\partial \theta} & = & - \dfrac{\partial t}{\partial r} \ , \\
+            \dfrac{1}{r} \dfrac{\partial s}{\partial \theta} & = & - \dfrac{\partial t}{\partial r} \ , \\
             \dfrac{\partial s}{\partial r} & = & \dfrac{1}{r} \dfrac{\partial t}{\partial \theta} \ , 
         \end{array}
     }
@@ -1221,7 +1221,7 @@ En estos casos, es posible realizar el cálculo de la integral, siempre y cuando
 % \end{teorema}
 
 \begin{teorema}
-    Sea $f$ una función analítica con un número finito de puntos aislados en la región $\operatorname{Im}(z) \geq 0$, donde al menos uno de ellos see encuentra sobre el eje $\operatorname{Im}(z) = 0$. Entonces,
+    Sea $f$ una función analítica con un número finito de puntos aislados en la región $\operatorname{Im}(z) \geq 0$, donde al menos uno de ellos se encuentra sobre el eje $\operatorname{Re}(z) = 0$. Entonces,
     \begin{equation}
         \text{P. V.} \int_{-\infty}^{+\infty} f(x) \, dx =  2\pi i \sum_{j=1}^n \operatorname{Res}(f; z_j) \ - \pi i \sum_{k=0}^m \operatorname{Res}(f; z_k),
     \end{equation}
