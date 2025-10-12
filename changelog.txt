@@ -22,4 +22,6 @@ v1.10 (19/09/25) Modificaciones al capítulo 5 (Transformadas integrales) para a
 
 v1.11 (10/10/25) Corrección de typos menores.
 
+v1.11 (10/10/25) Corrección de typos menores.
+
 v1.12 (12/10/25) Corrección de error de signo en teorema 4.21 (Se cambia un signo "menos" errado por el signo "más" correcto)
