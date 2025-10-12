@@ -71,7 +71,7 @@ El concepto de \textbf{serie} hace referencia a sumas de \emph{infinitos términ
 
     La $n-$ésima suma parcial será entonces dada por 
     \begin{equation}
-        s_n = \sum_{k=1}^\infty [a_1 + (k-1)d]e^{k-1} = \frac{a_1 - [a_1 + (n-1)d]r^n}{1-r} + rd \frac{1-r^{n-1}}{(1-r)^2} \ .
+        s_n = \sum_{k=1}^\infty [a_1 + (k-1)d]r^{k-1} = \frac{a_1 - [a_1 + (n-1)d]r^n}{1-r} + rd \frac{1-r^{n-1}}{(1-r)^2} \ .
     \end{equation}
 
     Al igual que la serie geométrica, puede converger o diverger dependiendo del valor de $r$:
@@ -437,7 +437,7 @@ Una forma conveniente de determinar la convergencia uniforme de una serie funcio
 \begin{defi} \marginnote{Radio de convergencia}
     Se denomina \textbf{radio de convergencia} de una serie de potencias a la cantidad 
     \begin{equation}
-        R = \lim_{n \to \infty} \left| \frac{a_n}{a_{n+1}} \right| = \frac{1}{\sqrt[n]{|a_n|}} \ ,
+        R = \lim_{n \to \infty} \left| \frac{a_n}{a_{n+1}} \right| = \lim_{n \to \infty} \frac{1}{\sqrt[n]{|a_n|}} \ ,
     \end{equation}
     que determina el intervalo donde la serie converge puntualmente. Consideramos tres casos:
     \begin{itemize}
@@ -486,7 +486,7 @@ Una forma conveniente de determinar la convergencia uniforme de una serie funcio
 
 \subsection{Expansión en serie de Taylor}
 
-\begin{teorema}{\textbf(de Taylor).}
+\begin{teorema}{\textbf{(de Taylor)}.}
     Dada una función $f(x)$ con derivadas continuas en un intervalo $[a, b]$ hasta el orden $n$. Entonces, para un punto $x \in [a,b]$, $f$ puede aproximarse por la siguiente serie de potencias:
     \begin{equation}
         f(x) \approx \sum_{k=0}^{n-1} \frac{f^{(k)}(a)}{k!} (x-a)^k + h_n(x) (x-a)^{n} \ ,
