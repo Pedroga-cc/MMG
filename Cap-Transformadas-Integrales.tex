@@ -1697,6 +1697,8 @@ Dada una función $F(s)$, si existe una función $f(t)$ que sea continua en $[0,
 entonces decimos que $f(t)$ es la \textbf{transformada inversa de Laplace} de $F(s)$ y utilizamos la notación $f = \mathcal{L}^{-1} \{F(s)\}$.
 \end{defi}
 
+La primera pregunta que podemos hacernos es cómo asegurar la existencia de la transformada inversa. La respuesta no es sencilla, mas sí podemos asegurar que \textbf{cualquier función que no converge a cero cuando} $s \to \infty$, \textbf{no posee transformada de Laplace inversa}.
+
 Es natural preguntarse si la transformada inversa de Laplace es única, para ello basta con determinar si $\mathcal{L}$ es una aplicación inyectiva o no. El siguiente teorema (sin demostración) garantiza la inyectividad sin considerar los puntos de discontinuidad de las funciones.
 
 \begin{teorema}[de Lerch]
@@ -1704,7 +1706,6 @@ Es natural preguntarse si la transformada inversa de Laplace es única, para ell
 \begin{equation*}
 \mathcal{L}\{f\}(s) = \mathcal{L}\{g\}(s), \quad \forall Re(s) >s_0.
 \end{equation*}
-
 Entonces, con la posible excepción de los puntos de discontinuidad, $f(t) = g(t)$ para todo $t >0$.
 \end{teorema}
 
@@ -1893,7 +1894,7 @@ Por lo tanto, dos funciones continuas por tramos que satisfagan \eqref{LaplaceIn
 
 \subsection{Propiedades de la transformada de Laplace}    
 
-\begin{teorema}
+\begin{propiedad}
     Si $f$ y $g$ son funciones cuyas transformadas de Laplace existen para $\real(s) > \alpha$ y sean $a, b \in \mathbb{R}$. Entonces, 
 \begin{enumerate}
     \item \textbf{Linealidad:} Para $\real(s) > \alpha$,
@@ -1904,8 +1905,13 @@ Por lo tanto, dos funciones continuas por tramos que satisfagan \eqref{LaplaceIn
     
     \item \textbf{Desplazamiento en el plano $s$:} Para $\real(s) > \alpha + a$,
     $$\mathcal{L}\{e^{at} f(t)\} = F(s-a).$$
+
+    \item \textbf{Derivada de una transformada de Laplace:} Para $\real(s) > \alpha$, se cumple que
+    \begin{equation*}
+        \dfrac{d^n}{ds^n} \left[ \mathcal{L}\{f\}(s) \right] = (-1)^n \mathcal{L}\{ t^n f(t) \}(s) \ .
+    \end{equation*}
 \end{enumerate}
-\end{teorema}
+\end{propiedad}
 
 \begin{ejemplo}
     Determine la transformada de Laplace de $e^{at} \sin(bt)$.
